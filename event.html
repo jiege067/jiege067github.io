@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#e8005a">
+<title>特赛计算器</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="event.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <span class="back">‹</span>
+    <h1>特赛计算器</h1>
+    <span class="ev-chip" id="eventName"></span>
+    <div class="toplinks"><a class="toplink" href="arena.html">擂台</a><a class="toplink" href="cars.html">图鉴</a></div>
+  </header>
+
+  <div class="ev-cols">
+    <div class="ev-col">
+      <section class="ev-card">
+        <div class="ev-hero" id="hero"></div>
+      </section>
+
+      <section class="ev-card">
+        <div class="ev-head">
+          <b>我的车库</b>
+          <div class="ev-acts">
+            <button id="btnClear" class="ev-mini" type="button">清空</button>
+            <button id="btnMax" class="ev-mini" type="button">拉满</button>
+          </div>
+        </div>
+        <div class="ev-cars" id="garage"></div>
+      </section>
+    </div>
+
+    <div class="ev-col">
+      <section class="ev-card" id="rewardsCard">
+        <div class="ev-head"><b>奖励概览</b></div>
+        <div class="ev-tiles" id="rewards"></div>
+        <div class="ev-hint" id="rewardHint"></div>
+      </section>
+
+      <section class="ev-card">
+        <div class="ev-head"><b>阶段进度</b><small id="stageCount"></small></div>
+        <div id="progress"></div>
+        <div class="ev-note" id="blockNote"></div>
+      </section>
+
+      <section class="ev-card" id="msCard">
+        <div class="ev-head"><b>里程碑</b></div>
+        <div id="milestones"></div>
+      </section>
+
+      <section class="ev-card" id="adviceCard">
+        <div class="ev-head"><b>升车建议</b></div>
+        <div id="advice"></div>
+      </section>
+    </div>
+  </div>
+
+  <footer class="foot">数据以游戏内为准 · 由「特赛数据管理」录入</footer>
+</div>
+
+<!-- 车辆详情 -->
+<div class="ev-sheet" id="carSheet" hidden>
+  <div class="ev-mask" data-close="car"></div>
+  <div class="ev-panel">
+    <div class="ev-panel-head">
+      <b id="carTitle">车辆详情</b>
+      <button class="ev-x" data-close="car" type="button">✕</button>
+    </div>
+    <div class="ev-panel-body" id="carBody"></div>
+  </div>
+</div>
+
+<script src="cars.js"></script>
+<script src="data.js"></script>
+<script src="event.js"></script>
+<script src="calc.js"></script>
+<script src="io.js"></script>
+<script src="app.js"></script>
+<script src="shell-bridge.js"></script>
+</body>
+</html>

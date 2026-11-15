@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>车辆数据管理</title>
+<link rel="stylesheet" href="catalog.css">
+<link rel="stylesheet" href="edit.css">
+</head>
+<body>
+<div class="app ed-app">
+
+  <header class="ed-head">
+    <h1>车辆数据</h1>
+    <button class="ed-add" id="addCar" type="button">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      添加新车
+    </button>
+  </header>
+
+  <div class="cat-tools">
+    <div class="cat-row">
+      <input id="q" class="search" type="search" placeholder="搜索车名 / 别名…" autocomplete="off">
+      <select id="sort" class="sortsel">
+        <option value="score">按总分</option>
+        <option value="name">按名称</option>
+        <option value="cls">按等级</option>
+      </select>
+    </div>
+    <div class="chips" id="clsChips"></div>
+    <div class="chips" id="starChips"></div>
+  </div>
+
+  <div class="cat-count" id="count"></div>
+  <div id="list" class="cat-list"></div>
+</div>
+
+<div class="ed-bar" id="edBar">
+  <span class="ed-state" id="edState">已同步</span>
+  <button class="ed-ghost" id="btnDiscard" type="button">丢弃草稿</button>
+  <button class="ed-primary" id="btnPublish" type="button">导出数据</button>
+</div>
+
+<!-- 编辑弹层 -->
+<div class="sheet" id="sheet" hidden>
+  <div class="mask" data-close="1"></div>
+  <div class="panel">
+    <div class="panel-head">
+      <b id="shTitle">编辑车辆</b>
+      <button class="x" data-close="1" type="button">✕</button>
+    </div>
+
+    <div class="sh-body" id="shBody"></div>
+
+    <div class="panel-actions">
+      <button class="ghost danger" id="btnDel" type="button">删除</button>
+      <button class="primary-sm" id="btnSave" type="button">保存</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<!-- 导出面板 -->
+<div class="sheet" id="expSheet" hidden>
+  <div class="mask" data-close="exp"></div>
+  <div class="panel">
+    <div class="panel-head">
+      <b>导出数据</b>
+      <button class="x" data-close="exp" type="button">✕</button>
+    </div>
+    <div class="sh-body">
+      <p class="exp-tip" id="expTip"></p>
+      <textarea class="exp-text" id="expText" readonly spellcheck="false"></textarea>
+    </div>
+    <div class="panel-actions">
+      <button class="ghost" data-close="exp" type="button">关闭</button>
+      <button class="ghost" id="expCopy" type="button">复制全文</button>
+      <button class="primary-sm" id="expDl" type="button">下载文件</button>
+    </div>
+  </div>
+</div>
+
+<script src="cars.js"></script>
+<script src="edit.js"></script>
+</body>
+</html>

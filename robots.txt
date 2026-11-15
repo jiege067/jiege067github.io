@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /manage-c7q4.html
+Disallow: /edit-9f3k2.html
+Allow: /

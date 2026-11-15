@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F20D3A">
+<title>擂台养成计算器</title>
+<link rel="stylesheet" href="arena.css">
+</head>
+<body>
+<div class="app">
+  <header class="nav">
+    <a class="back" href="event.html" aria-label="返回">‹</a>
+    <h1>擂台养成计算器</h1>
+    <a class="navlink" href="cars.html">图鉴</a>
+  </header>
+
+  <section class="card">
+    <h2>参数配置</h2>
+    <div class="fields">
+      <label class="field full">
+        <span>选择车辆</span>
+        <select id="car"></select>
+        <small class="carinfo" id="carInfo"></small>
+      </label>
+
+      <label class="field">
+        <span>当前星级</span>
+        <select id="curStar" required>
+          <option value="0">0★</option>
+          <option value="1">1★</option>
+          <option value="2">2★</option>
+          <option value="3">3★</option>
+          <option value="4">4★</option>
+          <option value="5">5★</option>
+          <option value="6">6★</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>目标星级</span>
+        <select id="star">
+          <option value="3">3★</option>
+          <option value="4">4★</option>
+          <option value="5">5★</option>
+          <option value="6" selected>6★</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>当前星级额外存有图纸数<em class="hint">（不含已升星消耗）</em></span>
+        <input id="owned" type="number" min="0" step="1" value="0" inputmode="numeric">
+      </label>
+      <label class="field">
+        <span>图纸初始单价</span>
+        <input id="price" type="number" min="1" step="1" value="3000" inputmode="numeric">
+      </label>
+
+      <label class="field">
+        <span>每张涨幅(%)</span>
+        <input id="growth" type="number" min="0" step="0.5" value="5" inputmode="decimal">
+      </label>
+      <label class="field">
+        <span>每周可获取擂台币</span>
+        <input id="weekly" type="number" min="0" step="1" value="18950" inputmode="numeric">
+      </label>
+    </div>
+  </section>
+
+  <section class="card result">
+    <p class="need"><span id="carName">Jesko Absolut</span> · 距离 <b id="starTxt">6★</b> 还差 <b id="needBp">300</b> 张图纸</p>
+    <p class="have">已拥有 <b id="haveBp">0</b> / <span id="totalBp">379</span> 张</p>
+
+    <div class="gauge">
+      <svg class="arc" viewBox="0 0 240 148" aria-hidden="true">
+        <path class="track" d="M20 124 A100 100 0 0 1 220 124" />
+        <path class="fill" id="arc" d="M20 124 A100 100 0 0 1 220 124" />
+      </svg>
+      <div class="gauge-val">
+        <b id="weeks">—</b><span>周</span>
+      </div>
+    </div>
+
+    <p class="cost">累计消耗 <b id="cost">—</b> 擂台币</p>
+    <p class="warn" id="warn" hidden></p>
+  </section>
+
+  <p class="err" id="err" hidden></p>
+  <button class="primary" id="go" type="button">开始计算</button>
+
+  <p class="note">注：每周购买单价会重置回初始价，一周内每买一张按涨幅复利递增（向上取整）。</p>
+</div>
+
+<script src="cars.js"></script>
+<script src="arena.js"></script>
+<script src="shell-bridge.js"></script>
+</body>
+</html>
