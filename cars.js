@@ -1,2 +1,11540 @@
-/* 全车数据：由 build_cars.py 从 xlsx 生成，勿手改。 */
-window.A9_CARS = {"updated":"2026-11-10","source":"车辆数据（含图纸分布）.xlsx","cars":[{"id":"mitsubishi-lancer-evolution","name":"Mitsubishi Lancer Evolution","alias":"三菱","cls":"D","stars":3,"score":1381,"key":false,"perf":{"top":270.1,"nitro":282.0,"air":363.0,"blue":null,"accel":55.03,"handling":53.79,"nitroPower":68.19,"spray":10.75},"cost":699000.0,"parts":{"blue":5.0,"purple":1.0,"yellow":null},"bp":[5,8,30],"bpTotal":43},{"id":"bmw-z4-lci-e89","name":"BMW Z4 LCI E89","alias":"Z4","cls":"D","stars":3,"score":1476,"key":false,"perf":{"top":266.8,"nitro":278.0,"air":359.0,"blue":null,"accel":68.86,"handling":47.43,"nitroPower":57.49,"spray":7.47},"cost":695000.0,"parts":{"blue":5.0,"purple":1.0,"yellow":null},"bp":[5,8,45],"bpTotal":58},{"id":"chevrolet-camaro-lt","name":"Chevrolet Camaro LT","alias":"LT","cls":"D","stars":3,"score":1546,"key":false,"perf":{"top":284.1,"nitro":296.0,"air":380.0,"blue":null,"accel":64.81,"handling":48.39,"nitroPower":63.29,"spray":8.25},"cost":695000.0,"parts":{"blue":5.0,"purple":1.0,"yellow":null},"bp":[5,12,30],"bpTotal":47},{"id":"nissan-370z-nismo","name":"Nissan 370Z Nismo","alias":"370","cls":"D","stars":3,"score":1662,"key":false,"perf":{"top":268.5,"nitro":280.0,"air":361.0,"blue":null,"accel":66.61,"handling":81.83,"nitroPower":67.07,"spray":10.35},"cost":694000.0,"parts":{"blue":5.0,"purple":1.0,"yellow":null},"bp":[10,12,30],"bpTotal":52},{"id":"dodge-challenger-srt8","name":"Dodge Challenger SRT8","alias":"srt8","cls":"D","stars":3,"score":1683,"key":false,"perf":{"top":308.4,"nitro":321.0,"air":410.0,"blue":null,"accel":71.92,"handling":37.98,"nitroPower":45.41,"spray":5.05},"cost":694000.0,"parts":{"blue":5.0,"purple":1.0,"yellow":null},"bp":[15,20,30],"bpTotal":65},{"id":"ktm-x-bow-gtx","name":"KTM X-Bow GTX","alias":"GTX","cls":"D","stars":3,"score":1738,"key":false,"perf":{"top":247.5,"nitro":258.0,"air":350.0,"blue":274.0,"accel":83.84,"handling":64.99,"nitroPower":66.99,"spray":null},"cost":892000.0,"parts":{"blue":5.0,"purple":1.0,"yellow":null},"bp":[20,25,30],"bpTotal":75},{"id":"volkswagen-xl-sport-concept","name":"Volkswagen XL Sport Concept","alias":"大众","cls":"D","stars":3,"score":1814,"key":false,"perf":{"top":291.2,"nitro":303.0,"air":389.0,"blue":null,"accel":60.31,"handling":62.02,"nitroPower":61.94,"spray":7.65},"cost":937000.0,"parts":{"blue":5.0,"purple":1.0,"yellow":null},"bp":[15,20,30],"bpTotal":65},{"id":"bmw-3-0-csl-hommage","name":"BMW 3.0 CSL Hommage","alias":"宝马3.0","cls":"D","stars":3,"score":1827,"key":false,"perf":{"top":297.5,"nitro":310.0,"air":396.0,"blue":null,"accel":73.39,"handling":50.08,"nitroPower":51.2,"spray":5.78},"cost":937000.0,"parts":{"blue":5.0,"purple":1.0,"yellow":null},"bp":[20,20,30],"bpTotal":70},{"id":"chevrolet-camaro-zl1-50th-edition","name":"Chevrolet Camaro ZL1 50TH Edition","alias":"50th","cls":"D","stars":3,"score":1971,"key":false,"perf":{"top":272.1,"nitro":284.0,"air":365.0,"blue":null,"accel":78.14,"handling":83.14,"nitroPower":72.33,"spray":13.02},"cost":1292000.0,"parts":{"blue":5.0,"purple":1.0,"yellow":null},"bp":[20,20,30],"bpTotal":70},{"id":"ds-automobiles-ds-e-tense","name":"DS Automobiles DS E-Tense","alias":"DS","cls":"D","stars":3,"score":1976,"key":false,"perf":{"top":270.1,"nitro":282.0,"air":363.0,"blue":null,"accel":76.07,"handling":81.27,"nitroPower":72.3,"spray":13.1},"cost":null,"parts":{"blue":5.0,"purple":1.0,"yellow":null},"bp":[20,25,30],"bpTotal":75},{"id":"porsche-boxster-25th","name":"Porsche Boxster 25th","alias":"Boxster","cls":"D","stars":4,"score":1985,"key":false,"perf":{"top":298.7,"nitro":311.0,"air":398.0,"blue":null,"accel":72.12,"handling":46.1,"nitroPower":54.35,"spray":null},"cost":2880000.0,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[20,30,41,45],"bpTotal":136},{"id":"nissan-leaf-nismo-rc","name":"Nissan Leaf Nismo RC","alias":"RC","cls":"D","stars":4,"score":2101,"key":false,"perf":{"top":250.6,"nitro":261.0,"air":361.0,"blue":284.0,"accel":78.87,"handling":59.91,"nitroPower":65.03,"spray":11.4},"cost":1524000.0,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[30,12,18,28],"bpTotal":88},{"id":"bmw-i8-roadster","name":"BMW i8 Roadster","alias":"i8","cls":"D","stars":4,"score":2122,"key":false,"perf":{"top":273.1,"nitro":285.0,"air":375.0,"blue":294.0,"accel":79.73,"handling":78.63,"nitroPower":66.87,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[20,30,41,45],"bpTotal":136},{"id":"italdesign-davinci","name":"Italdesign Davinci","alias":"达芬奇","cls":"D","stars":4,"score":2210,"key":false,"perf":{"top":278.0,"nitro":290.0,"air":372.0,"blue":null,"accel":83.52,"handling":73.57,"nitroPower":55.34,"spray":null},"cost":2438000.0,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[20,30,41,45],"bpTotal":136},{"id":"renault-dezir","name":"Renault Dezir","alias":"Dezir","cls":"D","stars":4,"score":2213,"key":false,"perf":{"top":293.2,"nitro":306.0,"air":391.0,"blue":null,"accel":65.56,"handling":69.43,"nitroPower":68.44,"spray":null},"cost":2438000.0,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[25,32,40,48],"bpTotal":145},{"id":"peugeot-sr1","name":"Peugeot SR1","alias":"SR1","cls":"D","stars":4,"score":2307,"key":false,"perf":{"top":310.5,"nitro":323.0,"air":412.0,"blue":null,"accel":71.51,"handling":52.39,"nitroPower":31.19,"spray":null},"cost":3118000.0,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[25,32,40,48],"bpTotal":145},{"id":"infiniti-project-black-s","name":"Infiniti Project Black S","alias":"英菲尼迪","cls":"D","stars":4,"score":2371,"key":false,"perf":{"top":281.5,"nitro":293.0,"air":377.0,"blue":null,"accel":76.19,"handling":66.98,"nitroPower":64.67,"spray":null},"cost":3060000.0,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[30,23,33,42],"bpTotal":128},{"id":"lotus-emeya","name":"Lotus Emeya","alias":"Emeya","cls":"D","stars":4,"score":2402,"key":false,"perf":{"top":276.5,"nitro":null,"air":null,"blue":null,"accel":81.79,"handling":75.33,"nitroPower":67.23,"spray":null},"cost":4228000.0,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[30,23,33,42],"bpTotal":128},{"id":"porsche-911-carrera-rs-3-8","name":"Porsche 911 Carrera RS 3.8","alias":"Carrera RS","cls":"D","stars":4,"score":2435,"key":false,"perf":{"top":301.9,"nitro":315.0,"air":402.0,"blue":null,"accel":72.15,"handling":71.66,"nitroPower":35.99,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[30,32,40,50],"bpTotal":152},{"id":"hyundai-ioniq-5-n","name":"Hyundai Ioniq 5 N","alias":"5N","cls":"D","stars":4,"score":2559,"key":false,"perf":{"top":275.9,"nitro":null,"air":null,"blue":null,"accel":88.63,"handling":80.51,"nitroPower":63.38,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[20,30,41,45],"bpTotal":136},{"id":"lotus-emira","name":"Lotus Emira","alias":"Emira","cls":"D","stars":4,"score":2612,"key":false,"perf":{"top":307.4,"nitro":320.0,"air":409.0,"blue":null,"accel":70.86,"handling":57.47,"nitroPower":53.42,"spray":null},"cost":3740000.0,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[25,32,40,48],"bpTotal":145},{"id":"lamborghini-countach-25th-anniversary","name":"Lamborghini Countach 25th Anniversary","alias":"康塔什","cls":"D","stars":4,"score":2618,"key":false,"perf":{"top":305.4,"nitro":318.0,"air":406.0,"blue":null,"accel":71.43,"handling":65.58,"nitroPower":48.39,"spray":null},"cost":3742000.0,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[25,32,40,48],"bpTotal":145},{"id":"praga-r1","name":"Praga R1","alias":"Praga","cls":"D","stars":4,"score":2624,"key":false,"perf":{"top":283.3,"nitro":295.0,"air":379.0,"blue":null,"accel":87.8,"handling":62.25,"nitroPower":60.92,"spray":null},"cost":4678600.0,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[25,32,40,48],"bpTotal":145},{"id":"ginetta-g60","name":"Ginetta G60","alias":"G60","cls":"D","stars":4,"score":2632,"key":false,"perf":{"top":290.7,"nitro":303.0,"air":388.0,"blue":null,"accel":71.51,"handling":74.81,"nitroPower":62.66,"spray":7.85},"cost":null,"parts":{"blue":7.0,"purple":2.0,"yellow":1.0},"bp":[30,32,40,50],"bpTotal":152},{"id":"glickenhaus-004c","name":"Glickenhaus 004C","alias":"004C","cls":"D","stars":5,"score":2840,"key":true,"perf":{"top":311.2,"nitro":324.0,"air":413.0,"blue":null,"accel":76.75,"handling":56.89,"nitroPower":60.87,"spray":null},"cost":8192000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[30,35,42,50],"bpTotal":157},{"id":"alfa-romeo-giulia-gtam","name":"Alfa Romeo Giulia GTAm","alias":"Giulia","cls":"D","stars":5,"score":2895,"key":true,"perf":{"top":312.2,"nitro":null,"air":null,"blue":null,"accel":77.28,"handling":45.17,"nitroPower":47.09,"spray":null},"cost":8408000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[30,35,42,50],"bpTotal":157},{"id":"toyota-gr-supra-racing-concept","name":"Toyota GR Supra Racing Concept","alias":"Supra","cls":"D","stars":5,"score":2930,"key":false,"perf":{"top":312.0,"nitro":null,"air":null,"blue":null,"accel":71.98,"handling":61.16,"nitroPower":53.66,"spray":null},"cost":8408000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[30,12,18,27,38],"bpTotal":125},{"id":"ford-mustang-mach-e1400","name":"Ford Mustang Mach-E1400","alias":"电马","cls":"D","stars":5,"score":3097,"key":true,"perf":{"top":301.2,"nitro":314.0,"air":null,"blue":null,"accel":82.87,"handling":51.83,"nitroPower":64.82,"spray":null},"cost":8228000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[30,35,42,50],"bpTotal":157},{"id":"kimera-evo37","name":"Kimera EVO37","alias":"EVO37","cls":"D","stars":5,"score":3108,"key":true,"perf":{"top":297.8,"nitro":null,"air":null,"blue":null,"accel":80.98,"handling":78.18,"nitroPower":57.43,"spray":null},"cost":8984000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[30,35,42,50],"bpTotal":157},{"id":"lotus-evora-sport-410","name":"Lotus Evora Sport 410","alias":"大莲花","cls":"C","stars":3,"score":2123,"key":false,"perf":{"top":317.7,"nitro":331.0,"air":422.0,"blue":null,"accel":71.7,"handling":50.92,"nitroPower":47.05,"spray":5.13},"cost":1348000.0,"parts":{"blue":4.0,"purple":1.0,"yellow":1.0},"bp":[20,30,50],"bpTotal":100},{"id":"dodge-challenger-392-hemi-scat-pack","name":"Dodge Challenger 392 Hemi Scat Pack","alias":"392","cls":"C","stars":3,"score":2152,"key":false,"perf":{"top":302.7,"nitro":315.0,"air":403.0,"blue":null,"accel":73.64,"handling":43.57,"nitroPower":62.82,"spray":7.48},"cost":1348000.0,"parts":{"blue":4.0,"purple":1.0,"yellow":1.0},"bp":[20,30,50],"bpTotal":100},{"id":"porsche-911-gts-coupe","name":"Porsche 911 GTS Coupe","alias":"911GTS","cls":"C","stars":3,"score":2185,"key":false,"perf":{"top":328.7,"nitro":342.0,"air":441.0,"blue":null,"accel":71.21,"handling":45.84,"nitroPower":56.6,"spray":5.98},"cost":1348000.0,"parts":{"blue":4.0,"purple":1.0,"yellow":1.0},"bp":[25,30,50],"bpTotal":105},{"id":"mercedes-benz-amg-gt-s","name":"Mercedes-Benz AMG GT S","alias":"AMG","cls":"C","stars":3,"score":2281,"key":false,"perf":{"top":329.4,"nitro":343.0,"air":442.0,"blue":null,"accel":71.34,"handling":42.69,"nitroPower":54.66,"spray":5.75},"cost":1628000.0,"parts":{"blue":4.0,"purple":1.0,"yellow":1.0},"bp":[25,30,50],"bpTotal":105},{"id":"aston-martin-db11","name":"Aston Martin DB11","alias":"DB11","cls":"C","stars":3,"score":2330,"key":false,"perf":{"top":340.4,"nitro":354.0,"air":462.0,"blue":null,"accel":74.2,"handling":43.21,"nitroPower":55.4,"spray":5.67},"cost":1628000.0,"parts":{"blue":4.0,"purple":1.0,"yellow":1.0},"bp":[25,30,50],"bpTotal":105},{"id":"porsche-718-cayman","name":"Porsche 718 Cayman","alias":"718","cls":"C","stars":4,"score":2344,"key":false,"perf":{"top":295.6,"nitro":308.0,"air":394.0,"blue":null,"accel":70.52,"handling":61.9,"nitroPower":60.28,"spray":7.17},"cost":1796000.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[25,18,21,32],"bpTotal":96},{"id":"lotus-elise-sprint-220","name":"Lotus Elise Sprint 220","alias":"小莲花","cls":"C","stars":4,"score":2363,"key":false,"perf":{"top":269.5,"nitro":282.0,"air":363.0,"blue":null,"accel":82.25,"handling":83.47,"nitroPower":72.71,"spray":13.38},"cost":1903200.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[25,18,21,32],"bpTotal":96},{"id":"bmw-m4-gts","name":"BMW M4 GTS","alias":"m4","cls":"C","stars":3,"score":2447,"key":false,"perf":{"top":326.5,"nitro":340.0,"air":437.0,"blue":null,"accel":73.72,"handling":51.19,"nitroPower":52.48,"spray":5.55},"cost":1981800.0,"parts":{"blue":4.0,"purple":1.0,"yellow":1.0},"bp":[25,30,50],"bpTotal":105},{"id":"jaguar-f-type-svr","name":"Jaguar F-Type SVR","alias":"捷豹","cls":"C","stars":4,"score":2487,"key":false,"perf":{"top":340.3,"nitro":354.0,"air":461.0,"blue":null,"accel":75.55,"handling":49.28,"nitroPower":50.12,"spray":5.17},"cost":null,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[30,18,21,32],"bpTotal":101},{"id":"ford-shelby-gt350r","name":"Ford Shelby GT350R","alias":"野马","cls":"C","stars":4,"score":2531,"key":false,"perf":{"top":299.7,"nitro":313.0,"air":400.0,"blue":null,"accel":75.06,"handling":58.97,"nitroPower":52.93,"spray":5.93},"cost":1796000.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[30,18,21,32],"bpTotal":101},{"id":"porsche-911-targa-4s","name":"Porsche 911 Targa 4S","alias":"Targa","cls":"C","stars":4,"score":2571,"key":false,"perf":{"top":315.0,"nitro":328.0,"air":418.0,"blue":null,"accel":75.37,"handling":41.56,"nitroPower":38.33,"spray":4.48},"cost":null,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,18,21,32],"bpTotal":106},{"id":"honda-civic-type-r","name":"Honda Civic Type-R","alias":"思域","cls":"C","stars":4,"score":2627,"key":false,"perf":{"top":285.1,"nitro":297.0,"air":381.0,"blue":null,"accel":82.09,"handling":68.41,"nitroPower":62.55,"spray":7.98},"cost":2740000.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,18,21,32],"bpTotal":106},{"id":"rezvani-beast-x","name":"Rezvani Beast X","alias":"野兽","cls":"C","stars":4,"score":2635,"key":false,"perf":{"top":299.4,"nitro":312.0,"air":399.0,"blue":null,"accel":84.62,"handling":69.2,"nitroPower":63.68,"spray":7.78},"cost":null,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,20,24,32],"bpTotal":111},{"id":"tvr-griffith","name":"TVR Griffith","alias":"TVR","cls":"C","stars":4,"score":2641,"key":false,"perf":{"top":338.7,"nitro":352.0,"air":458.0,"blue":null,"accel":69.28,"handling":47.31,"nitroPower":37.49,"spray":4.3},"cost":2740000.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,18,21,32],"bpTotal":106},{"id":"ford-shelby-gr-1","name":"Ford Shelby GR-1","alias":"大野马","cls":"C","stars":4,"score":2642,"key":false,"perf":{"top":321.7,"nitro":335.0,"air":429.0,"blue":null,"accel":75.32,"handling":69.6,"nitroPower":66.63,"spray":7.7},"cost":2750200.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,18,21,32],"bpTotal":106},{"id":"renault-trezor","name":"Renault TreZor","alias":"TreZor","cls":"C","stars":4,"score":2646,"key":false,"perf":{"top":306.0,"nitro":307.0,"air":392.0,"blue":null,"accel":78.42,"handling":63.39,"nitroPower":67.48,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[50,29,38,48],"bpTotal":165},{"id":"jaguar-xkr-s-gt","name":"Jaguar XKR-S GT","alias":"XKR","cls":"C","stars":4,"score":2700,"key":false,"perf":{"top":321.2,"nitro":334.0,"air":428.0,"blue":null,"accel":72.92,"handling":52.08,"nitroPower":60.42,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[35,38,48,58],"bpTotal":179},{"id":"porsche-taycan-turbo-s","name":"Porsche Taycan Turbo S","alias":"电蛙","cls":"C","stars":4,"score":2704,"key":false,"perf":{"top":278.8,"nitro":291.0,"air":386.0,"blue":303.0,"accel":83.66,"handling":75.47,"nitroPower":56.94,"spray":null},"cost":2740000.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,18,21,32],"bpTotal":106},{"id":"aston-martin-v12-speedster","name":"Aston Martin V12 Speedster","alias":"V12","cls":"C","stars":4,"score":2733,"key":false,"perf":{"top":312.9,"nitro":326.0,"air":415.0,"blue":null,"accel":80.12,"handling":57.27,"nitroPower":62.49,"spray":null},"cost":2750200.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,30,41,48],"bpTotal":154},{"id":"bentley-continental-gt3","name":"Bentley Continental GT3","alias":"欧陆 GT3","cls":"C","stars":5,"score":2781,"key":true,"perf":{"top":301.3,"nitro":314.0,"air":402.0,"blue":null,"accel":74.78,"handling":72.59,"nitroPower":44.04,"spray":null},"cost":null,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[25,30,35,40],"bpTotal":130},{"id":"citro-n-ds-survolt","name":"Citroën DS Survolt","alias":"DS龙","cls":"C","stars":4,"score":2796,"key":false,"perf":{"top":291.4,"nitro":304.0,"air":415.0,"blue":329.0,"accel":81.82,"handling":81.42,"nitroPower":64.56,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,38,48,58],"bpTotal":179},{"id":"chevrolet-corvette-c7-r","name":"Chevrolet Corvette C7.R","alias":"C7R","cls":"C","stars":5,"score":2836,"key":true,"perf":{"top":303.6,"nitro":316.0,"air":404.0,"blue":null,"accel":80.57,"handling":47.14,"nitroPower":57.23,"spray":null},"cost":4018000.0,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[30,38,43,48],"bpTotal":159},{"id":"ferrari-f50","name":"Ferrari F50","alias":"F50","cls":"C","stars":4,"score":2838,"key":false,"perf":{"top":338.8,"nitro":353.0,"air":459.0,"blue":null,"accel":73.82,"handling":57.63,"nitroPower":61.34,"spray":6.25},"cost":5068000.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,38,42,48],"bpTotal":163},{"id":"bolwell-mk-x-nagari-500","name":"Bolwell MK X Nagari 500","alias":"MK500","cls":"C","stars":4,"score":2854,"key":false,"perf":{"top":314.5,"nitro":327.0,"air":417.0,"blue":null,"accel":81.59,"handling":65.86,"nitroPower":63.02,"spray":null},"cost":3356800.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,30,41,48],"bpTotal":154},{"id":"donkervoort-d8-gto-individual-series","name":"Donkervoort D8 GTO Individual Series","alias":"D8","cls":"C","stars":5,"score":2991,"key":false,"perf":{"top":306.8,"nitro":320.0,"air":408.0,"blue":null,"accel":85.56,"handling":86.91,"nitroPower":64.0,"spray":null},"cost":7568000.0,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[35,35,36,38,42],"bpTotal":186},{"id":"volkswagen-electric-r","name":"Volkswagen Electric R","alias":"大众电R","cls":"C","stars":5,"score":3062,"key":true,"perf":{"top":291.1,"nitro":302.0,"air":387.0,"blue":null,"accel":88.6,"handling":58.15,"nitroPower":68.06,"spray":null},"cost":null,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[30,38,43,48],"bpTotal":159},{"id":"mercedes-benz-clk-gtr","name":"Mercedes-Benz CLK-GTR","alias":"CLK GTR","cls":"C","stars":5,"score":3083,"key":false,"perf":{"top":332.7,"nitro":346.0,"air":448.0,"blue":null,"accel":78.92,"handling":70.49,"nitroPower":57.24,"spray":null},"cost":7336000.0,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[35,35,36,38,42],"bpTotal":186},{"id":"maserati-mc12","name":"Maserati MC12","alias":"MC12","cls":"C","stars":5,"score":3100,"key":true,"perf":{"top":342.9,"nitro":357.0,"air":466.0,"blue":null,"accel":76.48,"handling":72.36,"nitroPower":38.94,"spray":null},"cost":5748000.0,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[30,38,43,48],"bpTotal":159},{"id":"arash-af10","name":"Arash AF10","alias":"阿拉什","cls":"C","stars":4,"score":3109,"key":false,"perf":{"top":336.9,"nitro":351.0,"air":455.0,"blue":null,"accel":78.71,"handling":50.36,"nitroPower":59.53,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,38,42,48],"bpTotal":163},{"id":"nissan-370z-nismo-neon-edition","name":"Nissan 370Z Nismo Neon Edition","alias":"370霓虹","cls":"C","stars":5,"score":3121,"key":true,"perf":{"top":303.1,"nitro":316.0,"air":403.0,"blue":null,"accel":76.12,"handling":91.7,"nitroPower":80.03,"spray":null},"cost":null,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[35,38,48,58],"bpTotal":179},{"id":"saleen-s1","name":"Saleen S1","alias":"萨林S1","cls":"C","stars":4,"score":3148,"key":false,"perf":{"top":305.3,"nitro":318.0,"air":415.0,"blue":327.0,"accel":76.74,"handling":82.8,"nitroPower":74.07,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,38,42,48],"bpTotal":163},{"id":"porsche-911-50-years-porsche-design","name":"Porsche 911 50 Years Porsche Design","alias":"911 50周年","cls":"C","stars":4,"score":3210,"key":false,"perf":{"top":312.1,"nitro":325.0,"air":414.0,"blue":null,"accel":79.72,"handling":84.61,"nitroPower":70.45,"spray":null},"cost":5572000.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,38,48,58],"bpTotal":179},{"id":"porsche-mission-r","name":"Porsche Mission R","alias":"Mission R","cls":"C","stars":4,"score":3229,"key":false,"perf":{"top":312.1,"nitro":325.0,"air":414.0,"blue":null,"accel":87.92,"handling":63.47,"nitroPower":62.72,"spray":null},"cost":5572000.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,38,48,58],"bpTotal":179},{"id":"jaguar-xjr-15","name":"Jaguar XJR-15","alias":"XJR-15","cls":"C","stars":5,"score":3244,"key":false,"perf":{"top":320.6,"nitro":334.0,"air":427.0,"blue":null,"accel":80.98,"handling":71.28,"nitroPower":61.34,"spray":null},"cost":null,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[35,35,36,38,42],"bpTotal":186},{"id":"tvr-sagaris","name":"TVR Sagaris","alias":"Sagaris","cls":"C","stars":4,"score":3246,"key":false,"perf":{"top":321.0,"nitro":334.0,"air":428.0,"blue":null,"accel":75.52,"handling":70.65,"nitroPower":74.61,"spray":null},"cost":5572000.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,38,48,58],"bpTotal":179},{"id":"toyota-gr-supra-2023","name":"Toyota GR Supra 2023","alias":"Supra2023","cls":"C","stars":5,"score":3258,"key":false,"perf":{"top":315.1,"nitro":338.0,"air":431.0,"blue":null,"accel":80.38,"handling":73.43,"nitroPower":56.83,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[35,35,36,38,42],"bpTotal":186},{"id":"mercedes-benz-2022-showcar-vision-amg","name":"Mercedes-Benz 2022 Showcar Vision AMG","alias":"VisionAMG","cls":"C","stars":4,"score":3288,"key":false,"perf":{"top":335.1,"nitro":349.0,"air":452.0,"blue":null,"accel":75.32,"handling":51.68,"nitroPower":59.18,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,38,48,58],"bpTotal":179},{"id":"arash-af8-falcon-edition","name":"Arash AF8 Falcon Edition","alias":"AF8","cls":"C","stars":5,"score":3289,"key":true,"perf":{"top":333.1,"nitro":347.0,"air":449.0,"blue":null,"accel":76.78,"handling":66.13,"nitroPower":77.1,"spray":null},"cost":null,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[35,38,48,58],"bpTotal":179},{"id":"jaguar-xe-sv-project-8","name":"Jaguar XE SV Project 8","alias":"Project8","cls":"C","stars":5,"score":3289,"key":false,"perf":{"top":338.7,"nitro":352.0,"air":458.0,"blue":null,"accel":78.28,"handling":48.14,"nitroPower":62.98,"spray":null},"cost":10446400.0,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[35,35,36,38,42],"bpTotal":186},{"id":"ferrari-monza-sp1","name":"Ferrari Monza SP1","alias":"Monza","cls":"C","stars":4,"score":3334,"key":false,"perf":{"top":319.6,"nitro":333.0,"air":425.0,"blue":null,"accel":82.32,"handling":62.53,"nitroPower":63.22,"spray":null},"cost":4996000.0,"parts":{"blue":6.0,"purple":3.0,"yellow":1.0},"bp":[35,38,48,58],"bpTotal":179},{"id":"ares-s1","name":"Ares S1","alias":"Ares","cls":"C","stars":5,"score":3377,"key":true,"perf":{"top":307.8,"nitro":321.0,"air":422.0,"blue":333.0,"accel":89.55,"handling":78.93,"nitroPower":68.93,"spray":null},"cost":10446400.0,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[38,45,48,50],"bpTotal":181},{"id":"porsche-panamera-turbo-s","name":"Porsche Panamera Turbo S","alias":"帕拉梅拉","cls":"C","stars":5,"score":3403,"key":false,"perf":{"top":326.3,"nitro":340.0,"air":437.0,"blue":null,"accel":88.03,"handling":72.48,"nitroPower":58.56,"spray":null},"cost":10340000.0,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[35,35,36,38,42],"bpTotal":186},{"id":"ds-automobiles-ds-e-tense-performance","name":"DS Automobiles DS E-Tense Performance","alias":"DSP","cls":"C","stars":6,"score":3424,"key":false,"perf":{"top":318.7,"nitro":332.0,"air":424.0,"blue":null,"accel":90.06,"handling":76.68,"nitroPower":61.55,"spray":null},"cost":11540000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":3.0},"bp":[35,35,35,35,36,36],"bpTotal":212},{"id":"mercedes-benz-mercedes-amg-gt-black-seri","name":"Mercedes-Benz Mercedes-AMG GT Black Series","alias":"梅奔BS","cls":"C","stars":6,"score":3513,"key":true,"perf":{"top":335.6,"nitro":349.0,"air":453.0,"blue":null,"accel":81.67,"handling":60.63,"nitroPower":67.23,"spray":null},"cost":11540000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":3.0},"bp":[35,36,36,38,40],"bpTotal":185},{"id":"dodge-charger-srt-hellcat-redeye-widebod","name":"Dodge Charger SRT Hellcat Redeye Widebody","alias":"地狱猫","cls":"C","stars":5,"score":3518,"key":false,"perf":{"top":342.6,"nitro":null,"air":null,"blue":null,"accel":76.31,"handling":51.13,"nitroPower":58.64,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"praga-bohema","name":"Praga Bohema","alias":"Bohema","cls":"C","stars":5,"score":3553,"key":false,"perf":{"top":315.7,"nitro":333.0,"air":425.0,"blue":null,"accel":80.72,"handling":80.22,"nitroPower":69.65,"spray":null},"cost":10398000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":2.0},"bp":[35,35,36,38,42],"bpTotal":186},{"id":"mercedes-benz-c-63-amg-dtm","name":"Mercedes-Benz C 63 AMG DTM","alias":"C63","cls":"C","stars":5,"score":3773,"key":false,"perf":{"top":322.1,"nitro":null,"air":null,"blue":null,"accel":80.81,"handling":72.85,"nitroPower":68.98,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"maserati-mc20-gt2","name":"Maserati MC20 GT2","alias":"MC20GT2","cls":"C","stars":5,"score":3832,"key":true,"perf":{"top":336.3,"nitro":350.0,"air":454.0,"blue":null,"accel":83.68,"handling":63.95,"nitroPower":46.53,"spray":null},"cost":11268000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":2.0},"bp":[35,38,48,58],"bpTotal":179},{"id":"aston-martin-dbs-770-ultimate","name":"Aston Martin DBS 770 Ultimate","alias":"DBS 770","cls":"C","stars":5,"score":3922,"key":true,"perf":{"top":353.9,"nitro":368.0,"air":485.0,"blue":null,"accel":77.55,"handling":52.96,"nitroPower":43.03,"spray":null},"cost":9308000.0,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[30,35,40,45],"bpTotal":150},{"id":"de-tomaso-p900","name":"De Tomaso P900","alias":"P900","cls":"C","stars":5,"score":3937,"key":false,"perf":{"top":331.8,"nitro":345.0,"air":447.0,"blue":null,"accel":82.95,"handling":62.0,"nitroPower":59.08,"spray":null},"cost":11268000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":2.0},"bp":[35,35,36,38,42],"bpTotal":186},{"id":"lamborghini-huracan-sterrato","name":"Lamborghini Huracan Sterrato","alias":"飓风 Sterrato","cls":"C","stars":6,"score":3995,"key":true,"perf":{"top":334.5,"nitro":354.0,"air":460.0,"blue":null,"accel":81.86,"handling":64.86,"nitroPower":62.63,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":3.0},"bp":[40,42,44,46,48],"bpTotal":220},{"id":"ferrari-296-gtb","name":"Ferrari 296 GTB","alias":"296GTB","cls":"C","stars":5,"score":4009,"key":true,"perf":{"top":341.6,"nitro":355.0,"air":463.0,"blue":null,"accel":81.23,"handling":65.0,"nitroPower":52.13,"spray":null},"cost":12196000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":2.0},"bp":[35,38,48,58],"bpTotal":179},{"id":"ferrari-daytona-sp3","name":"Ferrari Daytona SP3","alias":"戴通纳SP3","cls":"C","stars":5,"score":4073,"key":true,"perf":{"top":348.8,"nitro":363.0,"air":476.0,"blue":null,"accel":80.46,"handling":54.89,"nitroPower":60.3,"spray":null},"cost":12196000.0,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[35,38,48,58],"bpTotal":179},{"id":"nissan-z-gt4","name":"Nissan Z GT4","alias":"Z GT4","cls":"C","stars":5,"score":4098,"key":false,"perf":{"top":345.0,"nitro":359.0,"air":469.0,"blue":null,"accel":81.15,"handling":54.32,"nitroPower":62.04,"spray":null},"cost":11790000.0,"parts":{"blue":9.0,"purple":4.0,"yellow":2.0},"bp":[35,35,36,38,42],"bpTotal":186},{"id":"exotic-rides-w70","name":"Exotic Rides W70","alias":"W70","cls":"B","stars":3,"score":2633,"key":false,"perf":{"top":329.7,"nitro":342.0,"air":441.0,"blue":null,"accel":80.21,"handling":45.2,"nitroPower":56.71,"spray":5.97},"cost":2418000.0,"parts":{"blue":6.0,"purple":1.0,"yellow":1.0},"bp":[35,35,50],"bpTotal":120},{"id":"ford-gt","name":"Ford GT","alias":"福特GT","cls":"B","stars":4,"score":2816,"key":false,"perf":{"top":362.8,"nitro":377.0,"air":500.0,"blue":null,"accel":77.54,"handling":34.11,"nitroPower":48.64,"spray":4.88},"cost":3750000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"dodge-viper-acr","name":"Dodge Viper ACR","alias":"ACR","cls":"B","stars":4,"score":2827,"key":false,"perf":{"top":303.4,"nitro":316.0,"air":404.0,"blue":null,"accel":77.32,"handling":86.2,"nitroPower":68.94,"spray":8.97},"cost":3836800.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"lamborghini-asterion","name":"Lamborghini Asterion","alias":"蓝牛","cls":"B","stars":4,"score":2983,"key":false,"perf":{"top":336.6,"nitro":350.0,"air":455.0,"blue":null,"accel":81.05,"handling":45.56,"nitroPower":68.21,"spray":7.62},"cost":3836800.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"aston-martin-vulcan","name":"Aston Martin Vulcan","alias":"火神","cls":"B","stars":4,"score":3000,"key":false,"perf":{"top":343.1,"nitro":357.0,"air":466.0,"blue":null,"accel":78.7,"handling":47.8,"nitroPower":64.79,"spray":6.87},"cost":4620000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"ford-mustang-rtr-spec-5-10th-anniv","name":"Ford Mustang RTR Spec 5 10th Anniv.","alias":"野马RTR","cls":"B","stars":4,"score":3025,"key":false,"perf":{"top":335.2,"nitro":349.0,"air":452.0,"blue":null,"accel":75.65,"handling":46.89,"nitroPower":73.82,"spray":null},"cost":5166000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[25,30,35,40],"bpTotal":130},{"id":"pininfarina-h2-speed","name":"Pininfarina H2 Speed","alias":"H2","cls":"B","stars":4,"score":3026,"key":false,"perf":{"top":318.0,"nitro":331.0,"air":422.0,"blue":null,"accel":78.22,"handling":86.5,"nitroPower":60.57,"spray":6.72},"cost":4620000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"porsche-911-gt1-evolution","name":"Porsche 911 GT1 Evolution","alias":"911GT1","cls":"B","stars":4,"score":3049,"key":false,"perf":{"top":343.2,"nitro":357.0,"air":467.0,"blue":null,"accel":75.15,"handling":53.67,"nitroPower":68.89,"spray":null},"cost":4720600.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[25,30,35,40],"bpTotal":130},{"id":"ferrari-roma","name":"Ferrari Roma","alias":"罗马","cls":"B","stars":4,"score":3061,"key":false,"perf":{"top":331.9,"nitro":345.0,"air":447.0,"blue":null,"accel":77.46,"handling":60.47,"nitroPower":66.78,"spray":null},"cost":4620000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,45,52,63],"bpTotal":200},{"id":"artega-scalo-superelletra","name":"Artega Scalo Superelletra","alias":"ASS","cls":"B","stars":4,"score":3093,"key":false,"perf":{"top":316.3,"nitro":329.0,"air":420.0,"blue":null,"accel":85.72,"handling":57.94,"nitroPower":71.91,"spray":9.06},"cost":4010000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"nissan-gt-r-nismo","name":"Nissan GT-R Nismo","alias":"GTR","cls":"B","stars":4,"score":3144,"key":false,"perf":{"top":329.9,"nitro":343.0,"air":443.0,"blue":null,"accel":84.83,"handling":60.69,"nitroPower":60.6,"spray":6.48},"cost":4620000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"cadillac-cien-concept","name":"Cadillac Cien Concept","alias":"塞恩","cls":"B","stars":4,"score":3155,"key":false,"perf":{"top":368.0,"nitro":383.0,"air":509.0,"blue":null,"accel":76.55,"handling":36.14,"nitroPower":61.1,"spray":5.93},"cost":null,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"aston-martin-valour","name":"Aston Martin Valour","alias":"Valour","cls":"B","stars":4,"score":3178,"key":true,"perf":{"top":331.0,"nitro":345.0,"air":445.0,"blue":null,"accel":78.23,"handling":56.43,"nitroPower":60.73,"spray":null},"cost":6290000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[38,48,58],"bpTotal":144},{"id":"ford-gt-mkii","name":"Ford GT MKII","alias":"MK2","cls":"B","stars":4,"score":3198,"key":true,"perf":{"top":321.0,"nitro":335.0,"air":429.0,"blue":null,"accel":86.25,"handling":78.97,"nitroPower":67.89,"spray":6.2},"cost":null,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[35,55,50,35],"bpTotal":175},{"id":"acura-2017-nsx","name":"Acura 2017 NSX","alias":"讴歌","cls":"B","stars":4,"score":3208,"key":false,"perf":{"top":323.8,"nitro":337.0,"air":433.0,"blue":null,"accel":84.32,"handling":63.02,"nitroPower":54.67,"spray":5.85},"cost":5640000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"maserati-alfieri","name":"Maserati Alfieri","alias":"玛莎","cls":"B","stars":4,"score":3209,"key":false,"perf":{"top":335.9,"nitro":350.0,"air":454.0,"blue":null,"accel":74.42,"handling":41.44,"nitroPower":72.91,"spray":8.68},"cost":4270000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"ferrari-j50","name":"Ferrari J50","alias":"J50","cls":"B","stars":4,"score":3229,"key":false,"perf":{"top":350.5,"nitro":365.0,"air":479.0,"blue":null,"accel":80.41,"handling":48.37,"nitroPower":64.65,"spray":6.68},"cost":5640000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,35,42,58],"bpTotal":175},{"id":"lamborghini-huracan-sto","name":"Lamborghini Huracan STO","alias":"STO","cls":"B","stars":5,"score":3236,"key":false,"perf":{"top":320.4,"nitro":null,"air":null,"blue":null,"accel":86.02,"handling":73.3,"nitroPower":57.28,"spray":null},"cost":8200000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,30,36,42,52],"bpTotal":200},{"id":"lamborghini-huracan-super-trofeo-evo","name":"Lamborghini Huracan Super Trofeo Evo","alias":"小牛","cls":"B","stars":5,"score":3256,"key":true,"perf":{"top":311.6,"nitro":325.0,"air":414.0,"blue":null,"accel":82.63,"handling":63.62,"nitroPower":54.57,"spray":null},"cost":6028000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[30,40,50,60],"bpTotal":180},{"id":"mclaren-artura","name":"McLaren Artura","alias":"Artura","cls":"B","stars":5,"score":3268,"key":false,"perf":{"top":337.8,"nitro":351.0,"air":457.0,"blue":null,"accel":81.14,"handling":68.52,"nitroPower":47.54,"spray":null},"cost":12352000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,30,36,42,52],"bpTotal":200},{"id":"vencer-sarthe","name":"Vencer Sarthe","alias":"剃刀","cls":"B","stars":5,"score":3290,"key":false,"perf":{"top":350.1,"nitro":364.0,"air":478.0,"blue":null,"accel":74.12,"handling":62.87,"nitroPower":46.83,"spray":5.07},"cost":6028000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,12,15,21,32],"bpTotal":120},{"id":"italdesign-zerouno","name":"ItalDesign Zerouno","alias":"假牛","cls":"B","stars":4,"score":3295,"key":false,"perf":{"top":340.9,"nitro":355.0,"air":462.0,"blue":null,"accel":79.25,"handling":58.34,"nitroPower":54.1,"spray":5.54},"cost":4270000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"dodge-viper-gts","name":"Dodge Viper GTS","alias":"紫蛇","cls":"B","stars":4,"score":3295,"key":false,"perf":{"top":353.4,"nitro":368.0,"air":484.0,"blue":null,"accel":80.33,"handling":45.29,"nitroPower":67.55,"spray":7.07},"cost":5640000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,18,24,36],"bpTotal":118},{"id":"bentley-continental-gt-speed","name":"Bentley Continental GT Speed","alias":"欧陆","cls":"B","stars":4,"score":3330,"key":false,"perf":{"top":348.1,"nitro":362.0,"air":475.0,"blue":null,"accel":76.45,"handling":74.06,"nitroPower":59.19,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,35,42,58],"bpTotal":175},{"id":"ferrari-488-gtb","name":"Ferrari 488 GTB","alias":"488","cls":"B","stars":4,"score":3334,"key":false,"perf":{"top":347.6,"nitro":362.0,"air":474.0,"blue":null,"accel":80.24,"handling":48.38,"nitroPower":65.84,"spray":6.5},"cost":5640000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[40,35,42,58],"bpTotal":175},{"id":"bentley-mulliner-bacalar","name":"Bentley Mulliner Bacalar","alias":"Bacalar","cls":"B","stars":5,"score":3340,"key":false,"perf":{"top":329.6,"nitro":343.0,"air":442.0,"blue":null,"accel":77.37,"handling":67.2,"nitroPower":55.81,"spray":null},"cost":6028000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,12,15,21,32],"bpTotal":120},{"id":"ferrari-f40","name":"Ferrari F40","alias":"F40","cls":"B","stars":5,"score":3343,"key":false,"perf":{"top":334.1,"nitro":348.0,"air":450.0,"blue":null,"accel":72.87,"handling":69.3,"nitroPower":63.45,"spray":null},"cost":6028000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,12,15,21,32],"bpTotal":120},{"id":"ats-automobili-corsa-rrturbo","name":"ATS Automobili Corsa RRTurbo","alias":"RRTurbo","cls":"B","stars":4,"score":3389,"key":true,"perf":{"top":322.3,"nitro":336.0,"air":430.0,"blue":null,"accel":87.54,"handling":68.39,"nitroPower":45.94,"spray":null},"cost":5707000.0,"parts":{"blue":6.0,"purple":4.0,"yellow":2.0},"bp":[38,48,58],"bpTotal":144},{"id":"mercedes-benz-slr-mclaren","name":"Mercedes-Benz SLR McLaren","alias":"SLR","cls":"B","stars":5,"score":3389,"key":false,"perf":{"top":352.9,"nitro":367.0,"air":483.0,"blue":null,"accel":78.18,"handling":66.59,"nitroPower":79.56,"spray":9.82},"cost":6028000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,12,15,21,32],"bpTotal":120},{"id":"kepler-motion","name":"Kepler Motion","alias":"开普勒","cls":"B","stars":5,"score":3393,"key":false,"perf":{"top":338.7,"nitro":352.0,"air":458.0,"blue":null,"accel":86.54,"handling":48.81,"nitroPower":61.41,"spray":null},"cost":null,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,30,36,40,43],"bpTotal":189},{"id":"mazda-furai","name":"Mazda Furai","alias":"风籁","cls":"B","stars":5,"score":3408,"key":false,"perf":{"top":305.5,"nitro":318.0,"air":406.0,"blue":null,"accel":80.95,"handling":57.23,"nitroPower":49.67,"spray":5.5},"cost":7348400.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,12,15,21,32],"bpTotal":120},{"id":"porsche-718-cayman-gt4-clubsport","name":"Porsche 718 Cayman GT4 ClubSport","alias":"718GT4","cls":"B","stars":5,"score":3415,"key":true,"perf":{"top":314.7,"nitro":328.0,"air":418.0,"blue":null,"accel":73.44,"handling":87.23,"nitroPower":70.53,"spray":null},"cost":7348400.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[25,32,36,40],"bpTotal":133},{"id":"aston-martin-dbs-superleggera","name":"Aston Martin DBS SuperLeggera","alias":"DBS","cls":"B","stars":5,"score":3423,"key":false,"perf":{"top":355.4,"nitro":370.0,"air":487.0,"blue":null,"accel":79.16,"handling":70.74,"nitroPower":73.88,"spray":8.0},"cost":7348400.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,12,15,21,32],"bpTotal":120},{"id":"mclaren-gt","name":"McLaren GT","alias":"迈凯伦GT","cls":"B","stars":5,"score":3432,"key":true,"perf":{"top":339.2,"nitro":353.0,"air":459.0,"blue":null,"accel":80.97,"handling":69.06,"nitroPower":57.25,"spray":null},"cost":null,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[35,40,52,70],"bpTotal":197},{"id":"ferrari-599xx-evo","name":"Ferrari 599XX EVO","alias":"XXE","cls":"B","stars":5,"score":3433,"key":true,"perf":{"top":310.1,"nitro":323.0,"air":412.0,"blue":null,"accel":80.97,"handling":83.61,"nitroPower":70.81,"spray":null},"cost":7348400.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[30,40,50,60],"bpTotal":180},{"id":"drako-gte","name":"Drako GTE","alias":"德拉科GTE","cls":"B","stars":5,"score":3434,"key":false,"perf":{"top":346.3,"nitro":360.0,"air":471.0,"blue":null,"accel":81.97,"handling":47.38,"nitroPower":61.36,"spray":null},"cost":7348400.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,30,36,39,43],"bpTotal":188},{"id":"brabham-bt62","name":"Brabham BT62","alias":"BT62","cls":"B","stars":5,"score":3489,"key":true,"perf":{"top":322.4,"nitro":336.0,"air":430.0,"blue":null,"accel":83.88,"handling":76.06,"nitroPower":75.65,"spray":null},"cost":7348400.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[35,40,52,70],"bpTotal":197},{"id":"porsche-911-turbo-50-years","name":"Porsche 911 Turbo 50 Years","alias":"911 Turbo","cls":"B","stars":4,"score":3495,"key":false,"perf":{"top":343.5,"nitro":null,"air":null,"blue":null,"accel":82.94,"handling":53.72,"nitroPower":59.39,"spray":null},"cost":null,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,35,42,58],"bpTotal":175},{"id":"mclaren-elva","name":"McLaren Elva","alias":"Elva","cls":"B","stars":5,"score":3530,"key":false,"perf":{"top":339.2,"nitro":353.0,"air":459.0,"blue":null,"accel":81.3,"handling":75.51,"nitroPower":65.91,"spray":null},"cost":7348400.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,30,36,40,43],"bpTotal":189},{"id":"renault-r-s-01","name":"Renault R.S. 01","alias":"雷诺RS","cls":"B","stars":5,"score":3571,"key":true,"perf":{"top":321.0,"nitro":334.0,"air":428.0,"blue":null,"accel":83.67,"handling":61.35,"nitroPower":71.97,"spray":null},"cost":7348400.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[30,40,50,60],"bpTotal":180},{"id":"aston-martin-db12","name":"Aston Martin DB12","alias":"DB12","cls":"B","stars":5,"score":3580,"key":false,"perf":{"top":343.2,"nitro":357.0,"air":466.0,"blue":null,"accel":74.11,"handling":69.68,"nitroPower":77.89,"spray":null},"cost":10792000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,30,36,40,43],"bpTotal":189},{"id":"acura-nsx-gt3-evo","name":"Acura NSX GT3 EVO","alias":"NSX GT3","cls":"B","stars":5,"score":3585,"key":true,"perf":{"top":313.9,"nitro":327.0,"air":442.0,"blue":345.0,"accel":74.31,"handling":86.11,"nitroPower":73.78,"spray":null},"cost":null,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[30,40,50,60],"bpTotal":180},{"id":"nissan-r390-gt1","name":"Nissan R390 GT1","alias":"R390","cls":"B","stars":6,"score":3627,"key":true,"perf":{"top":373.5,"nitro":388.0,"air":519.0,"blue":null,"accel":76.72,"handling":52.63,"nitroPower":55.45,"spray":5.15},"cost":13221200.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[35,38,42,48,52],"bpTotal":215},{"id":"lego-technic-chevrolet-corvette","name":"LEGO Technic Chevrolet Corvette","alias":"乐高C8R","cls":"B","stars":5,"score":3647,"key":false,"perf":{"top":327.7,"nitro":343.0,"air":443.0,"blue":null,"accel":82.76,"handling":80.66,"nitroPower":70.4,"spray":null},"cost":11152000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[45,17,23,32,45],"bpTotal":162},{"id":"mclaren-765lt","name":"McLaren 765LT","alias":"765LT","cls":"B","stars":5,"score":3651,"key":false,"perf":{"top":349.5,"nitro":363.0,"air":477.0,"blue":null,"accel":80.5,"handling":70.61,"nitroPower":62.26,"spray":null},"cost":8950600.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,30,36,40,43],"bpTotal":189},{"id":"bmw-m4-gt3","name":"BMW M4 GT3","alias":"M4 GT3","cls":"B","stars":5,"score":3665,"key":false,"perf":{"top":346.9,"nitro":null,"air":null,"blue":null,"accel":79.57,"handling":69.5,"nitroPower":65.65,"spray":null},"cost":12352000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,42,42,45,46],"bpTotal":215},{"id":"lamborghini-miura-concept","name":"Lamborghini Miura Concept","alias":"Miura","cls":"B","stars":5,"score":3688,"key":true,"perf":{"top":346.7,"nitro":361.0,"air":474.0,"blue":null,"accel":73.39,"handling":56.22,"nitroPower":60.53,"spray":null},"cost":9850600.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[35,40,52,70],"bpTotal":197},{"id":"bugatti-eb110","name":"Bugatti EB110","alias":"EB110","cls":"B","stars":5,"score":3766,"key":true,"perf":{"top":348.4,"nitro":362.0,"air":475.0,"blue":null,"accel":74.11,"handling":66.05,"nitroPower":58.11,"spray":null},"cost":8950600.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[35,40,52,70],"bpTotal":197},{"id":"aston-martin-one77","name":"Aston Martin One77","alias":"One77","cls":"B","stars":5,"score":3771,"key":false,"perf":{"top":363.4,"nitro":378.0,"air":501.0,"blue":null,"accel":79.32,"handling":68.72,"nitroPower":56.56,"spray":null},"cost":8950600.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,30,36,42,52],"bpTotal":200},{"id":"maserati-mc20","name":"Maserati MC20","alias":"MC20","cls":"B","stars":6,"score":3772,"key":true,"perf":{"top":335.7,"nitro":null,"air":null,"blue":null,"accel":81.63,"handling":90.78,"nitroPower":75.84,"spray":null},"cost":15204000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[35,38,42,48,52],"bpTotal":215},{"id":"chevrolet-corvette-stingray","name":"Chevrolet Corvette Stingray","alias":"C8","cls":"B","stars":5,"score":3788,"key":false,"perf":{"top":327.0,"nitro":340.0,"air":438.0,"blue":null,"accel":81.52,"handling":60.15,"nitroPower":64.47,"spray":7.1},"cost":8950600.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,30,36,40,43],"bpTotal":189},{"id":"lamborghini-diablo-gt","name":"Lamborghini Diablo GT","alias":"Diablo","cls":"B","stars":5,"score":3869,"key":false,"perf":{"top":349.2,"nitro":363.0,"air":477.0,"blue":null,"accel":74.97,"handling":63.52,"nitroPower":58.83,"spray":null},"cost":12946400.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,30,36,42,52],"bpTotal":200},{"id":"lego-technic-bmw-m4-gt3-evo","name":"LEGO Technic BMW M4 GT3 EVO","alias":"乐高M4","cls":"B","stars":5,"score":3896,"key":false,"perf":{"top":333.5,"nitro":null,"air":null,"blue":null,"accel":80.79,"handling":82.01,"nitroPower":74.7,"spray":null},"cost":null,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,42,42,45,46],"bpTotal":215},{"id":"ferrari-f12-berlinetta","name":"Ferrari F12 Berlinetta","alias":"Berlinetta","cls":"B","stars":5,"score":3950,"key":false,"perf":{"top":357.2,"nitro":371.0,"air":490.0,"blue":null,"accel":81.86,"handling":61.13,"nitroPower":68.14,"spray":null},"cost":null,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,36,38,42,45],"bpTotal":201},{"id":"lamborghini-reventon-roadster","name":"Lamborghini Reventon Roadster","alias":"雷文顿","cls":"B","stars":6,"score":3983,"key":true,"perf":{"top":357.0,"nitro":371.0,"air":490.0,"blue":null,"accel":79.38,"handling":69.05,"nitroPower":74.91,"spray":null},"cost":null,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[28,36,48,58,72],"bpTotal":242},{"id":"mclaren-750s-coupe","name":"McLaren 750S Coupe","alias":"750S","cls":"B","stars":5,"score":3996,"key":false,"perf":{"top":348.8,"nitro":null,"air":null,"blue":null,"accel":83.02,"handling":65.3,"nitroPower":67.36,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"formula-e-gen-2-asphalt-edition","name":"Formula E Gen 2 Asphalt Edition","alias":"FE Gen 2","cls":"B","stars":6,"score":4019,"key":false,"perf":{"top":323.5,"nitro":337.0,"air":432.0,"blue":null,"accel":83.75,"handling":87.29,"nitroPower":78.34,"spray":null},"cost":16068000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[40,30,36,38,46,52],"bpTotal":242},{"id":"bmw-m-hybrid-v8","name":"BMW M Hybrid V8","alias":"M Hybrid","cls":"B","stars":6,"score":4057,"key":true,"perf":{"top":355.8,"nitro":null,"air":null,"blue":null,"accel":81.39,"handling":67.1,"nitroPower":69.84,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[40,45,55,60,65],"bpTotal":265},{"id":"lamborghini-sc63","name":"Lamborghini SC63","alias":"SC63","cls":"B","stars":5,"score":4062,"key":true,"perf":{"top":353.8,"nitro":null,"air":null,"blue":null,"accel":85.38,"handling":70.15,"nitroPower":56.43,"spray":null},"cost":9900000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[35,40,52,70],"bpTotal":197},{"id":"aston-martin-v12-vantage-2022","name":"Aston Martin V12 Vantage 2022","alias":"Vantage","cls":"B","stars":6,"score":4072,"key":false,"perf":{"top":343.7,"nitro":358.0,"air":467.0,"blue":null,"accel":79.4,"handling":88.64,"nitroPower":79.82,"spray":null},"cost":21072000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[40,30,36,38,46,52],"bpTotal":242},{"id":"mclaren-600lt-spider","name":"McLaren 600LT Spider","alias":"600LT","cls":"B","stars":5,"score":4075,"key":false,"perf":{"top":340.5,"nitro":354.0,"air":461.0,"blue":null,"accel":86.11,"handling":83.17,"nitroPower":74.54,"spray":null},"cost":null,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,36,38,42,42],"bpTotal":198},{"id":"mclaren-solus-gt","name":"McLaren Solus GT","alias":"Solus GT","cls":"B","stars":6,"score":4075,"key":true,"perf":{"top":335.4,"nitro":349.0,"air":453.0,"blue":null,"accel":89.3,"handling":83.11,"nitroPower":76.82,"spray":null},"cost":15060000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[35,38,42,48,52],"bpTotal":215},{"id":"toyota-gr-super-sport-concept","name":"Toyota GR Super Sport Concept","alias":"GR concept","cls":"B","stars":5,"score":4076,"key":true,"perf":{"top":364.8,"nitro":null,"air":null,"blue":null,"accel":85.64,"handling":56.7,"nitroPower":45.09,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[26,42,48,60],"bpTotal":176},{"id":"lamborghini-invencible","name":"Lamborghini Invencible","alias":"无敌牛","cls":"B","stars":5,"score":4091,"key":false,"perf":{"top":340.4,"nitro":null,"air":null,"blue":null,"accel":88.49,"handling":75.74,"nitroPower":67.64,"spray":null},"cost":14272000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[40,30,36,42,52],"bpTotal":200},{"id":"lamborghini-huracan-evo-spyder","name":"Lamborghini Huracan EVO Spyder","alias":"EVO","cls":"B","stars":6,"score":4108,"key":false,"perf":{"top":344.0,"nitro":358.0,"air":468.0,"blue":null,"accel":84.31,"handling":75.97,"nitroPower":82.43,"spray":11.52},"cost":15765800.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[40,30,36,38,46,52],"bpTotal":242},{"id":"fv-frangivento-gt65","name":"FV Frangivento GT65","alias":"GT65","cls":"B","stars":5,"score":4127,"key":true,"perf":{"top":371.1,"nitro":null,"air":null,"blue":null,"accel":81.8,"handling":51.98,"nitroPower":54.39,"spray":null},"cost":9900000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":2.0},"bp":[35,40,52,70],"bpTotal":197},{"id":"lamborghini-sesto-elemento","name":"Lamborghini Sesto Elemento","alias":"第六元素","cls":"B","stars":6,"score":4183,"key":false,"perf":{"top":347.2,"nitro":361.0,"air":473.0,"blue":null,"accel":88.16,"handling":70.97,"nitroPower":74.78,"spray":null},"cost":17665800.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[40,30,36,38,46,52],"bpTotal":242},{"id":"ford-gt-mk-iv","name":"Ford GT MK IV","alias":"MK4","cls":"B","stars":6,"score":4262,"key":true,"perf":{"top":361.4,"nitro":null,"air":null,"blue":null,"accel":87.26,"handling":54.52,"nitroPower":59.57,"spray":null},"cost":20424000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[45,50,56,62,66],"bpTotal":279},{"id":"lego-technic-lamborghini-revuelto","name":"LEGO Technic Lamborghini Revuelto","alias":"乐高R牛","cls":"B","stars":6,"score":4264,"key":false,"perf":{"top":368.2,"nitro":null,"air":null,"blue":null,"accel":83.11,"handling":70.61,"nitroPower":56.07,"spray":null},"cost":22368000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[40,30,36,38,46,52],"bpTotal":242},{"id":"apollo-evo","name":"Apollo EVO","alias":"菠萝EVO","cls":"B","stars":6,"score":4265,"key":false,"perf":{"top":355.0,"nitro":369.0,"air":487.0,"blue":null,"accel":85.46,"handling":70.34,"nitroPower":65.79,"spray":null},"cost":21072000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[40,30,36,38,46,52],"bpTotal":242},{"id":"lotus-e-r9","name":"Lotus E-R9","alias":"ER9","cls":"B","stars":6,"score":4308,"key":true,"perf":{"top":367.5,"nitro":382.0,"air":508.0,"blue":null,"accel":87.44,"handling":72.33,"nitroPower":49.35,"spray":null},"cost":21720000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[28,36,48,58,72],"bpTotal":242},{"id":"lamborghini-revuelto","name":"Lamborghini Revuelto","alias":"R牛","cls":"B","stars":6,"score":4375,"key":false,"perf":{"top":361.5,"nitro":376.0,"air":498.0,"blue":null,"accel":86.36,"handling":76.33,"nitroPower":54.22,"spray":null},"cost":21720000.0,"parts":{"blue":8.0,"purple":5.0,"yellow":3.0},"bp":[40,30,36,38,46,52],"bpTotal":242},{"id":"ferrari-laferrari","name":"Ferrari LaFerrari","alias":"拉法","cls":"A","stars":5,"score":3445,"key":false,"perf":{"top":364.6,"nitro":379.0,"air":503.0,"blue":null,"accel":80.23,"handling":43.06,"nitroPower":71.4,"spray":7.45},"cost":7708400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[35,15,21,24,36],"bpTotal":131},{"id":"lego-technic-ferrari-fxx-k","name":"LEGO Technic Ferrari FXX K","alias":"乐高FXX K","cls":"A","stars":6,"score":3522,"key":false,"perf":{"top":364.6,"nitro":null,"air":null,"blue":null,"accel":81.82,"handling":45.96,"nitroPower":64.44,"spray":null},"cost":26320000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,30,35,40,50,55],"bpTotal":250},{"id":"glickenhaus-003s","name":"Glickenhaus 003S","alias":"003","cls":"A","stars":4,"score":3534,"key":false,"perf":{"top":369.0,"nitro":384.0,"air":511.0,"blue":null,"accel":79.44,"handling":38.58,"nitroPower":63.11,"spray":6.17},"cost":6772000.0,"parts":{"blue":5.0,"purple":5.0,"yellow":2.0},"bp":[35,21,28,42],"bpTotal":126},{"id":"apollo-n","name":"Apollo N","alias":"菠萝","cls":"A","stars":5,"score":3548,"key":false,"perf":{"top":369.6,"nitro":384.0,"air":512.0,"blue":null,"accel":80.32,"handling":58.13,"nitroPower":60.57,"spray":5.82},"cost":7708400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[35,15,21,24,36],"bpTotal":131},{"id":"mclaren-p1","name":"McLaren P1™","alias":"P1","cls":"A","stars":5,"score":3602,"key":false,"perf":{"top":364.6,"nitro":379.0,"air":503.0,"blue":null,"accel":83.64,"handling":47.54,"nitroPower":62.89,"spray":6.02},"cost":9350600.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[35,15,21,24,36],"bpTotal":131},{"id":"pagani-zonda-hp-barchetta","name":"Pagani Zonda HP Barchetta","alias":"Barchetta","cls":"A","stars":5,"score":3678,"key":true,"perf":{"top":350.1,"nitro":364.0,"air":478.0,"blue":null,"accel":79.44,"handling":73.51,"nitroPower":73.66,"spray":null},"cost":9350600.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[30,38,55,77],"bpTotal":200},{"id":"lamborghini-centenario","name":"Lamborghini Centenario","alias":"百年牛","cls":"A","stars":5,"score":3696,"key":false,"perf":{"top":363.7,"nitro":378.0,"air":502.0,"blue":null,"accel":80.48,"handling":47.46,"nitroPower":70.31,"spray":7.25},"cost":9350600.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[35,15,21,24,36],"bpTotal":131},{"id":"ferrari-f12tdf","name":"Ferrari F12tdf","alias":"TDF","cls":"A","stars":5,"score":3705,"key":false,"perf":{"top":360.3,"nitro":375.0,"air":496.0,"blue":null,"accel":78.38,"handling":40.12,"nitroPower":80.18,"spray":9.67},"cost":9350600.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,18,21,25,36],"bpTotal":140},{"id":"lamborghini-gallardo-lp-560-4","name":"Lamborghini Gallardo LP 560-4","alias":"盖拉多","cls":"A","stars":6,"score":3706,"key":false,"perf":{"top":331.2,"nitro":345.0,"air":445.0,"blue":null,"accel":76.48,"handling":75.43,"nitroPower":59.41,"spray":null},"cost":9950200.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[50,15,18,24,38,45],"bpTotal":190},{"id":"lamborghini-aventador-sv-coupe","name":"Lamborghini Aventador SV Coupe","alias":"SV","cls":"A","stars":5,"score":3763,"key":false,"perf":{"top":367.9,"nitro":382.0,"air":509.0,"blue":null,"accel":80.83,"handling":50.14,"nitroPower":70.6,"spray":7.23},"cost":9350600.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,18,21,25,36],"bpTotal":140},{"id":"ferrari-fxx-k","name":"Ferrari FXX K","alias":"FXXK","cls":"A","stars":5,"score":3821,"key":false,"perf":{"top":363.1,"nitro":376.0,"air":497.0,"blue":null,"accel":83.9,"handling":43.75,"nitroPower":72.39,"spray":7.67},"cost":11626400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,18,21,25,36],"bpTotal":140},{"id":"lego-technic-mclaren-senna-gtr","name":"LEGO Technic McLaren Senna GTR","alias":"乐高塞纳GTR","cls":"A","stars":5,"score":3846,"key":false,"perf":{"top":349.8,"nitro":null,"air":null,"blue":null,"accel":82.43,"handling":79.32,"nitroPower":65.28,"spray":null},"cost":11626400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,33,38,43,48],"bpTotal":202},{"id":"lamborghini-autentica","name":"Lamborghini Autentica","alias":"Autentica","cls":"A","stars":5,"score":3884,"key":true,"perf":{"top":366.8,"nitro":381.0,"air":507.0,"blue":null,"accel":78.82,"handling":47.2,"nitroPower":68.72,"spray":null},"cost":10846600.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[30,38,55,77],"bpTotal":200},{"id":"jaguar-c-x75","name":"Jaguar C-X75","alias":"大捷豹","cls":"A","stars":5,"score":3900,"key":false,"perf":{"top":368.9,"nitro":383.0,"air":510.0,"blue":null,"accel":75.58,"handling":73.15,"nitroPower":74.14,"spray":null},"cost":11626400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[35,15,21,24,36],"bpTotal":131},{"id":"chevrolet-corvette-grand-sport","name":"Chevrolet Corvette Grand Sport","alias":"五菱","cls":"A","stars":5,"score":3906,"key":false,"perf":{"top":334.6,"nitro":348.0,"air":451.0,"blue":null,"accel":76.55,"handling":94.52,"nitroPower":81.88,"spray":12.03},"cost":11626400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,18,21,25,36],"bpTotal":140},{"id":"arrinera-hussarya-33","name":"Arrinera Hussarya 33","alias":"33","cls":"A","stars":5,"score":3910,"key":false,"perf":{"top":352.1,"nitro":366.0,"air":482.0,"blue":null,"accel":78.53,"handling":59.47,"nitroPower":47.71,"spray":4.9},"cost":11626400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[35,15,21,24,36],"bpTotal":131},{"id":"lego-technic-aston-martin-valkyrie","name":"LEGO Technic Aston Martin Valkyrie","alias":"乐高女武神","cls":"A","stars":5,"score":3920,"key":false,"perf":{"top":372.3,"nitro":387.0,"air":516.0,"blue":null,"accel":81.04,"handling":65.74,"nitroPower":59.77,"spray":null},"cost":11662600.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,33,38,43,48],"bpTotal":202},{"id":"apex-ap-0","name":"Apex AP-0","alias":"AP-0","cls":"A","stars":5,"score":3922,"key":false,"perf":{"top":334.8,"nitro":349.0,"air":465.0,"blue":358.0,"accel":80.83,"handling":89.1,"nitroPower":74.95,"spray":null},"cost":11626400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[35,30,35,42,48],"bpTotal":190},{"id":"lamborghini-murcielago-lp-640-roadster","name":"Lamborghini Murcielago LP 640 Roadster","alias":"蝙蝠","cls":"A","stars":5,"score":3924,"key":false,"perf":{"top":354.0,"nitro":368.0,"air":485.0,"blue":null,"accel":77.45,"handling":66.92,"nitroPower":61.49,"spray":null},"cost":11626400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,33,38,43,48],"bpTotal":202},{"id":"vlf-force-1-v10","name":"VLF Force 1 V10","alias":"VLF","cls":"A","stars":5,"score":3925,"key":false,"perf":{"top":369.4,"nitro":384.0,"air":511.0,"blue":null,"accel":80.33,"handling":54.68,"nitroPower":74.63,"spray":7.95},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,18,21,25,36],"bpTotal":140},{"id":"ferrari-812-superfast","name":"Ferrari 812 SuperFast","alias":"812","cls":"A","stars":5,"score":3941,"key":false,"perf":{"top":354.0,"nitro":368.0,"air":485.0,"blue":null,"accel":81.13,"handling":63.17,"nitroPower":74.33,"spray":8.2},"cost":11626400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[35,30,35,42,48],"bpTotal":190},{"id":"apollo-ie","name":"Apollo IE","alias":"IE","cls":"A","stars":5,"score":3946,"key":false,"perf":{"top":348.0,"nitro":362.0,"air":475.0,"blue":null,"accel":84.58,"handling":72.82,"nitroPower":68.9,"spray":null},"cost":11626400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,33,38,43,48],"bpTotal":202},{"id":"sin-r1-550","name":"Sin R1 550","alias":"SIN","cls":"A","stars":5,"score":3950,"key":false,"perf":{"top":368.3,"nitro":383.0,"air":509.0,"blue":null,"accel":77.04,"handling":45.58,"nitroPower":74.13,"spray":7.85},"cost":11626400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,18,21,25,36],"bpTotal":140},{"id":"aston-martin-vantage-gt12","name":"Aston Martin Vantage GT12","alias":"GT12","cls":"A","stars":5,"score":3958,"key":false,"perf":{"top":337.6,"nitro":352.0,"air":457.0,"blue":null,"accel":78.26,"handling":86.85,"nitroPower":80.46,"spray":11.13},"cost":11626400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[35,15,21,24,36],"bpTotal":131},{"id":"lamborghini-aventador-j","name":"Lamborghini Aventador J","alias":"AVJ","cls":"A","stars":6,"score":4002,"key":false,"perf":{"top":362.9,"nitro":378.0,"air":502.0,"blue":null,"accel":79.83,"handling":73.1,"nitroPower":77.86,"spray":8.83},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[50,15,18,24,38,45],"bpTotal":190},{"id":"mcmurtry-speirling","name":"Mcmurtry Speirling","alias":"Speirling","cls":"A","stars":5,"score":4003,"key":false,"perf":{"top":339.7,"nitro":361.0,"air":480.0,"blue":null,"accel":90.52,"handling":82.09,"nitroPower":62.82,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,33,38,43,48],"bpTotal":202},{"id":"porsche-carrera-gt","name":"Porsche Carrera GT","alias":"卡拉拉","cls":"A","stars":5,"score":4010,"key":false,"perf":{"top":344.7,"nitro":358.0,"air":468.0,"blue":null,"accel":78.59,"handling":84.59,"nitroPower":82.64,"spray":11.3},"cost":14512000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[30,35,40,45,50],"bpTotal":200},{"id":"ferrari-enzo-ferrari","name":"Ferrari Enzo Ferrari","alias":"恩佐","cls":"A","stars":6,"score":4014,"key":false,"perf":{"top":365.8,"nitro":380.0,"air":504.0,"blue":null,"accel":75.19,"handling":64.75,"nitroPower":72.1,"spray":null},"cost":15352400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,30,35,40,50,55],"bpTotal":250},{"id":"porsche-911-gt3-rs","name":"Porsche 911 GT3 RS","alias":"911GT3","cls":"A","stars":6,"score":4019,"key":false,"perf":{"top":338.9,"nitro":353.0,"air":459.0,"blue":null,"accel":85.84,"handling":92.97,"nitroPower":86.39,"spray":14.23},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[50,15,18,24,38,45],"bpTotal":190},{"id":"techrules-at96-track-version","name":"TechRules AT96 Track Version","alias":"随风","cls":"A","stars":6,"score":4020,"key":true,"perf":{"top":364.6,"nitro":379.0,"air":503.0,"blue":null,"accel":85.53,"handling":75.74,"nitroPower":69.65,"spray":7.13},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[],"bpTotal":null},{"id":"mclaren-senna-gtr","name":"McLaren Senna GTR","alias":"塞纳GTR","cls":"A","stars":5,"score":4025,"key":false,"perf":{"top":357.9,"nitro":372.0,"air":492.0,"blue":null,"accel":82.0,"handling":60.85,"nitroPower":77.62,"spray":null},"cost":14512000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,33,38,43,48],"bpTotal":202},{"id":"peugeot-onyx","name":"Peugeot Onyx","alias":"标致","cls":"A","stars":6,"score":4026,"key":false,"perf":{"top":365.6,"nitro":380.0,"air":504.0,"blue":null,"accel":81.94,"handling":84.83,"nitroPower":59.59,"spray":null},"cost":15352400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[33,31,33,35,38,42],"bpTotal":212},{"id":"chevrolet-corvette-zr1","name":"Chevrolet Corvette ZR1","alias":"大五菱","cls":"A","stars":6,"score":4031,"key":false,"perf":{"top":355.4,"nitro":370.0,"air":487.0,"blue":null,"accel":82.03,"handling":60.09,"nitroPower":76.33,"spray":8.8},"cost":15352400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[50,15,18,24,38,45],"bpTotal":190},{"id":"lamborghini-essenza-scv12","name":"Lamborghini Essenza SCV12","alias":"SCV12","cls":"A","stars":5,"score":4036,"key":true,"perf":{"top":340.1,"nitro":354.0,"air":461.0,"blue":null,"accel":85.03,"handling":75.44,"nitroPower":74.52,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[30,38,55,77],"bpTotal":200},{"id":"puritalia-berlinetta","name":"Puritalia Berlinetta","alias":"Berlinetta","cls":"A","stars":5,"score":4061,"key":false,"perf":{"top":348.8,"nitro":361.0,"air":473.0,"blue":null,"accel":83.35,"handling":82.35,"nitroPower":69.25,"spray":null},"cost":14512000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,38,42,48,60],"bpTotal":228},{"id":"lamborghini-sc18","name":"Lamborghini SC18","alias":"SC18","cls":"A","stars":6,"score":4079,"key":true,"perf":{"top":355.6,"nitro":370.0,"air":487.0,"blue":null,"accel":81.99,"handling":64.05,"nitroPower":82.46,"spray":null},"cost":15352400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[30,40,50,65,80],"bpTotal":265},{"id":"lamborghini-aventador-svj-roadster","name":"Lamborghini Aventador SVJ Roadster","alias":"SVJ","cls":"A","stars":6,"score":4080,"key":false,"perf":{"top":364.8,"nitro":379.0,"air":503.0,"blue":null,"accel":81.09,"handling":73.75,"nitroPower":73.93,"spray":null},"cost":15352400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[70,23,27,36,52,59],"bpTotal":267},{"id":"formula-e-gen-3-evo-championship-edition","name":"Formula E Gen 3 EVO Championship Edition","alias":"FE Gen3","cls":"A","stars":5,"score":4082,"key":true,"perf":{"top":345.1,"nitro":null,"air":null,"blue":null,"accel":90.21,"handling":77.89,"nitroPower":62.24,"spray":null},"cost":11662600.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[30,38,55,77],"bpTotal":200},{"id":"ford-gt-cny-edition","name":"Ford GT CNY Edition","alias":"GT春节版","cls":"A","stars":5,"score":4093,"key":false,"perf":{"top":366.8,"nitro":381.0,"air":507.0,"blue":null,"accel":79.14,"handling":68.15,"nitroPower":73.89,"spray":null},"cost":12670600.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,33,38,43,48],"bpTotal":202},{"id":"ferrari-488-challenge-evo","name":"Ferrari 488 Challenge EVO","alias":"488EVO","cls":"A","stars":6,"score":4095,"key":true,"perf":{"top":347.5,"nitro":362.0,"air":474.0,"blue":null,"accel":82.63,"handling":76.76,"nitroPower":76.65,"spray":8.87},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[30,35,45,55,85],"bpTotal":250},{"id":"raesr-tachyon-speed","name":"Raesr Tachyon Speed","alias":"超光速","cls":"A","stars":6,"score":4095,"key":true,"perf":{"top":400.5,"nitro":416.0,"air":555.0,"blue":null,"accel":77.88,"handling":53.38,"nitroPower":59.79,"spray":null},"cost":15352400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[38,48,57,66,72],"bpTotal":281},{"id":"citroen-gt-by-citroen","name":"Citroen GT by Citroen","alias":"雪铁龙GT","cls":"A","stars":6,"score":4099,"key":false,"perf":{"top":383.5,"nitro":399.0,"air":536.0,"blue":null,"accel":76.54,"handling":64.63,"nitroPower":67.23,"spray":null},"cost":15352400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,30,35,40,50,55],"bpTotal":250},{"id":"pagani-zonda-cinque","name":"Pagani Zonda Cinque","alias":"Cinque","cls":"A","stars":6,"score":4105,"key":true,"perf":{"top":369.7,"nitro":null,"air":null,"blue":null,"accel":79.84,"handling":74.76,"nitroPower":73.22,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[30,35,50,65,80],"bpTotal":260},{"id":"aston-martin-dbs-gt-zagato","name":"Aston Martin DBS GT Zagato","alias":"Zagato","cls":"A","stars":6,"score":4109,"key":false,"perf":{"top":361.9,"nitro":null,"air":null,"blue":null,"accel":80.65,"handling":75.77,"nitroPower":78.17,"spray":null},"cost":26960000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[70,23,27,36,52,59],"bpTotal":267},{"id":"chevrolet-corvette-grand-sport-halloween","name":"Chevrolet Corvette Grand Sport Halloween Edition","alias":"五菱万圣版","cls":"A","stars":6,"score":4112,"key":true,"perf":{"top":357.4,"nitro":null,"air":null,"blue":null,"accel":81.66,"handling":80.58,"nitroPower":70.94,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[40,45,60,65,70],"bpTotal":280},{"id":"automobili-pininfarina-battista-edizione","name":"Automobili Pininfarina Battista Edizione Nino Farina","alias":"秋王特别版","cls":"A","stars":6,"score":4125,"key":false,"perf":{"top":365.4,"nitro":null,"air":null,"blue":null,"accel":89.37,"handling":64.44,"nitroPower":45.9,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,45,48,50,52],"bpTotal":280},{"id":"nissan-gtr-50-italdesign","name":"Nissan GTR-50 Italdesign","alias":"GTR-50","cls":"A","stars":5,"score":4127,"key":false,"perf":{"top":349.2,"nitro":363.0,"air":476.0,"blue":null,"accel":86.24,"handling":73.5,"nitroPower":64.28,"spray":null},"cost":14512000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":3.0},"bp":[40,33,38,43,48],"bpTotal":202},{"id":"pagani-zonda-r","name":"Pagani Zonda R","alias":"风之子","cls":"A","stars":6,"score":4164,"key":true,"perf":{"top":368.3,"nitro":383.0,"air":509.0,"blue":null,"accel":84.54,"handling":57.29,"nitroPower":67.54,"spray":null},"cost":15352400.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[30,35,45,55,85],"bpTotal":250},{"id":"peugeot-9x8","name":"Peugeot 9x8","alias":"9x8","cls":"A","stars":6,"score":4172,"key":false,"perf":{"top":344.3,"nitro":358.0,"air":468.0,"blue":null,"accel":90.03,"handling":94.15,"nitroPower":69.94,"spray":null},"cost":30960000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,45,45,48,50,52],"bpTotal":280},{"id":"mclaren-sabre","name":"McLaren Sabre","alias":"Sabre","cls":"A","stars":6,"score":4173,"key":false,"perf":{"top":363.1,"nitro":null,"air":null,"blue":null,"accel":87.04,"handling":68.06,"nitroPower":58.45,"spray":null},"cost":28720000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,45,45,48,50,52],"bpTotal":280},{"id":"glickenhaus-007s","name":"Glickenhaus 007S","alias":"007S","cls":"A","stars":6,"score":4192,"key":true,"perf":{"top":358.6,"nitro":373.0,"air":493.0,"blue":null,"accel":89.33,"handling":82.63,"nitroPower":55.24,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[30,35,45,55,85],"bpTotal":250},{"id":"nissan-gt-r-neon-edition","name":"Nissan GT-R Neon Edition","alias":"霓虹GTR","cls":"A","stars":6,"score":4201,"key":false,"perf":{"top":357.0,"nitro":371.0,"air":490.0,"blue":null,"accel":88.23,"handling":75.46,"nitroPower":70.44,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,45,45,48,50,52],"bpTotal":280},{"id":"porsche-935-2019","name":"Porsche 935(2019)","alias":"935","cls":"A","stars":6,"score":4229,"key":true,"perf":{"top":352.0,"nitro":null,"air":null,"blue":null,"accel":84.94,"handling":87.96,"nitroPower":72.61,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[45,50,56,62,66],"bpTotal":279},{"id":"aston-martin-victor","name":"Aston Martin Victor","alias":"Victor","cls":"A","stars":6,"score":4251,"key":false,"perf":{"top":371.8,"nitro":387.0,"air":517.0,"blue":null,"accel":78.34,"handling":76.86,"nitroPower":69.6,"spray":null},"cost":19448200.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,30,35,40,50,55],"bpTotal":250},{"id":"pagani-huayra-r","name":"Pagani Huayra R","alias":"Huayra R","cls":"A","stars":6,"score":4259,"key":false,"perf":{"top":376.4,"nitro":391.0,"air":523.0,"blue":null,"accel":83.04,"handling":58.21,"nitroPower":64.11,"spray":null},"cost":19448200.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,30,35,40,50,55],"bpTotal":250},{"id":"mclaren-650s-gt3","name":"McLaren 650S GT3","alias":"650S","cls":"A","stars":6,"score":4266,"key":false,"perf":{"top":357.0,"nitro":371.0,"air":490.0,"blue":null,"accel":84.34,"handling":85.82,"nitroPower":78.22,"spray":null},"cost":33860200.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,45,45,48,50,52],"bpTotal":280},{"id":"ferrari-sf90-xx-stradale","name":"Ferrari SF90 XX Stradale","alias":"SF90XX","cls":"A","stars":6,"score":4286,"key":false,"perf":{"top":361.2,"nitro":376.0,"air":497.0,"blue":null,"accel":85.73,"handling":79.17,"nitroPower":62.85,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,30,35,40,50,55],"bpTotal":250},{"id":"security-interceptor","name":"Security Interceptor","alias":"拦路虎","cls":"A","stars":6,"score":4305,"key":false,"perf":{"top":361.1,"nitro":null,"air":null,"blue":null,"accel":83.2,"handling":78.8,"nitroPower":45.56,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[],"bpTotal":null},{"id":"pagani-utopia-coupe","name":"Pagani Utopia Coupe","alias":"乌托邦","cls":"A","stars":6,"score":4308,"key":true,"perf":{"top":367.9,"nitro":null,"air":null,"blue":null,"accel":81.03,"handling":80.63,"nitroPower":77.19,"spray":null},"cost":33520000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[45,50,56,62,66],"bpTotal":279},{"id":"ford-shelby-super-snake","name":"Ford Shelby Super Snake","alias":"超级蛇","cls":"A","stars":6,"score":4350,"key":true,"perf":{"top":363.4,"nitro":null,"air":null,"blue":null,"accel":85.44,"handling":75.98,"nitroPower":59.74,"spray":null},"cost":33520000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[45,50,56,62,66],"bpTotal":279},{"id":"lamborghini-temerario","name":"Lamborghini Temerario","alias":"Temerario","cls":"A","stars":6,"score":4372,"key":false,"perf":{"top":365.5,"nitro":380.0,"air":505.0,"blue":null,"accel":88.35,"handling":70.53,"nitroPower":62.21,"spray":null},"cost":33520000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[30,40,45,55,60,70],"bpTotal":300},{"id":"fv-frangivento-asfane","name":"FV Frangivento Asfane","alias":"Asfane","cls":"A","stars":6,"score":4377,"key":true,"perf":{"top":373.9,"nitro":389.0,"air":519.0,"blue":null,"accel":82.03,"handling":69.13,"nitroPower":67.63,"spray":null},"cost":31360000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[45,50,56,62,66],"bpTotal":279},{"id":"zenvo-aurora-agil","name":"Zenvo Aurora Agil","alias":"Agil","cls":"A","stars":6,"score":4393,"key":true,"perf":{"top":379.4,"nitro":null,"air":null,"blue":null,"accel":83.12,"handling":70.3,"nitroPower":64.25,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"jaguar-xjr-9","name":"Jaguar XJR-9","alias":"XJR-9","cls":"A","stars":6,"score":4438,"key":false,"perf":{"top":400.7,"nitro":416.0,"air":556.0,"blue":null,"accel":72.45,"handling":59.33,"nitroPower":84.95,"spray":8.5},"cost":29520000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,45,45,48,50,52],"bpTotal":280},{"id":"noble-m600-speedster","name":"Noble M600 Speedster","alias":"M600","cls":"A","stars":6,"score":4464,"key":false,"perf":{"top":375.7,"nitro":null,"air":null,"blue":null,"accel":81.03,"handling":85.47,"nitroPower":61.71,"spray":null},"cost":27600000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,30,35,40,50,55],"bpTotal":250},{"id":"aston-martin-valhalla-concept-car","name":"Aston Martin Valhalla Concept Car","alias":"英灵殿","cls":"A","stars":6,"score":4515,"key":false,"perf":{"top":376.9,"nitro":392.0,"air":524.0,"blue":null,"accel":82.25,"handling":81.76,"nitroPower":59.55,"spray":null},"cost":null,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[50,15,18,24,38,45],"bpTotal":190},{"id":"lexus-electrified-sport-concept","name":"Lexus Electrified Sport Concept","alias":"lexus concept","cls":"A","stars":6,"score":4565,"key":false,"perf":{"top":379.2,"nitro":null,"air":null,"blue":null,"accel":88.43,"handling":50.26,"nitroPower":55.59,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[40,45,45,48,50,52],"bpTotal":280},{"id":"mercedes-benz-mercedes-amg-one","name":"Mercedes-Benz Mercedes-AMG One","alias":"AMG One","cls":"A","stars":6,"score":4571,"key":true,"perf":{"top":375.2,"nitro":null,"air":null,"blue":null,"accel":81.53,"handling":78.84,"nitroPower":60.91,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[45,50,56,62,66],"bpTotal":279},{"id":"ferrari-499p-modificata","name":"Ferrari 499P Modificata","alias":"499P","cls":"A","stars":6,"score":4572,"key":true,"perf":{"top":358.6,"nitro":373.0,"air":493.0,"blue":null,"accel":84.54,"handling":85.32,"nitroPower":77.85,"spray":null},"cost":37360000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[40,45,60,65,70],"bpTotal":280},{"id":"de-tomaso-p72","name":"De Tomaso P72","alias":"P72","cls":"A","stars":6,"score":4586,"key":true,"perf":{"top":375.6,"nitro":390.0,"air":522.0,"blue":null,"accel":82.74,"handling":75.24,"nitroPower":71.18,"spray":null},"cost":33520000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[45,50,56,62,66],"bpTotal":279},{"id":"mercedes-benz-vision-one-eleven","name":"Mercedes-Benz Vision One-Eleven","alias":"Vision 111","cls":"A","stars":6,"score":4600,"key":true,"perf":{"top":381.0,"nitro":396.0,"air":531.0,"blue":null,"accel":83.93,"handling":76.35,"nitroPower":57.95,"spray":null},"cost":42480000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[38,48,57,66,72],"bpTotal":281},{"id":"automobili-pininfarina-b95","name":"Automobili Pininfarina B95","alias":"B95","cls":"A","stars":6,"score":4606,"key":false,"perf":{"top":395.9,"nitro":null,"air":null,"blue":null,"accel":86.93,"handling":60.35,"nitroPower":45.07,"spray":null},"cost":37360000.0,"parts":{"blue":6.0,"purple":5.0,"yellow":4.0},"bp":[60,35,40,45,55,65],"bpTotal":300},{"id":"icona-vulcano-titanium","name":"Icona Vulcano Titanium","alias":"火山","cls":"S","stars":5,"score":3957,"key":false,"perf":{"top":381.7,"nitro":397.0,"air":533.0,"blue":null,"accel":81.38,"handling":43.38,"nitroPower":65.89,"spray":6.3},"cost":11746400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":3.0},"bp":[40,18,21,25,39],"bpTotal":143},{"id":"w-motors-lykan-hypersport","name":"W Motors Lykan HyperSport","alias":"狼崽","cls":"S","stars":5,"score":4083,"key":false,"perf":{"top":407.6,"nitro":425.0,"air":560.0,"blue":null,"accel":80.48,"handling":40.97,"nitroPower":58.26,"spray":5.25},"cost":14652000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":3.0},"bp":[40,18,21,25,39],"bpTotal":143},{"id":"porsche-918-spyder","name":"Porsche 918 Spyder","alias":"918","cls":"S","stars":5,"score":4114,"key":false,"perf":{"top":362.4,"nitro":377.0,"air":499.0,"blue":null,"accel":83.02,"handling":51.8,"nitroPower":79.97,"spray":9.48},"cost":14652000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":3.0},"bp":[40,18,21,25,39],"bpTotal":143},{"id":"vanda-electrics-dendrobium","name":"Vanda Electrics Dendrobium","alias":"万达","cls":"S","stars":6,"score":4124,"key":false,"perf":{"top":339.9,"nitro":354.0,"air":474.0,"blue":363.0,"accel":86.24,"handling":95.92,"nitroPower":84.9,"spray":13.23},"cost":15492400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,30,30,35,35,40],"bpTotal":200},{"id":"mclaren-570s-spider","name":"McLaren 570S Spider","alias":"570","cls":"S","stars":6,"score":4135,"key":false,"perf":{"top":377.2,"nitro":393.0,"air":526.0,"blue":null,"accel":79.23,"handling":66.06,"nitroPower":64.75,"spray":6.2},"cost":15492400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,30,30,35,35,40],"bpTotal":200},{"id":"lamborghini-veneno","name":"Lamborghini Veneno","alias":"毒药","cls":"S","stars":6,"score":4142,"key":false,"perf":{"top":370.0,"nitro":387.0,"air":516.0,"blue":null,"accel":81.16,"handling":62.42,"nitroPower":78.82,"spray":null},"cost":15492400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,30,30,35,35,40],"bpTotal":200},{"id":"ats-automobili-gt","name":"ATS Automobili GT","alias":"ATS GT","cls":"S","stars":6,"score":4161,"key":false,"perf":{"top":391.1,"nitro":null,"air":null,"blue":null,"accel":81.47,"handling":52.12,"nitroPower":46.85,"spray":null},"cost":21184000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"jaguar-xj220-twr","name":"Jaguar XJ220 TWR","alias":"XJ220","cls":"S","stars":6,"score":4175,"key":true,"perf":{"top":383.0,"nitro":398.0,"air":535.0,"blue":null,"accel":75.19,"handling":60.59,"nitroPower":82.2,"spray":null},"cost":15492400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,35,45,55,85],"bpTotal":250},{"id":"lamborghini-egoista","name":"Lamborghini Egoista","alias":"自私","cls":"S","stars":6,"score":4213,"key":false,"perf":{"top":366.1,"nitro":381.0,"air":506.0,"blue":null,"accel":84.48,"handling":61.54,"nitroPower":72.02,"spray":7.52},"cost":19628200.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,15,18,25,38,48],"bpTotal":204},{"id":"chrysler-me412","name":"Chrysler ME412","alias":"ME412","cls":"S","stars":6,"score":4241,"key":false,"perf":{"top":399.1,"nitro":415.0,"air":555.0,"blue":null,"accel":74.9,"handling":66.52,"nitroPower":63.39,"spray":null},"cost":23318200.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"porsche-911-gt2-rs-clubsport","name":"Porsche 911 GT2 RS ClubSport","alias":"911GT2","cls":"S","stars":6,"score":4289,"key":true,"perf":{"top":357.2,"nitro":373.0,"air":493.0,"blue":null,"accel":83.75,"handling":85.71,"nitroPower":73.93,"spray":null},"cost":19628200.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[28,32,44,59,86],"bpTotal":249},{"id":"pagani-huayra-bc","name":"Pagani Huayra BC","alias":"BC","cls":"S","stars":6,"score":4292,"key":false,"perf":{"top":365.4,"nitro":380.0,"air":504.0,"blue":null,"accel":80.04,"handling":63.11,"nitroPower":86.75,"spray":11.83},"cost":19628200.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,15,18,25,38,48],"bpTotal":204},{"id":"ferrari-laferrari-aperta","name":"Ferrari LaFerrari Aperta","alias":"黑拉法","cls":"S","stars":6,"score":4293,"key":false,"perf":{"top":366.2,"nitro":381.0,"air":506.0,"blue":null,"accel":81.03,"handling":82.48,"nitroPower":70.1,"spray":7.2},"cost":19628200.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,30,30,35,35,40],"bpTotal":200},{"id":"zenvo-tsr-s","name":"Zenvo TSR-S","alias":"TSR-S","cls":"S","stars":6,"score":4301,"key":true,"perf":{"top":353.8,"nitro":368.0,"air":498.0,"blue":378.0,"accel":85.32,"handling":74.39,"nitroPower":69.0,"spray":null},"cost":19628200.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,35,45,55,85],"bpTotal":250},{"id":"mclaren-f1-lm","name":"Mclaren F1 LM","alias":"F1","cls":"S","stars":6,"score":4301,"key":true,"perf":{"top":377.0,"nitro":392.0,"air":525.0,"blue":null,"accel":74.66,"handling":66.61,"nitroPower":73.12,"spray":null},"cost":19628200.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,35,45,55,85],"bpTotal":250},{"id":"ferrari-f8-tributo","name":"Ferrari F8 Tributo","alias":"F8","cls":"S","stars":6,"score":4313,"key":false,"perf":{"top":360.8,"nitro":375.0,"air":497.0,"blue":null,"accel":83.23,"handling":94.48,"nitroPower":70.07,"spray":7.1},"cost":19628200.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,30,35,40,50,55],"bpTotal":250},{"id":"genty-akylone","name":"Genty Akylone","alias":"阿卡龙","cls":"S","stars":6,"score":4323,"key":false,"perf":{"top":371.7,"nitro":386.0,"air":515.0,"blue":null,"accel":82.93,"handling":67.81,"nitroPower":70.35,"spray":7.15},"cost":19628200.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,15,18,25,38,48],"bpTotal":204},{"id":"lamborghini-sc20","name":"Lamborghini SC20","alias":"SC20","cls":"S","stars":6,"score":4326,"key":true,"perf":{"top":371.3,"nitro":386.0,"air":515.0,"blue":null,"accel":82.04,"handling":72.71,"nitroPower":69.2,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,35,45,55,85],"bpTotal":250},{"id":"volkswagen-w12-coupe","name":"Volkswagen W12 Coupe","alias":"W12","cls":"S","stars":6,"score":4334,"key":true,"perf":{"top":370.2,"nitro":384.0,"air":512.0,"blue":null,"accel":79.02,"handling":84.32,"nitroPower":54.56,"spray":null},"cost":19628200.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,35,45,55,85],"bpTotal":250},{"id":"trion-nemesis","name":"Trion Nemesis","alias":"复仇","cls":"S","stars":6,"score":4344,"key":false,"perf":{"top":450.7,"nitro":475.0,"air":582.0,"blue":null,"accel":79.98,"handling":48.49,"nitroPower":44.79,"spray":4.27},"cost":19628200.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,15,18,25,38,48],"bpTotal":204},{"id":"spania-gta-2015-gta-spano","name":"Spania GTA 2015 GTA Spano","alias":"Spano","cls":"S","stars":6,"score":4385,"key":false,"perf":{"top":383.7,"nitro":399.0,"air":536.0,"blue":null,"accel":81.2,"handling":59.72,"nitroPower":69.97,"spray":6.6},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"fv-frangivento-sorpasso-gt3","name":"FV Frangivento Sorpasso GT3","alias":"FV","cls":"S","stars":6,"score":4398,"key":true,"perf":{"top":391.3,"nitro":407.0,"air":549.0,"blue":null,"accel":85.7,"handling":56.68,"nitroPower":47.35,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[45,56,65,66,68],"bpTotal":300},{"id":"lamborghini-terzo-millennio","name":"Lamborghini Terzo Millennio","alias":"电牛","cls":"S","stars":6,"score":4400,"key":false,"perf":{"top":394.3,"nitro":410.0,"air":551.0,"blue":null,"accel":82.77,"handling":52.84,"nitroPower":69.29,"spray":6.55},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,15,18,25,38,48],"bpTotal":204},{"id":"mclaren-senna","name":"McLaren Senna","alias":"塞纳","cls":"S","stars":6,"score":4407,"key":false,"perf":{"top":358.3,"nitro":373.0,"air":492.0,"blue":null,"accel":82.91,"handling":101.81,"nitroPower":78.25,"spray":9.15},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,30,30,35,35,40],"bpTotal":200},{"id":"bugatti-veyron-16-4-grand-sport-vitesse","name":"Bugatti Veyron 16.4 Grand Sport Vitesse","alias":"威龙","cls":"S","stars":6,"score":4411,"key":false,"perf":{"top":419.1,"nitro":442.0,"air":568.0,"blue":null,"accel":81.08,"handling":49.17,"nitroPower":50.7,"spray":null},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[85,25,29,38,54,69],"bpTotal":300},{"id":"lotus-evija","name":"Lotus Evija","alias":"电莲","cls":"S","stars":6,"score":4432,"key":false,"perf":{"top":368.1,"nitro":383.0,"air":509.0,"blue":null,"accel":81.14,"handling":65.02,"nitroPower":63.31,"spray":6.22},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,30,30,35,35,40],"bpTotal":200},{"id":"vision-1789","name":"Vision 1789","alias":"1789","cls":"S","stars":6,"score":4442,"key":false,"perf":{"top":389.9,"nitro":405.0,"air":547.0,"blue":null,"accel":81.28,"handling":59.91,"nitroPower":72.19,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"pininfarina-teorema","name":"Pininfarina Teorema","alias":"Teorema","cls":"S","stars":6,"score":4473,"key":false,"perf":{"top":422.9,"nitro":null,"air":null,"blue":null,"accel":77.14,"handling":55.74,"nitroPower":51.7,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[35,40,45,50,60,70],"bpTotal":300},{"id":"w-motors-fenyr-supersport","name":"W Motors Fenyr SuperSport","alias":"狼王","cls":"S","stars":6,"score":4479,"key":false,"perf":{"top":416.9,"nitro":438.0,"air":566.0,"blue":null,"accel":82.19,"handling":43.24,"nitroPower":68.6,"spray":6.1},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,15,18,25,38,48],"bpTotal":204},{"id":"aston-martin-valkyrie","name":"Aston Martin Valkyrie","alias":"女武神","cls":"S","stars":6,"score":4487,"key":false,"perf":{"top":378.1,"nitro":393.0,"air":527.0,"blue":null,"accel":80.26,"handling":77.87,"nitroPower":76.72,"spray":null},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"rimac-concept-one","name":"Rimac Concept_One","alias":"C_One","cls":"S","stars":6,"score":4490,"key":false,"perf":{"top":368.7,"nitro":383.0,"air":510.0,"blue":null,"accel":86.45,"handling":84.35,"nitroPower":54.75,"spray":null},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"zenvo-ts1-gt-anniversary","name":"Zenvo TS1 GT Anniversary","alias":"自燃车","cls":"S","stars":6,"score":4521,"key":false,"perf":{"top":418.2,"nitro":443.0,"air":568.0,"blue":null,"accel":81.29,"handling":46.66,"nitroPower":63.43,"spray":5.57},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,13,21,32,46,58],"bpTotal":200},{"id":"rimac-concept-s","name":"Rimac Concept S","alias":"CS","cls":"S","stars":6,"score":4528,"key":false,"perf":{"top":376.3,"nitro":391.0,"air":523.0,"blue":null,"accel":84.53,"handling":79.09,"nitroPower":69.86,"spray":null},"cost":36760000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"ferrari-sf90-stradale","name":"Ferrari SF90 Stradale","alias":"SF90","cls":"S","stars":6,"score":4550,"key":false,"perf":{"top":360.1,"nitro":374.0,"air":509.0,"blue":384.0,"accel":86.83,"handling":93.5,"nitroPower":69.88,"spray":7.73},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"automobili-pininfarina-battista","name":"Automobili Pininfarina Battista","alias":"秋王","cls":"S","stars":6,"score":4551,"key":false,"perf":{"top":368.3,"nitro":382.0,"air":509.0,"blue":null,"accel":88.48,"handling":80.42,"nitroPower":78.22,"spray":8.63},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,25,35,46,58,76],"bpTotal":300},{"id":"techrules-at96-dragon-boat-edition","name":"TechRules AT96 Dragon Boat Edition","alias":"腾风龙舟","cls":"S","stars":6,"score":4556,"key":true,"perf":{"top":366.4,"nitro":381.0,"air":506.0,"blue":null,"accel":87.23,"handling":75.05,"nitroPower":72.62,"spray":null},"cost":36760000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[38,48,58,68,88],"bpTotal":300},{"id":"pagani-imola","name":"Pagani Imola","alias":"伊莫拉","cls":"S","stars":6,"score":4564,"key":false,"perf":{"top":378.5,"nitro":393.0,"air":526.0,"blue":null,"accel":80.26,"handling":72.44,"nitroPower":71.29,"spray":null},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[85,25,29,38,54,69],"bpTotal":300},{"id":"naran-hyper-coupe","name":"Naran Hyper Coupe","alias":"纳兰","cls":"S","stars":6,"score":4564,"key":false,"perf":{"top":383.4,"nitro":398.0,"air":536.0,"blue":null,"accel":85.79,"handling":67.31,"nitroPower":65.58,"spray":null},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"lamborghini-countach-lpi-800-4","name":"Lamborghini Countach LPI 800-4","alias":"新康塔什","cls":"S","stars":6,"score":4571,"key":true,"perf":{"top":373.7,"nitro":388.0,"air":519.0,"blue":null,"accel":82.53,"handling":86.93,"nitroPower":73.04,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[38,48,58,68,88],"bpTotal":300},{"id":"nio-ep9","name":"Nio EP9","alias":"EP9","cls":"S","stars":6,"score":4571,"key":false,"perf":{"top":372.8,"nitro":388.0,"air":530.0,"blue":null,"accel":82.96,"handling":77.72,"nitroPower":76.17,"spray":null},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,30,35,40,50,55],"bpTotal":250},{"id":"arash-imperium","name":"Arash Imperium","alias":"Imperium","cls":"S","stars":6,"score":4577,"key":true,"perf":{"top":397.5,"nitro":413.0,"air":565.0,"blue":null,"accel":84.85,"handling":60.77,"nitroPower":56.61,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[45,56,65,66,68],"bpTotal":300},{"id":"hyundai-n-vision-74","name":"Hyundai N Vision 74","alias":"N74","cls":"S","stars":6,"score":4579,"key":true,"perf":{"top":404.5,"nitro":null,"air":null,"blue":null,"accel":75.17,"handling":55.76,"nitroPower":58.53,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[45,56,65,66,68],"bpTotal":300},{"id":"mclaren-speedtail","name":"McLaren Speedtail","alias":"速尾","cls":"S","stars":6,"score":4590,"key":false,"perf":{"top":416.7,"nitro":438.0,"air":566.0,"blue":null,"accel":81.11,"handling":56.63,"nitroPower":74.19,"spray":null},"cost":25336000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,30,35,40,50,55],"bpTotal":250},{"id":"faraday-future-ffzero1","name":"Faraday Future FFZero1","alias":"FF01","cls":"S","stars":6,"score":4602,"key":false,"perf":{"top":423.0,"nitro":445.0,"air":569.0,"blue":null,"accel":86.06,"handling":42.83,"nitroPower":51.7,"spray":null},"cost":34072000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,35,40,50,55,60],"bpTotal":300},{"id":"bugatti-divo","name":"Bugatti Divo","alias":"Divo","cls":"S","stars":6,"score":4607,"key":false,"perf":{"top":389.5,"nitro":405.0,"air":546.0,"blue":null,"accel":85.66,"handling":61.5,"nitroPower":74.02,"spray":null},"cost":33119800.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"koenigsegg-regera","name":"Koenigsegg Regera","alias":"统治","cls":"S","stars":6,"score":4616,"key":false,"perf":{"top":457.1,"nitro":481.0,"air":585.0,"blue":null,"accel":80.88,"handling":48.75,"nitroPower":52.48,"spray":4.62},"cost":33119800.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,15,18,25,38,48],"bpTotal":204},{"id":"porsche-gt3-rs-2023","name":"Porsche GT3 RS 2023","alias":"GT3 2023","cls":"S","stars":6,"score":4621,"key":true,"perf":{"top":360.6,"nitro":null,"air":null,"blue":null,"accel":87.44,"handling":91.48,"nitroPower":71.56,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[38,48,58,68,88],"bpTotal":300},{"id":"saleen-s7-twin-turbo","name":"Saleen S7 twin Turbo","alias":"萨林S7","cls":"S","stars":6,"score":4629,"key":false,"perf":{"top":429.9,"nitro":452.0,"air":572.0,"blue":null,"accel":69.5,"handling":68.97,"nitroPower":77.31,"spray":null},"cost":31448000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"w-motors-lykan-hypersport-neon-edition","name":"W Motors Lykan HyperSport Neon Edition","alias":"霓虹狼崽","cls":"S","stars":6,"score":4636,"key":false,"perf":{"top":407.5,"nitro":425.0,"air":560.0,"blue":null,"accel":80.48,"handling":53.75,"nitroPower":65.9,"spray":null},"cost":39744000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"ultima-rs","name":"Ultima RS","alias":"Ultima RS","cls":"S","stars":6,"score":4650,"key":true,"perf":{"top":418.2,"nitro":440.0,"air":567.0,"blue":null,"accel":81.41,"handling":63.54,"nitroPower":63.28,"spray":null},"cost":37120000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[38,48,58,68,88],"bpTotal":300},{"id":"w-motors-fenyr-super-sport-cny-edition","name":"W Motors Fenyr Super Sport CNY Edition","alias":"狼王春节版","cls":"S","stars":6,"score":4653,"key":true,"perf":{"top":410.2,"nitro":null,"air":null,"blue":null,"accel":83.0,"handling":61.33,"nitroPower":60.21,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[45,56,65,66,68],"bpTotal":300},{"id":"ford-mustang-rtr-spec-5-fd","name":"Ford Mustang RTR Spec 5-FD","alias":"rtr 5-fd","cls":"S","stars":6,"score":4693,"key":false,"perf":{"top":415.0,"nitro":null,"air":null,"blue":null,"accel":78.77,"handling":54.9,"nitroPower":74.41,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[35,40,45,50,60,70],"bpTotal":300},{"id":"ajlani-drakuma","name":"Ajlani Drakuma","alias":"Drakuma","cls":"S","stars":6,"score":4702,"key":false,"perf":{"top":441.0,"nitro":464.0,"air":578.0,"blue":null,"accel":81.56,"handling":47.91,"nitroPower":60.58,"spray":5.15},"cost":35120000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,35,40,50,55,60],"bpTotal":300},{"id":"ford-team-fordzilla-p1","name":"Ford Team Fordzilla P1","alias":"福特P1","cls":"S","stars":6,"score":4709,"key":false,"perf":{"top":385.5,"nitro":401.0,"air":539.0,"blue":null,"accel":87.77,"handling":83.66,"nitroPower":51.4,"spray":null},"cost":37744000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,35,40,50,55,60],"bpTotal":300},{"id":"ssc-ultimate-aero-tt","name":"SSC Ultimate Aero TT","alias":"Aero TT","cls":"S","stars":6,"score":4720,"key":false,"perf":{"top":419.4,"nitro":null,"air":null,"blue":null,"accel":79.67,"handling":50.01,"nitroPower":51.45,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[35,40,45,50,60,70],"bpTotal":300},{"id":"inferno-automobili-inferno","name":"Inferno Automobili Inferno","alias":"地狱","cls":"S","stars":6,"score":4725,"key":false,"perf":{"top":412.9,"nitro":433.0,"air":564.0,"blue":null,"accel":83.02,"handling":54.86,"nitroPower":76.59,"spray":null},"cost":38117400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[85,25,29,38,54,69],"bpTotal":300},{"id":"torino-design-super-sport","name":"Torino Design Super Sport","alias":"都灵","cls":"S","stars":6,"score":4741,"key":true,"perf":{"top":405.3,"nitro":422.0,"air":559.0,"blue":null,"accel":82.28,"handling":62.3,"nitroPower":75.81,"spray":null},"cost":35120000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[45,56,65,66,68],"bpTotal":300},{"id":"bugatti-chiron","name":"Bugatti Chiron","alias":"肥龙","cls":"S","stars":6,"score":4755,"key":false,"perf":{"top":443.4,"nitro":467.0,"air":579.0,"blue":null,"accel":84.4,"handling":45.62,"nitroPower":63.63,"spray":5.43},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[30,30,30,35,35,40],"bpTotal":200},{"id":"bxr-bailey-blade-gt1","name":"BXR Bailey Blade GT1","alias":"BXR","cls":"S","stars":6,"score":4759,"key":false,"perf":{"top":449.0,"nitro":473.0,"air":582.0,"blue":null,"accel":80.51,"handling":46.84,"nitroPower":70.64,"spray":5.97},"cost":38117400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,30,35,40,50,55],"bpTotal":250},{"id":"lego-technic-bugatti-chiron-pur-sport","name":"LEGO Technic Bugatti Chiron Pur Sport","alias":"乐高PS龙","cls":"S","stars":6,"score":4764,"key":false,"perf":{"top":394.4,"nitro":null,"air":null,"blue":null,"accel":84.98,"handling":61.19,"nitroPower":73.64,"spray":null},"cost":36432000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[35,40,45,50,60,70],"bpTotal":300},{"id":"tushek-ts-900-racer-pro","name":"Tushek TS 900 Racer Pro","alias":"TS900","cls":"S","stars":6,"score":4782,"key":false,"perf":{"top":395.0,"nitro":410.0,"air":552.0,"blue":null,"accel":86.02,"handling":73.76,"nitroPower":61.52,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[85,25,29,38,54,69],"bpTotal":300},{"id":"mazzanti-evantra-millecavalli","name":"Mazzanti Evantra Millecavalli","alias":"皇后","cls":"S","stars":6,"score":4790,"key":false,"perf":{"top":412.3,"nitro":432.0,"air":563.0,"blue":null,"accel":82.6,"handling":63.85,"nitroPower":64.81,"spray":null},"cost":38117400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[85,25,29,38,54,69],"bpTotal":300},{"id":"toroidion-1mw","name":"Toroidion 1MW","alias":"1MW","cls":"S","stars":6,"score":4808,"key":false,"perf":{"top":460.4,"nitro":485.0,"air":587.0,"blue":null,"accel":81.28,"handling":60.34,"nitroPower":54.16,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[85,25,29,38,54,69],"bpTotal":300},{"id":"bugatti-chiron-pur-sport","name":"Bugatti Chiron Pur Sport","alias":"PS龙","cls":"S","stars":6,"score":4821,"key":true,"perf":{"top":397.8,"nitro":413.0,"air":554.0,"blue":null,"accel":87.01,"handling":73.62,"nitroPower":65.32,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[45,56,65,66,68],"bpTotal":300},{"id":"koenigsegg-jesko","name":"Koenigsegg Jesko","alias":"Jesko","cls":"S","stars":6,"score":4824,"key":true,"perf":{"top":496.6,"nitro":522.0,"air":600.0,"blue":null,"accel":80.07,"handling":48.19,"nitroPower":58.23,"spray":4.8},"cost":41397400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,60,70,85],"bpTotal":300},{"id":"bugatti-centodieci","name":"Bugatti Centodieci","alias":"白龙","cls":"S","stars":6,"score":4843,"key":true,"perf":{"top":402.7,"nitro":418.0,"air":557.0,"blue":null,"accel":86.51,"handling":62.58,"nitroPower":77.09,"spray":null},"cost":41397400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,60,70,85],"bpTotal":300},{"id":"lamborghini-sian-fkp-37","name":"Lamborghini Sian FKP 37","alias":"Sian","cls":"S","stars":6,"score":4860,"key":true,"perf":{"top":374.0,"nitro":389.0,"air":534.0,"blue":399.0,"accel":82.06,"handling":92.32,"nitroPower":81.15,"spray":9.36},"cost":41397400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,60,70,85],"bpTotal":300},{"id":"aspark-owl","name":"Aspark Owl","alias":"猫头鹰","cls":"S","stars":6,"score":4861,"key":false,"perf":{"top":414.8,"nitro":435.0,"air":565.0,"blue":null,"accel":89.34,"handling":51.72,"nitroPower":51.29,"spray":null},"cost":41397400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[85,25,29,38,54,69],"bpTotal":300},{"id":"icona-vulcano-spyder","name":"Icona Vulcano Spyder","alias":"火山Spyder","cls":"S","stars":6,"score":4868,"key":false,"perf":{"top":430.7,"nitro":null,"air":null,"blue":null,"accel":83.6,"handling":55.64,"nitroPower":51.99,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"raesr-aglaia","name":"Raesr Aglaia","alias":"Aglaia","cls":"S","stars":6,"score":4880,"key":true,"perf":{"top":439.3,"nitro":null,"air":null,"blue":null,"accel":85.88,"handling":47.8,"nitroPower":46.08,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[45,56,65,66,68],"bpTotal":300},{"id":"rimac-nevera","name":"Rimac Nevera","alias":"C2","cls":"S","stars":6,"score":4897,"key":true,"perf":{"top":421.6,"nitro":444.0,"air":569.0,"blue":null,"accel":87.71,"handling":51.33,"nitroPower":56.51,"spray":5.0},"cost":41397400.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,60,70,85],"bpTotal":300},{"id":"ssc-tuatara","name":"SSC Tuatara","alias":"大蜥蜴","cls":"S","stars":6,"score":4930,"key":false,"perf":{"top":487.0,"nitro":512.0,"air":599.0,"blue":null,"accel":82.51,"handling":48.74,"nitroPower":62.05,"spray":5.17},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"koenigsegg-agera-rs","name":"Koenigsegg Agera RS","alias":"Agera RS","cls":"S","stars":6,"score":4940,"key":false,"perf":{"top":484.8,"nitro":510.0,"air":598.0,"blue":null,"accel":79.67,"handling":60.03,"nitroPower":58.86,"spray":4.75},"cost":54288000.0,"parts":{"blue":8.0,"purple":6.0,"yellow":5.0},"bp":[85,40,48,50,52,55],"bpTotal":330},{"id":"htt-locus-plethore-lc750","name":"HTT Locus Plethore LC750","alias":"HTT","cls":"S","stars":6,"score":4955,"key":false,"perf":{"top":414.5,"nitro":435.0,"air":565.0,"blue":null,"accel":78.04,"handling":75.86,"nitroPower":84.58,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[60,35,40,50,55,60],"bpTotal":300},{"id":"hennessey-venom-gt","name":"Hennessey Venom GT","alias":"毒液GT","cls":"S","stars":6,"score":4963,"key":true,"perf":{"top":468.4,"nitro":null,"air":null,"blue":null,"accel":78.54,"handling":47.88,"nitroPower":46.91,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[38,48,58,68,88],"bpTotal":300},{"id":"w-motors-lykan-security","name":"W Motors Lykan Security","alias":"拦路狼","cls":"S","stars":6,"score":4977,"key":false,"perf":{"top":445.8,"nitro":null,"air":581.0,"blue":null,"accel":86.33,"handling":61.08,"nitroPower":29.38,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"koenigsegg-ccxr","name":"Koenigsegg CCXR","alias":"CCXR","cls":"S","stars":6,"score":4998,"key":true,"perf":{"top":412.2,"nitro":432.0,"air":563.0,"blue":null,"accel":79.4,"handling":79.09,"nitroPower":71.51,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[45,56,65,66,68],"bpTotal":300},{"id":"tushek-aeon-e","name":"Tushek Aeon E","alias":"Aeon E","cls":"S","stars":6,"score":5025,"key":false,"perf":{"top":491.5,"nitro":null,"air":null,"blue":null,"accel":86.23,"handling":46.43,"nitroPower":35.37,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"bugatti-la-voiture-noire","name":"Bugatti LA Voiture Noire","alias":"黑龙","cls":"S","stars":6,"score":5055,"key":true,"perf":{"top":443.2,"nitro":467.0,"air":579.0,"blue":null,"accel":84.88,"handling":54.68,"nitroPower":63.8,"spray":null},"cost":53628000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[38,53,58,68,88],"bpTotal":305},{"id":"koenigsegg-one-1","name":"Koenigsegg One:1","alias":"旺旺","cls":"S","stars":6,"score":5076,"key":true,"perf":{"top":454.8,"nitro":null,"air":null,"blue":null,"accel":83.18,"handling":59.7,"nitroPower":43.83,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[45,56,65,66,68],"bpTotal":300},{"id":"deus-vayanne","name":"Deus Vayanne","alias":"Vayanne","cls":"S","stars":6,"score":5082,"key":false,"perf":{"top":438.7,"nitro":462.0,"air":577.0,"blue":null,"accel":86.55,"handling":47.61,"nitroPower":47.08,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,35,40,50,55,60],"bpTotal":300},{"id":"koenigsegg-gemera","name":"Koenigsegg Gemera","alias":"Gemera","cls":"S","stars":6,"score":5092,"key":true,"perf":{"top":413.1,"nitro":433.0,"air":564.0,"blue":null,"accel":88.58,"handling":66.06,"nitroPower":48.36,"spray":null},"cost":53628000.0,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[38,48,58,68,88],"bpTotal":300},{"id":"bugatti-mistral","name":"Bugatti Mistral","alias":"Mistral","cls":"S","stars":6,"score":5096,"key":true,"perf":{"top":431.7,"nitro":null,"air":574.0,"blue":null,"accel":84.4,"handling":60.79,"nitroPower":65.81,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[38,48,58,68,88],"bpTotal":300},{"id":"zenvo-aurora-tur","name":"Zenvo Aurora Tur","alias":"极光","cls":"S","stars":6,"score":5100,"key":false,"perf":{"top":467.5,"nitro":492.0,"air":590.0,"blue":null,"accel":81.73,"handling":56.53,"nitroPower":42.65,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,35,40,50,55,60],"bpTotal":300},{"id":"hennessey-venom-f5","name":"Hennessey Venom F5","alias":"毒液F5","cls":"S","stars":6,"score":5128,"key":false,"perf":{"top":512.4,"nitro":538.0,"air":600.0,"blue":null,"accel":80.68,"handling":49.02,"nitroPower":49.52,"spray":4.2},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[85,25,29,38,54,69],"bpTotal":300},{"id":"koenigsegg-cc850","name":"Koenigsegg CC850","alias":"CC850","cls":"S","stars":6,"score":5146,"key":true,"perf":{"top":478.3,"nitro":null,"air":null,"blue":null,"accel":82.37,"handling":54.39,"nitroPower":49.63,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[45,56,65,66,68],"bpTotal":300},{"id":"czinger-21c","name":"Czinger 21C","alias":"21C","cls":"S","stars":6,"score":5149,"key":false,"perf":{"top":417.1,"nitro":439.0,"air":566.0,"blue":null,"accel":89.07,"handling":54.43,"nitroPower":51.03,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,35,40,50,55,60],"bpTotal":300},{"id":"mosler-super-gt","name":"Mosler Super GT","alias":"莫斯勒SuperGT","cls":"S","stars":6,"score":5169,"key":false,"perf":{"top":506.7,"nitro":null,"air":null,"blue":null,"accel":83.27,"handling":49.79,"nitroPower":44.54,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[60,48,50,52,54,56],"bpTotal":320},{"id":"raesr-tartarus","name":"Raesr Tartarus","alias":"Tartarus","cls":"S","stars":6,"score":5355,"key":false,"perf":{"top":538.7,"nitro":550.0,"air":600.0,"blue":null,"accel":90.64,"handling":61.77,"nitroPower":42.69,"spray":null},"cost":null,"parts":{"blue":7.0,"purple":5.0,"yellow":4.0},"bp":[40,45,55,48,56,56],"bpTotal":300},{"id":"devel-sixteen","name":"Devel Sixteen","alias":"恶魔","cls":"R","stars":6,"score":5254,"key":true,"perf":{"top":556.5,"nitro":559.0,"air":600.0,"blue":null,"accel":81.37,"handling":56.37,"nitroPower":38.45,"spray":3.7},"cost":118000000.0,"parts":{"blue":4.0,"purple":8.0,"yellow":6.0},"bp":[60,65,68,72,75],"bpTotal":340},{"id":"ssc-tuatara-striker","name":"SSC Tuatara Striker","alias":"SSC Striker","cls":"R","stars":6,"score":5337,"key":true,"perf":{"top":477.7,"nitro":502.0,"air":595.0,"blue":null,"accel":80.65,"handling":63.37,"nitroPower":55.62,"spray":null},"cost":null,"parts":{"blue":4.0,"purple":8.0,"yellow":6.0},"bp":[60,65,68,72,75],"bpTotal":340},{"id":"mercedes-benz-silver-lightning","name":"Mercedes-Benz Silver Lightning","alias":"银电","cls":"R","stars":6,"score":5344,"key":true,"perf":{"top":443.4,"nitro":483.0,"air":600.0,"blue":531.0,"accel":80.15,"handling":84.1,"nitroPower":55.95,"spray":4.7},"cost":null,"parts":{"blue":4.0,"purple":8.0,"yellow":6.0},"bp":[60,65,68,72,75],"bpTotal":340},{"id":"bugatti-bolide","name":"Bugatti Bolide","alias":"玻璃龙","cls":"R","stars":6,"score":5385,"key":true,"perf":{"top":497.1,"nitro":522.0,"air":600.0,"blue":null,"accel":84.28,"handling":55.58,"nitroPower":34.66,"spray":3.67},"cost":100000000.0,"parts":{"blue":4.0,"purple":8.0,"yellow":6.0},"bp":[60,65,68,72,75],"bpTotal":340},{"id":"bugatti-chiron-super-sport-300","name":"Bugatti Chiron Super Sport 300+","alias":"300+","cls":"R","stars":6,"score":5602,"key":true,"perf":{"top":510.1,"nitro":536.0,"air":600.0,"blue":null,"accel":83.26,"handling":64.82,"nitroPower":44.58,"spray":4.0},"cost":100000000.0,"parts":{"blue":4.0,"purple":8.0,"yellow":6.0},"bp":[60,65,68,72,75],"bpTotal":340},{"id":"rimac-nevera-r","name":"Rimac Nevera R","alias":"Nevera R","cls":"R","stars":6,"score":5611,"key":true,"perf":{"top":453.1,"nitro":480.0,"air":585.0,"blue":null,"accel":89.07,"handling":76.53,"nitroPower":48.88,"spray":null},"cost":null,"parts":{"blue":4.0,"purple":8.0,"yellow":6.0},"bp":[60,65,68,72,75],"bpTotal":340},{"id":"hennessey-venom-f5-revolution","name":"Hennessey Venom F5 Revolution","alias":"毒液F5 R","cls":"R","stars":6,"score":5656,"key":true,"perf":{"top":535.4,"nitro":554.0,"air":600.0,"blue":null,"accel":82.77,"handling":55.58,"nitroPower":50.2,"spray":null},"cost":null,"parts":{"blue":4.0,"purple":8.0,"yellow":6.0},"bp":[60,65,68,72,75],"bpTotal":340},{"id":"koenigsegg-jesko-absolut","name":"Koenigsegg Jesko Absolut","alias":"杰皇","cls":"R","stars":6,"score":5664,"key":false,"perf":{"top":548.1,"nitro":559.0,"air":600.0,"blue":null,"accel":82.27,"handling":50.53,"nitroPower":52.89,"spray":4.3},"cost":100000000.0,"parts":{"blue":4.0,"purple":8.0,"yellow":6.0},"bp":[60,60,62,62,65,70],"bpTotal":379},{"id":"ares-panther","name":"Ares PANTHER","alias":"","cls":"B","stars":6,"score":4387,"key":true,"perf":{"top":368.6,"nitro":null,"air":null,"blue":null,"accel":83.84,"handling":70.82,"nitroPower":49.07,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"mercedes-benz-biome-2010","name":"MERCEDES-BENZ BIOME 2010","alias":"面包","cls":"A","stars":6,"score":4078,"key":true,"perf":{"top":337.0,"nitro":null,"air":null,"blue":null,"accel":80.62,"handling":80.16,"nitroPower":83.39,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"bugatti-tourbillon","name":"BUGATTI TOURBILLON","alias":"陀飞轮","cls":"R","stars":6,"score":5676,"key":true,"perf":{"top":492.8,"nitro":null,"air":null,"blue":null,"accel":85.24,"handling":70.17,"nitroPower":48.98,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"nio-ep9-anniversary-speical-edition","name":"NIO EP9 ANNIVERSARY SPEICAL EDITION","alias":"","cls":"A","stars":6,"score":4501,"key":false,"perf":{"top":348.7,"nitro":null,"air":null,"blue":null,"accel":86.14,"handling":59.71,"nitroPower":60.93,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"ferrante-design-elytron","name":"FERRANTE DESIGN ELYTRON","alias":"","cls":"S","stars":6,"score":5050,"key":true,"perf":{"top":462.4,"nitro":null,"air":null,"blue":null,"accel":85.24,"handling":56.39,"nitroPower":47.19,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"pagani-codalunga","name":"PAGANI CODALUNGA","alias":"","cls":"S","stars":6,"score":4647,"key":true,"perf":{"top":398.3,"nitro":null,"air":null,"blue":null,"accel":81.7,"handling":65.49,"nitroPower":72.01,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"ferrari-12-cilindri","name":"FERRARI 12 CILINDRI","alias":"","cls":"B","stars":6,"score":4294,"key":false,"perf":{"top":351.3,"nitro":null,"air":null,"blue":null,"accel":85.29,"handling":70.13,"nitroPower":75.09,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"audi-r8-lmp1-2000","name":"AUDI R8 LMP1 2000","alias":"","cls":"S","stars":6,"score":4889,"key":true,"perf":{"top":422.7,"nitro":null,"air":null,"blue":null,"accel":83.9,"handling":60.28,"nitroPower":66.17,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"audi-r18-e-tron-quattro-2012","name":"AUDI R18 E-TRON QUATTRO 2012","alias":"","cls":"S","stars":6,"score":4420,"key":true,"perf":{"top":400.4,"nitro":null,"air":null,"blue":null,"accel":78.77,"handling":55.32,"nitroPower":54.21,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"audi-r8-coup-v10-performance-quattro","name":"AUDI R8 COUPÉ V10 PERFORMANCE QUATTRO","alias":"","cls":"C","stars":5,"score":3627,"key":false,"perf":{"top":341.2,"nitro":null,"air":null,"blue":null,"accel":76.99,"handling":64.17,"nitroPower":48.62,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"dodge-challenger-halloween-edition","name":"DODGE CHALLENGER HALLOWEEN EDITION","alias":"","cls":"S","stars":6,"score":4594,"key":true,"perf":{"top":372.4,"nitro":null,"air":null,"blue":null,"accel":86.52,"handling":56.05,"nitroPower":68.79,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"tvr-cerbera-speed-12","name":"TVR CERBERA SPEED 12","alias":"","cls":"S","stars":6,"score":5017,"key":true,"perf":{"top":403.3,"nitro":null,"air":null,"blue":null,"accel":82.42,"handling":79.44,"nitroPower":85.67,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"bentley-speed-8","name":"BENTLEY SPEED 8","alias":"","cls":"A","stars":6,"score":4242,"key":false,"perf":{"top":367.1,"nitro":null,"air":null,"blue":null,"accel":86.53,"handling":68.34,"nitroPower":58.91,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"porsche-718-cayman-pac-man-edition","name":"PORSCHE 718 CAYMAN PAC-MAN EDITION","alias":"","cls":"B","stars":6,"score":4335,"key":false,"perf":{"top":360.0,"nitro":null,"air":null,"blue":null,"accel":81.95,"handling":64.77,"nitroPower":68.37,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null},{"id":"ginetta-akula","name":"Ginetta AKULA","alias":"","cls":"A","stars":6,"score":4391,"key":false,"perf":{"top":369.5,"nitro":null,"air":null,"blue":null,"accel":83.54,"handling":72.54,"nitroPower":66.41,"spray":null},"cost":null,"parts":{"blue":null,"purple":null,"yellow":null},"bp":[],"bpTotal":null}]};
+window.A9_CARS = {
+  "updated": "2026-11-10",
+  "source": "车辆数据（含图纸分布）.xlsx",
+  "cars": [
+    {
+      "id": "mitsubishi-lancer-evolution",
+      "name": "Mitsubishi Lancer Evolution",
+      "alias": "三菱",
+      "cls": "D",
+      "stars": 3,
+      "score": 1381,
+      "key": false,
+      "perf": {
+        "top": 270.1,
+        "nitro": 282,
+        "air": 363,
+        "blue": null,
+        "accel": 55.03,
+        "handling": 53.79,
+        "nitroPower": 68.19,
+        "spray": 10.75
+      },
+      "cost": 699000,
+      "parts": {
+        "blue": 5,
+        "purple": 1,
+        "yellow": null
+      },
+      "bp": [
+        5,
+        8,
+        30
+      ],
+      "bpTotal": 43
+    },
+    {
+      "id": "bmw-z4-lci-e89",
+      "name": "BMW Z4 LCI E89",
+      "alias": "Z4",
+      "cls": "D",
+      "stars": 3,
+      "score": 1476,
+      "key": false,
+      "perf": {
+        "top": 266.8,
+        "nitro": 278,
+        "air": 359,
+        "blue": null,
+        "accel": 68.86,
+        "handling": 47.43,
+        "nitroPower": 57.49,
+        "spray": 7.47
+      },
+      "cost": 695000,
+      "parts": {
+        "blue": 5,
+        "purple": 1,
+        "yellow": null
+      },
+      "bp": [
+        5,
+        8,
+        45
+      ],
+      "bpTotal": 58
+    },
+    {
+      "id": "chevrolet-camaro-lt",
+      "name": "Chevrolet Camaro LT",
+      "alias": "LT",
+      "cls": "D",
+      "stars": 3,
+      "score": 1546,
+      "key": false,
+      "perf": {
+        "top": 284.1,
+        "nitro": 296,
+        "air": 380,
+        "blue": null,
+        "accel": 64.81,
+        "handling": 48.39,
+        "nitroPower": 63.29,
+        "spray": 8.25
+      },
+      "cost": 695000,
+      "parts": {
+        "blue": 5,
+        "purple": 1,
+        "yellow": null
+      },
+      "bp": [
+        5,
+        12,
+        30
+      ],
+      "bpTotal": 47
+    },
+    {
+      "id": "nissan-370z-nismo",
+      "name": "Nissan 370Z Nismo",
+      "alias": "370",
+      "cls": "D",
+      "stars": 3,
+      "score": 1662,
+      "key": false,
+      "perf": {
+        "top": 268.5,
+        "nitro": 280,
+        "air": 361,
+        "blue": null,
+        "accel": 66.61,
+        "handling": 81.83,
+        "nitroPower": 67.07,
+        "spray": 10.35
+      },
+      "cost": 694000,
+      "parts": {
+        "blue": 5,
+        "purple": 1,
+        "yellow": null
+      },
+      "bp": [
+        10,
+        12,
+        30
+      ],
+      "bpTotal": 52
+    },
+    {
+      "id": "dodge-challenger-srt8",
+      "name": "Dodge Challenger SRT8",
+      "alias": "srt8",
+      "cls": "D",
+      "stars": 3,
+      "score": 1683,
+      "key": false,
+      "perf": {
+        "top": 308.4,
+        "nitro": 321,
+        "air": 410,
+        "blue": null,
+        "accel": 71.92,
+        "handling": 37.98,
+        "nitroPower": 45.41,
+        "spray": 5.05
+      },
+      "cost": 694000,
+      "parts": {
+        "blue": 5,
+        "purple": 1,
+        "yellow": null
+      },
+      "bp": [
+        15,
+        20,
+        30
+      ],
+      "bpTotal": 65
+    },
+    {
+      "id": "ktm-x-bow-gtx",
+      "name": "KTM X-Bow GTX",
+      "alias": "GTX",
+      "cls": "D",
+      "stars": 3,
+      "score": 1738,
+      "key": false,
+      "perf": {
+        "top": 247.5,
+        "nitro": 258,
+        "air": 350,
+        "blue": 274,
+        "accel": 83.84,
+        "handling": 64.99,
+        "nitroPower": 66.99,
+        "spray": null
+      },
+      "cost": 892000,
+      "parts": {
+        "blue": 5,
+        "purple": 1,
+        "yellow": null
+      },
+      "bp": [
+        20,
+        25,
+        30
+      ],
+      "bpTotal": 75
+    },
+    {
+      "id": "volkswagen-xl-sport-concept",
+      "name": "Volkswagen XL Sport Concept",
+      "alias": "大众",
+      "cls": "D",
+      "stars": 3,
+      "score": 1814,
+      "key": false,
+      "perf": {
+        "top": 291.2,
+        "nitro": 303,
+        "air": 389,
+        "blue": null,
+        "accel": 60.31,
+        "handling": 62.02,
+        "nitroPower": 61.94,
+        "spray": 7.65
+      },
+      "cost": 937000,
+      "parts": {
+        "blue": 5,
+        "purple": 1,
+        "yellow": null
+      },
+      "bp": [
+        15,
+        20,
+        30
+      ],
+      "bpTotal": 65
+    },
+    {
+      "id": "bmw-3-0-csl-hommage",
+      "name": "BMW 3.0 CSL Hommage",
+      "alias": "宝马3.0",
+      "cls": "D",
+      "stars": 3,
+      "score": 1827,
+      "key": false,
+      "perf": {
+        "top": 297.5,
+        "nitro": 310,
+        "air": 396,
+        "blue": null,
+        "accel": 73.39,
+        "handling": 50.08,
+        "nitroPower": 51.2,
+        "spray": 5.78
+      },
+      "cost": 937000,
+      "parts": {
+        "blue": 5,
+        "purple": 1,
+        "yellow": null
+      },
+      "bp": [
+        20,
+        20,
+        30
+      ],
+      "bpTotal": 70
+    },
+    {
+      "id": "chevrolet-camaro-zl1-50th-edition",
+      "name": "Chevrolet Camaro ZL1 50TH Edition",
+      "alias": "50th",
+      "cls": "D",
+      "stars": 3,
+      "score": 1971,
+      "key": false,
+      "perf": {
+        "top": 272.1,
+        "nitro": 284,
+        "air": 365,
+        "blue": null,
+        "accel": 78.14,
+        "handling": 83.14,
+        "nitroPower": 72.33,
+        "spray": 13.02
+      },
+      "cost": 1292000,
+      "parts": {
+        "blue": 5,
+        "purple": 1,
+        "yellow": null
+      },
+      "bp": [
+        20,
+        20,
+        30
+      ],
+      "bpTotal": 70
+    },
+    {
+      "id": "ds-automobiles-ds-e-tense",
+      "name": "DS Automobiles DS E-Tense",
+      "alias": "DS",
+      "cls": "D",
+      "stars": 3,
+      "score": 1976,
+      "key": false,
+      "perf": {
+        "top": 270.1,
+        "nitro": 282,
+        "air": 363,
+        "blue": null,
+        "accel": 76.07,
+        "handling": 81.27,
+        "nitroPower": 72.3,
+        "spray": 13.1
+      },
+      "cost": null,
+      "parts": {
+        "blue": 5,
+        "purple": 1,
+        "yellow": null
+      },
+      "bp": [
+        20,
+        25,
+        30
+      ],
+      "bpTotal": 75
+    },
+    {
+      "id": "porsche-boxster-25th",
+      "name": "Porsche Boxster 25th",
+      "alias": "Boxster",
+      "cls": "D",
+      "stars": 4,
+      "score": 1985,
+      "key": false,
+      "perf": {
+        "top": 298.7,
+        "nitro": 311,
+        "air": 398,
+        "blue": null,
+        "accel": 72.12,
+        "handling": 46.1,
+        "nitroPower": 54.35,
+        "spray": null
+      },
+      "cost": 2880000,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        20,
+        30,
+        41,
+        45
+      ],
+      "bpTotal": 136
+    },
+    {
+      "id": "nissan-leaf-nismo-rc",
+      "name": "Nissan Leaf Nismo RC",
+      "alias": "RC",
+      "cls": "D",
+      "stars": 4,
+      "score": 2101,
+      "key": false,
+      "perf": {
+        "top": 250.6,
+        "nitro": 261,
+        "air": 361,
+        "blue": 284,
+        "accel": 78.87,
+        "handling": 59.91,
+        "nitroPower": 65.03,
+        "spray": 11.4
+      },
+      "cost": 1524000,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        30,
+        12,
+        18,
+        28
+      ],
+      "bpTotal": 88
+    },
+    {
+      "id": "bmw-i8-roadster",
+      "name": "BMW i8 Roadster",
+      "alias": "i8",
+      "cls": "D",
+      "stars": 4,
+      "score": 2122,
+      "key": false,
+      "perf": {
+        "top": 273.1,
+        "nitro": 285,
+        "air": 375,
+        "blue": 294,
+        "accel": 79.73,
+        "handling": 78.63,
+        "nitroPower": 66.87,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        20,
+        30,
+        41,
+        45
+      ],
+      "bpTotal": 136
+    },
+    {
+      "id": "italdesign-davinci",
+      "name": "Italdesign Davinci",
+      "alias": "达芬奇",
+      "cls": "D",
+      "stars": 4,
+      "score": 2210,
+      "key": false,
+      "perf": {
+        "top": 278,
+        "nitro": 290,
+        "air": 372,
+        "blue": null,
+        "accel": 83.52,
+        "handling": 73.57,
+        "nitroPower": 55.34,
+        "spray": null
+      },
+      "cost": 2438000,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        20,
+        30,
+        41,
+        45
+      ],
+      "bpTotal": 136
+    },
+    {
+      "id": "renault-dezir",
+      "name": "Renault Dezir",
+      "alias": "Dezir",
+      "cls": "D",
+      "stars": 4,
+      "score": 2213,
+      "key": false,
+      "perf": {
+        "top": 293.2,
+        "nitro": 306,
+        "air": 391,
+        "blue": null,
+        "accel": 65.56,
+        "handling": 69.43,
+        "nitroPower": 68.44,
+        "spray": null
+      },
+      "cost": 2438000,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        25,
+        32,
+        40,
+        48
+      ],
+      "bpTotal": 145
+    },
+    {
+      "id": "peugeot-sr1",
+      "name": "Peugeot SR1",
+      "alias": "SR1",
+      "cls": "D",
+      "stars": 4,
+      "score": 2307,
+      "key": false,
+      "perf": {
+        "top": 310.5,
+        "nitro": 323,
+        "air": 412,
+        "blue": null,
+        "accel": 71.51,
+        "handling": 52.39,
+        "nitroPower": 31.19,
+        "spray": null
+      },
+      "cost": 3118000,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        25,
+        32,
+        40,
+        48
+      ],
+      "bpTotal": 145
+    },
+    {
+      "id": "infiniti-project-black-s",
+      "name": "Infiniti Project Black S",
+      "alias": "英菲尼迪",
+      "cls": "D",
+      "stars": 4,
+      "score": 2371,
+      "key": false,
+      "perf": {
+        "top": 281.5,
+        "nitro": 293,
+        "air": 377,
+        "blue": null,
+        "accel": 76.19,
+        "handling": 66.98,
+        "nitroPower": 64.67,
+        "spray": null
+      },
+      "cost": 3060000,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        30,
+        23,
+        33,
+        42
+      ],
+      "bpTotal": 128
+    },
+    {
+      "id": "lotus-emeya",
+      "name": "Lotus Emeya",
+      "alias": "Emeya",
+      "cls": "D",
+      "stars": 4,
+      "score": 2402,
+      "key": false,
+      "perf": {
+        "top": 276.5,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.79,
+        "handling": 75.33,
+        "nitroPower": 67.23,
+        "spray": null
+      },
+      "cost": 4228000,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        30,
+        23,
+        33,
+        42
+      ],
+      "bpTotal": 128
+    },
+    {
+      "id": "porsche-911-carrera-rs-3-8",
+      "name": "Porsche 911 Carrera RS 3.8",
+      "alias": "Carrera RS",
+      "cls": "D",
+      "stars": 4,
+      "score": 2435,
+      "key": false,
+      "perf": {
+        "top": 301.9,
+        "nitro": 315,
+        "air": 402,
+        "blue": null,
+        "accel": 72.15,
+        "handling": 71.66,
+        "nitroPower": 35.99,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        30,
+        32,
+        40,
+        50
+      ],
+      "bpTotal": 152
+    },
+    {
+      "id": "hyundai-ioniq-5-n",
+      "name": "Hyundai Ioniq 5 N",
+      "alias": "5N",
+      "cls": "D",
+      "stars": 4,
+      "score": 2559,
+      "key": false,
+      "perf": {
+        "top": 275.9,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 88.63,
+        "handling": 80.51,
+        "nitroPower": 63.38,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        20,
+        30,
+        41,
+        45
+      ],
+      "bpTotal": 136
+    },
+    {
+      "id": "lotus-emira",
+      "name": "Lotus Emira",
+      "alias": "Emira",
+      "cls": "D",
+      "stars": 4,
+      "score": 2612,
+      "key": false,
+      "perf": {
+        "top": 307.4,
+        "nitro": 320,
+        "air": 409,
+        "blue": null,
+        "accel": 70.86,
+        "handling": 57.47,
+        "nitroPower": 53.42,
+        "spray": null
+      },
+      "cost": 3740000,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        25,
+        32,
+        40,
+        48
+      ],
+      "bpTotal": 145
+    },
+    {
+      "id": "lamborghini-countach-25th-anniversary",
+      "name": "Lamborghini Countach 25th Anniversary",
+      "alias": "康塔什",
+      "cls": "D",
+      "stars": 4,
+      "score": 2618,
+      "key": false,
+      "perf": {
+        "top": 305.4,
+        "nitro": 318,
+        "air": 406,
+        "blue": null,
+        "accel": 71.43,
+        "handling": 65.58,
+        "nitroPower": 48.39,
+        "spray": null
+      },
+      "cost": 3742000,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        25,
+        32,
+        40,
+        48
+      ],
+      "bpTotal": 145
+    },
+    {
+      "id": "praga-r1",
+      "name": "Praga R1",
+      "alias": "Praga",
+      "cls": "D",
+      "stars": 4,
+      "score": 2624,
+      "key": false,
+      "perf": {
+        "top": 283.3,
+        "nitro": 295,
+        "air": 379,
+        "blue": null,
+        "accel": 87.8,
+        "handling": 62.25,
+        "nitroPower": 60.92,
+        "spray": null
+      },
+      "cost": 4678600,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        25,
+        32,
+        40,
+        48
+      ],
+      "bpTotal": 145
+    },
+    {
+      "id": "ginetta-g60",
+      "name": "Ginetta G60",
+      "alias": "G60",
+      "cls": "D",
+      "stars": 4,
+      "score": 2632,
+      "key": false,
+      "perf": {
+        "top": 290.7,
+        "nitro": 303,
+        "air": 388,
+        "blue": null,
+        "accel": 71.51,
+        "handling": 74.81,
+        "nitroPower": 62.66,
+        "spray": 7.85
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 2,
+        "yellow": 1
+      },
+      "bp": [
+        30,
+        32,
+        40,
+        50
+      ],
+      "bpTotal": 152
+    },
+    {
+      "id": "glickenhaus-004c",
+      "name": "Glickenhaus 004C",
+      "alias": "004C",
+      "cls": "D",
+      "stars": 5,
+      "score": 2840,
+      "key": true,
+      "perf": {
+        "top": 311.2,
+        "nitro": 324,
+        "air": 413,
+        "blue": null,
+        "accel": 76.75,
+        "handling": 56.89,
+        "nitroPower": 60.87,
+        "spray": null
+      },
+      "cost": 8192000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        30,
+        35,
+        42,
+        50
+      ],
+      "bpTotal": 157
+    },
+    {
+      "id": "alfa-romeo-giulia-gtam",
+      "name": "Alfa Romeo Giulia GTAm",
+      "alias": "Giulia",
+      "cls": "D",
+      "stars": 5,
+      "score": 2895,
+      "key": true,
+      "perf": {
+        "top": 312.2,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 77.28,
+        "handling": 45.17,
+        "nitroPower": 47.09,
+        "spray": null
+      },
+      "cost": 8408000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        30,
+        35,
+        42,
+        50
+      ],
+      "bpTotal": 157
+    },
+    {
+      "id": "toyota-gr-supra-racing-concept",
+      "name": "Toyota GR Supra Racing Concept",
+      "alias": "Supra",
+      "cls": "D",
+      "stars": 5,
+      "score": 2930,
+      "key": false,
+      "perf": {
+        "top": 312,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 71.98,
+        "handling": 61.16,
+        "nitroPower": 53.66,
+        "spray": null
+      },
+      "cost": 8408000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        30,
+        12,
+        18,
+        27,
+        38
+      ],
+      "bpTotal": 125
+    },
+    {
+      "id": "ford-mustang-mach-e1400",
+      "name": "Ford Mustang Mach-E1400",
+      "alias": "电马",
+      "cls": "D",
+      "stars": 5,
+      "score": 3097,
+      "key": true,
+      "perf": {
+        "top": 301.2,
+        "nitro": 314,
+        "air": null,
+        "blue": null,
+        "accel": 82.87,
+        "handling": 51.83,
+        "nitroPower": 64.82,
+        "spray": null
+      },
+      "cost": 8228000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        30,
+        35,
+        42,
+        50
+      ],
+      "bpTotal": 157
+    },
+    {
+      "id": "kimera-evo37",
+      "name": "Kimera EVO37",
+      "alias": "EVO37",
+      "cls": "D",
+      "stars": 5,
+      "score": 3108,
+      "key": true,
+      "perf": {
+        "top": 297.8,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 80.98,
+        "handling": 78.18,
+        "nitroPower": 57.43,
+        "spray": null
+      },
+      "cost": 8984000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        30,
+        35,
+        42,
+        50
+      ],
+      "bpTotal": 157
+    },
+    {
+      "id": "lotus-evora-sport-410",
+      "name": "Lotus Evora Sport 410",
+      "alias": "大莲花",
+      "cls": "C",
+      "stars": 3,
+      "score": 2123,
+      "key": false,
+      "perf": {
+        "top": 317.7,
+        "nitro": 331,
+        "air": 422,
+        "blue": null,
+        "accel": 71.7,
+        "handling": 50.92,
+        "nitroPower": 47.05,
+        "spray": 5.13
+      },
+      "cost": 1348000,
+      "parts": {
+        "blue": 4,
+        "purple": 1,
+        "yellow": 1
+      },
+      "bp": [
+        20,
+        30,
+        50
+      ],
+      "bpTotal": 100
+    },
+    {
+      "id": "dodge-challenger-392-hemi-scat-pack",
+      "name": "Dodge Challenger 392 Hemi Scat Pack",
+      "alias": "392",
+      "cls": "C",
+      "stars": 3,
+      "score": 2152,
+      "key": false,
+      "perf": {
+        "top": 302.7,
+        "nitro": 315,
+        "air": 403,
+        "blue": null,
+        "accel": 73.64,
+        "handling": 43.57,
+        "nitroPower": 62.82,
+        "spray": 7.48
+      },
+      "cost": 1348000,
+      "parts": {
+        "blue": 4,
+        "purple": 1,
+        "yellow": 1
+      },
+      "bp": [
+        20,
+        30,
+        50
+      ],
+      "bpTotal": 100
+    },
+    {
+      "id": "porsche-911-gts-coupe",
+      "name": "Porsche 911 GTS Coupe",
+      "alias": "911GTS",
+      "cls": "C",
+      "stars": 3,
+      "score": 2185,
+      "key": false,
+      "perf": {
+        "top": 328.7,
+        "nitro": 342,
+        "air": 441,
+        "blue": null,
+        "accel": 71.21,
+        "handling": 45.84,
+        "nitroPower": 56.6,
+        "spray": 5.98
+      },
+      "cost": 1348000,
+      "parts": {
+        "blue": 4,
+        "purple": 1,
+        "yellow": 1
+      },
+      "bp": [
+        25,
+        30,
+        50
+      ],
+      "bpTotal": 105
+    },
+    {
+      "id": "mercedes-benz-amg-gt-s",
+      "name": "Mercedes-Benz AMG GT S",
+      "alias": "AMG",
+      "cls": "C",
+      "stars": 3,
+      "score": 2281,
+      "key": false,
+      "perf": {
+        "top": 329.4,
+        "nitro": 343,
+        "air": 442,
+        "blue": null,
+        "accel": 71.34,
+        "handling": 42.69,
+        "nitroPower": 54.66,
+        "spray": 5.75
+      },
+      "cost": 1628000,
+      "parts": {
+        "blue": 4,
+        "purple": 1,
+        "yellow": 1
+      },
+      "bp": [
+        25,
+        30,
+        50
+      ],
+      "bpTotal": 105
+    },
+    {
+      "id": "aston-martin-db11",
+      "name": "Aston Martin DB11",
+      "alias": "DB11",
+      "cls": "C",
+      "stars": 3,
+      "score": 2330,
+      "key": false,
+      "perf": {
+        "top": 340.4,
+        "nitro": 354,
+        "air": 462,
+        "blue": null,
+        "accel": 74.2,
+        "handling": 43.21,
+        "nitroPower": 55.4,
+        "spray": 5.67
+      },
+      "cost": 1628000,
+      "parts": {
+        "blue": 4,
+        "purple": 1,
+        "yellow": 1
+      },
+      "bp": [
+        25,
+        30,
+        50
+      ],
+      "bpTotal": 105
+    },
+    {
+      "id": "porsche-718-cayman",
+      "name": "Porsche 718 Cayman",
+      "alias": "718",
+      "cls": "C",
+      "stars": 4,
+      "score": 2344,
+      "key": false,
+      "perf": {
+        "top": 295.6,
+        "nitro": 308,
+        "air": 394,
+        "blue": null,
+        "accel": 70.52,
+        "handling": 61.9,
+        "nitroPower": 60.28,
+        "spray": 7.17
+      },
+      "cost": 1796000,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        25,
+        18,
+        21,
+        32
+      ],
+      "bpTotal": 96
+    },
+    {
+      "id": "lotus-elise-sprint-220",
+      "name": "Lotus Elise Sprint 220",
+      "alias": "小莲花",
+      "cls": "C",
+      "stars": 4,
+      "score": 2363,
+      "key": false,
+      "perf": {
+        "top": 269.5,
+        "nitro": 282,
+        "air": 363,
+        "blue": null,
+        "accel": 82.25,
+        "handling": 83.47,
+        "nitroPower": 72.71,
+        "spray": 13.38
+      },
+      "cost": 1903200,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        25,
+        18,
+        21,
+        32
+      ],
+      "bpTotal": 96
+    },
+    {
+      "id": "bmw-m4-gts",
+      "name": "BMW M4 GTS",
+      "alias": "m4",
+      "cls": "C",
+      "stars": 3,
+      "score": 2447,
+      "key": false,
+      "perf": {
+        "top": 326.5,
+        "nitro": 340,
+        "air": 437,
+        "blue": null,
+        "accel": 73.72,
+        "handling": 51.19,
+        "nitroPower": 52.48,
+        "spray": 5.55
+      },
+      "cost": 1981800,
+      "parts": {
+        "blue": 4,
+        "purple": 1,
+        "yellow": 1
+      },
+      "bp": [
+        25,
+        30,
+        50
+      ],
+      "bpTotal": 105
+    },
+    {
+      "id": "jaguar-f-type-svr",
+      "name": "Jaguar F-Type SVR",
+      "alias": "捷豹",
+      "cls": "C",
+      "stars": 4,
+      "score": 2487,
+      "key": false,
+      "perf": {
+        "top": 340.3,
+        "nitro": 354,
+        "air": 461,
+        "blue": null,
+        "accel": 75.55,
+        "handling": 49.28,
+        "nitroPower": 50.12,
+        "spray": 5.17
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        30,
+        18,
+        21,
+        32
+      ],
+      "bpTotal": 101
+    },
+    {
+      "id": "ford-shelby-gt350r",
+      "name": "Ford Shelby GT350R",
+      "alias": "野马",
+      "cls": "C",
+      "stars": 4,
+      "score": 2531,
+      "key": false,
+      "perf": {
+        "top": 299.7,
+        "nitro": 313,
+        "air": 400,
+        "blue": null,
+        "accel": 75.06,
+        "handling": 58.97,
+        "nitroPower": 52.93,
+        "spray": 5.93
+      },
+      "cost": 1796000,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        30,
+        18,
+        21,
+        32
+      ],
+      "bpTotal": 101
+    },
+    {
+      "id": "porsche-911-targa-4s",
+      "name": "Porsche 911 Targa 4S",
+      "alias": "Targa",
+      "cls": "C",
+      "stars": 4,
+      "score": 2571,
+      "key": false,
+      "perf": {
+        "top": 315,
+        "nitro": 328,
+        "air": 418,
+        "blue": null,
+        "accel": 75.37,
+        "handling": 41.56,
+        "nitroPower": 38.33,
+        "spray": 4.48
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        18,
+        21,
+        32
+      ],
+      "bpTotal": 106
+    },
+    {
+      "id": "honda-civic-type-r",
+      "name": "Honda Civic Type-R",
+      "alias": "思域",
+      "cls": "C",
+      "stars": 4,
+      "score": 2627,
+      "key": false,
+      "perf": {
+        "top": 285.1,
+        "nitro": 297,
+        "air": 381,
+        "blue": null,
+        "accel": 82.09,
+        "handling": 68.41,
+        "nitroPower": 62.55,
+        "spray": 7.98
+      },
+      "cost": 2740000,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        18,
+        21,
+        32
+      ],
+      "bpTotal": 106
+    },
+    {
+      "id": "rezvani-beast-x",
+      "name": "Rezvani Beast X",
+      "alias": "野兽",
+      "cls": "C",
+      "stars": 4,
+      "score": 2635,
+      "key": false,
+      "perf": {
+        "top": 299.4,
+        "nitro": 312,
+        "air": 399,
+        "blue": null,
+        "accel": 84.62,
+        "handling": 69.2,
+        "nitroPower": 63.68,
+        "spray": 7.78
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        20,
+        24,
+        32
+      ],
+      "bpTotal": 111
+    },
+    {
+      "id": "tvr-griffith",
+      "name": "TVR Griffith",
+      "alias": "TVR",
+      "cls": "C",
+      "stars": 4,
+      "score": 2641,
+      "key": false,
+      "perf": {
+        "top": 338.7,
+        "nitro": 352,
+        "air": 458,
+        "blue": null,
+        "accel": 69.28,
+        "handling": 47.31,
+        "nitroPower": 37.49,
+        "spray": 4.3
+      },
+      "cost": 2740000,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        18,
+        21,
+        32
+      ],
+      "bpTotal": 106
+    },
+    {
+      "id": "ford-shelby-gr-1",
+      "name": "Ford Shelby GR-1",
+      "alias": "大野马",
+      "cls": "C",
+      "stars": 4,
+      "score": 2642,
+      "key": false,
+      "perf": {
+        "top": 321.7,
+        "nitro": 335,
+        "air": 429,
+        "blue": null,
+        "accel": 75.32,
+        "handling": 69.6,
+        "nitroPower": 66.63,
+        "spray": 7.7
+      },
+      "cost": 2750200,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        18,
+        21,
+        32
+      ],
+      "bpTotal": 106
+    },
+    {
+      "id": "renault-trezor",
+      "name": "Renault TreZor",
+      "alias": "TreZor",
+      "cls": "C",
+      "stars": 4,
+      "score": 2646,
+      "key": false,
+      "perf": {
+        "top": 306,
+        "nitro": 307,
+        "air": 392,
+        "blue": null,
+        "accel": 78.42,
+        "handling": 63.39,
+        "nitroPower": 67.48,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        50,
+        29,
+        38,
+        48
+      ],
+      "bpTotal": 165
+    },
+    {
+      "id": "jaguar-xkr-s-gt",
+      "name": "Jaguar XKR-S GT",
+      "alias": "XKR",
+      "cls": "C",
+      "stars": 4,
+      "score": 2700,
+      "key": false,
+      "perf": {
+        "top": 321.2,
+        "nitro": 334,
+        "air": 428,
+        "blue": null,
+        "accel": 72.92,
+        "handling": 52.08,
+        "nitroPower": 60.42,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "porsche-taycan-turbo-s",
+      "name": "Porsche Taycan Turbo S",
+      "alias": "电蛙",
+      "cls": "C",
+      "stars": 4,
+      "score": 2704,
+      "key": false,
+      "perf": {
+        "top": 278.8,
+        "nitro": 291,
+        "air": 386,
+        "blue": 303,
+        "accel": 83.66,
+        "handling": 75.47,
+        "nitroPower": 56.94,
+        "spray": null
+      },
+      "cost": 2740000,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        18,
+        21,
+        32
+      ],
+      "bpTotal": 106
+    },
+    {
+      "id": "aston-martin-v12-speedster",
+      "name": "Aston Martin V12 Speedster",
+      "alias": "V12",
+      "cls": "C",
+      "stars": 4,
+      "score": 2733,
+      "key": false,
+      "perf": {
+        "top": 312.9,
+        "nitro": 326,
+        "air": 415,
+        "blue": null,
+        "accel": 80.12,
+        "handling": 57.27,
+        "nitroPower": 62.49,
+        "spray": null
+      },
+      "cost": 2750200,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        30,
+        41,
+        48
+      ],
+      "bpTotal": 154
+    },
+    {
+      "id": "bentley-continental-gt3",
+      "name": "Bentley Continental GT3",
+      "alias": "欧陆 GT3",
+      "cls": "C",
+      "stars": 5,
+      "score": 2781,
+      "key": true,
+      "perf": {
+        "top": 301.3,
+        "nitro": 314,
+        "air": 402,
+        "blue": null,
+        "accel": 74.78,
+        "handling": 72.59,
+        "nitroPower": 44.04,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        25,
+        30,
+        35,
+        40
+      ],
+      "bpTotal": 130
+    },
+    {
+      "id": "citro-n-ds-survolt",
+      "name": "Citroën DS Survolt",
+      "alias": "DS龙",
+      "cls": "C",
+      "stars": 4,
+      "score": 2796,
+      "key": false,
+      "perf": {
+        "top": 291.4,
+        "nitro": 304,
+        "air": 415,
+        "blue": 329,
+        "accel": 81.82,
+        "handling": 81.42,
+        "nitroPower": 64.56,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "chevrolet-corvette-c7-r",
+      "name": "Chevrolet Corvette C7.R",
+      "alias": "C7R",
+      "cls": "C",
+      "stars": 5,
+      "score": 2836,
+      "key": true,
+      "perf": {
+        "top": 303.6,
+        "nitro": 316,
+        "air": 404,
+        "blue": null,
+        "accel": 80.57,
+        "handling": 47.14,
+        "nitroPower": 57.23,
+        "spray": null
+      },
+      "cost": 4018000,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        30,
+        38,
+        43,
+        48
+      ],
+      "bpTotal": 159
+    },
+    {
+      "id": "ferrari-f50",
+      "name": "Ferrari F50",
+      "alias": "F50",
+      "cls": "C",
+      "stars": 4,
+      "score": 2838,
+      "key": false,
+      "perf": {
+        "top": 338.8,
+        "nitro": 353,
+        "air": 459,
+        "blue": null,
+        "accel": 73.82,
+        "handling": 57.63,
+        "nitroPower": 61.34,
+        "spray": 6.25
+      },
+      "cost": 5068000,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        38,
+        42,
+        48
+      ],
+      "bpTotal": 163
+    },
+    {
+      "id": "bolwell-mk-x-nagari-500",
+      "name": "Bolwell MK X Nagari 500",
+      "alias": "MK500",
+      "cls": "C",
+      "stars": 4,
+      "score": 2854,
+      "key": false,
+      "perf": {
+        "top": 314.5,
+        "nitro": 327,
+        "air": 417,
+        "blue": null,
+        "accel": 81.59,
+        "handling": 65.86,
+        "nitroPower": 63.02,
+        "spray": null
+      },
+      "cost": 3356800,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        30,
+        41,
+        48
+      ],
+      "bpTotal": 154
+    },
+    {
+      "id": "donkervoort-d8-gto-individual-series",
+      "name": "Donkervoort D8 GTO Individual Series",
+      "alias": "D8",
+      "cls": "C",
+      "stars": 5,
+      "score": 2991,
+      "key": false,
+      "perf": {
+        "top": 306.8,
+        "nitro": 320,
+        "air": 408,
+        "blue": null,
+        "accel": 85.56,
+        "handling": 86.91,
+        "nitroPower": 64,
+        "spray": null
+      },
+      "cost": 7568000,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        35,
+        36,
+        38,
+        42
+      ],
+      "bpTotal": 186
+    },
+    {
+      "id": "volkswagen-electric-r",
+      "name": "Volkswagen Electric R",
+      "alias": "大众电R",
+      "cls": "C",
+      "stars": 5,
+      "score": 3062,
+      "key": true,
+      "perf": {
+        "top": 291.1,
+        "nitro": 302,
+        "air": 387,
+        "blue": null,
+        "accel": 88.6,
+        "handling": 58.15,
+        "nitroPower": 68.06,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        30,
+        38,
+        43,
+        48
+      ],
+      "bpTotal": 159
+    },
+    {
+      "id": "mercedes-benz-clk-gtr",
+      "name": "Mercedes-Benz CLK-GTR",
+      "alias": "CLK GTR",
+      "cls": "C",
+      "stars": 5,
+      "score": 3083,
+      "key": false,
+      "perf": {
+        "top": 332.7,
+        "nitro": 346,
+        "air": 448,
+        "blue": null,
+        "accel": 78.92,
+        "handling": 70.49,
+        "nitroPower": 57.24,
+        "spray": null
+      },
+      "cost": 7336000,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        35,
+        36,
+        38,
+        42
+      ],
+      "bpTotal": 186
+    },
+    {
+      "id": "maserati-mc12",
+      "name": "Maserati MC12",
+      "alias": "MC12",
+      "cls": "C",
+      "stars": 5,
+      "score": 3100,
+      "key": true,
+      "perf": {
+        "top": 342.9,
+        "nitro": 357,
+        "air": 466,
+        "blue": null,
+        "accel": 76.48,
+        "handling": 72.36,
+        "nitroPower": 38.94,
+        "spray": null
+      },
+      "cost": 5748000,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        30,
+        38,
+        43,
+        48
+      ],
+      "bpTotal": 159
+    },
+    {
+      "id": "arash-af10",
+      "name": "Arash AF10",
+      "alias": "阿拉什",
+      "cls": "C",
+      "stars": 4,
+      "score": 3109,
+      "key": false,
+      "perf": {
+        "top": 336.9,
+        "nitro": 351,
+        "air": 455,
+        "blue": null,
+        "accel": 78.71,
+        "handling": 50.36,
+        "nitroPower": 59.53,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        38,
+        42,
+        48
+      ],
+      "bpTotal": 163
+    },
+    {
+      "id": "nissan-370z-nismo-neon-edition",
+      "name": "Nissan 370Z Nismo Neon Edition",
+      "alias": "370霓虹",
+      "cls": "C",
+      "stars": 5,
+      "score": 3121,
+      "key": true,
+      "perf": {
+        "top": 303.1,
+        "nitro": 316,
+        "air": 403,
+        "blue": null,
+        "accel": 76.12,
+        "handling": 91.7,
+        "nitroPower": 80.03,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "saleen-s1",
+      "name": "Saleen S1",
+      "alias": "萨林S1",
+      "cls": "C",
+      "stars": 4,
+      "score": 3148,
+      "key": false,
+      "perf": {
+        "top": 305.3,
+        "nitro": 318,
+        "air": 415,
+        "blue": 327,
+        "accel": 76.74,
+        "handling": 82.8,
+        "nitroPower": 74.07,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        38,
+        42,
+        48
+      ],
+      "bpTotal": 163
+    },
+    {
+      "id": "porsche-911-50-years-porsche-design",
+      "name": "Porsche 911 50 Years Porsche Design",
+      "alias": "911 50周年",
+      "cls": "C",
+      "stars": 4,
+      "score": 3210,
+      "key": false,
+      "perf": {
+        "top": 312.1,
+        "nitro": 325,
+        "air": 414,
+        "blue": null,
+        "accel": 79.72,
+        "handling": 84.61,
+        "nitroPower": 70.45,
+        "spray": null
+      },
+      "cost": 5572000,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "porsche-mission-r",
+      "name": "Porsche Mission R",
+      "alias": "Mission R",
+      "cls": "C",
+      "stars": 4,
+      "score": 3229,
+      "key": false,
+      "perf": {
+        "top": 312.1,
+        "nitro": 325,
+        "air": 414,
+        "blue": null,
+        "accel": 87.92,
+        "handling": 63.47,
+        "nitroPower": 62.72,
+        "spray": null
+      },
+      "cost": 5572000,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "jaguar-xjr-15",
+      "name": "Jaguar XJR-15",
+      "alias": "XJR-15",
+      "cls": "C",
+      "stars": 5,
+      "score": 3244,
+      "key": false,
+      "perf": {
+        "top": 320.6,
+        "nitro": 334,
+        "air": 427,
+        "blue": null,
+        "accel": 80.98,
+        "handling": 71.28,
+        "nitroPower": 61.34,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        35,
+        36,
+        38,
+        42
+      ],
+      "bpTotal": 186
+    },
+    {
+      "id": "tvr-sagaris",
+      "name": "TVR Sagaris",
+      "alias": "Sagaris",
+      "cls": "C",
+      "stars": 4,
+      "score": 3246,
+      "key": false,
+      "perf": {
+        "top": 321,
+        "nitro": 334,
+        "air": 428,
+        "blue": null,
+        "accel": 75.52,
+        "handling": 70.65,
+        "nitroPower": 74.61,
+        "spray": null
+      },
+      "cost": 5572000,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "toyota-gr-supra-2023",
+      "name": "Toyota GR Supra 2023",
+      "alias": "Supra2023",
+      "cls": "C",
+      "stars": 5,
+      "score": 3258,
+      "key": false,
+      "perf": {
+        "top": 315.1,
+        "nitro": 338,
+        "air": 431,
+        "blue": null,
+        "accel": 80.38,
+        "handling": 73.43,
+        "nitroPower": 56.83,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        35,
+        35,
+        36,
+        38,
+        42
+      ],
+      "bpTotal": 186
+    },
+    {
+      "id": "mercedes-benz-2022-showcar-vision-amg",
+      "name": "Mercedes-Benz 2022 Showcar Vision AMG",
+      "alias": "VisionAMG",
+      "cls": "C",
+      "stars": 4,
+      "score": 3288,
+      "key": false,
+      "perf": {
+        "top": 335.1,
+        "nitro": 349,
+        "air": 452,
+        "blue": null,
+        "accel": 75.32,
+        "handling": 51.68,
+        "nitroPower": 59.18,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "arash-af8-falcon-edition",
+      "name": "Arash AF8 Falcon Edition",
+      "alias": "AF8",
+      "cls": "C",
+      "stars": 5,
+      "score": 3289,
+      "key": true,
+      "perf": {
+        "top": 333.1,
+        "nitro": 347,
+        "air": 449,
+        "blue": null,
+        "accel": 76.78,
+        "handling": 66.13,
+        "nitroPower": 77.1,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "jaguar-xe-sv-project-8",
+      "name": "Jaguar XE SV Project 8",
+      "alias": "Project8",
+      "cls": "C",
+      "stars": 5,
+      "score": 3289,
+      "key": false,
+      "perf": {
+        "top": 338.7,
+        "nitro": 352,
+        "air": 458,
+        "blue": null,
+        "accel": 78.28,
+        "handling": 48.14,
+        "nitroPower": 62.98,
+        "spray": null
+      },
+      "cost": 10446400,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        35,
+        36,
+        38,
+        42
+      ],
+      "bpTotal": 186
+    },
+    {
+      "id": "ferrari-monza-sp1",
+      "name": "Ferrari Monza SP1",
+      "alias": "Monza",
+      "cls": "C",
+      "stars": 4,
+      "score": 3334,
+      "key": false,
+      "perf": {
+        "top": 319.6,
+        "nitro": 333,
+        "air": 425,
+        "blue": null,
+        "accel": 82.32,
+        "handling": 62.53,
+        "nitroPower": 63.22,
+        "spray": null
+      },
+      "cost": 4996000,
+      "parts": {
+        "blue": 6,
+        "purple": 3,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "ares-s1",
+      "name": "Ares S1",
+      "alias": "Ares",
+      "cls": "C",
+      "stars": 5,
+      "score": 3377,
+      "key": true,
+      "perf": {
+        "top": 307.8,
+        "nitro": 321,
+        "air": 422,
+        "blue": 333,
+        "accel": 89.55,
+        "handling": 78.93,
+        "nitroPower": 68.93,
+        "spray": null
+      },
+      "cost": 10446400,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        38,
+        45,
+        48,
+        50
+      ],
+      "bpTotal": 181
+    },
+    {
+      "id": "porsche-panamera-turbo-s",
+      "name": "Porsche Panamera Turbo S",
+      "alias": "帕拉梅拉",
+      "cls": "C",
+      "stars": 5,
+      "score": 3403,
+      "key": false,
+      "perf": {
+        "top": 326.3,
+        "nitro": 340,
+        "air": 437,
+        "blue": null,
+        "accel": 88.03,
+        "handling": 72.48,
+        "nitroPower": 58.56,
+        "spray": null
+      },
+      "cost": 10340000,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        35,
+        36,
+        38,
+        42
+      ],
+      "bpTotal": 186
+    },
+    {
+      "id": "ds-automobiles-ds-e-tense-performance",
+      "name": "DS Automobiles DS E-Tense Performance",
+      "alias": "DSP",
+      "cls": "C",
+      "stars": 6,
+      "score": 3424,
+      "key": false,
+      "perf": {
+        "top": 318.7,
+        "nitro": 332,
+        "air": 424,
+        "blue": null,
+        "accel": 90.06,
+        "handling": 76.68,
+        "nitroPower": 61.55,
+        "spray": null
+      },
+      "cost": 11540000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        35,
+        35,
+        35,
+        36,
+        36
+      ],
+      "bpTotal": 212
+    },
+    {
+      "id": "mercedes-benz-mercedes-amg-gt-black-seri",
+      "name": "Mercedes-Benz Mercedes-AMG GT Black Series",
+      "alias": "梅奔BS",
+      "cls": "C",
+      "stars": 6,
+      "score": 3513,
+      "key": true,
+      "perf": {
+        "top": 335.6,
+        "nitro": 349,
+        "air": 453,
+        "blue": null,
+        "accel": 81.67,
+        "handling": 60.63,
+        "nitroPower": 67.23,
+        "spray": null
+      },
+      "cost": 11540000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        36,
+        36,
+        38,
+        40
+      ],
+      "bpTotal": 185
+    },
+    {
+      "id": "dodge-charger-srt-hellcat-redeye-widebod",
+      "name": "Dodge Charger SRT Hellcat Redeye Widebody",
+      "alias": "地狱猫",
+      "cls": "C",
+      "stars": 5,
+      "score": 3518,
+      "key": false,
+      "perf": {
+        "top": 342.6,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 76.31,
+        "handling": 51.13,
+        "nitroPower": 58.64,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "praga-bohema",
+      "name": "Praga Bohema",
+      "alias": "Bohema",
+      "cls": "C",
+      "stars": 5,
+      "score": 3553,
+      "key": false,
+      "perf": {
+        "top": 315.7,
+        "nitro": 333,
+        "air": 425,
+        "blue": null,
+        "accel": 80.72,
+        "handling": 80.22,
+        "nitroPower": 69.65,
+        "spray": null
+      },
+      "cost": 10398000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        35,
+        36,
+        38,
+        42
+      ],
+      "bpTotal": 186
+    },
+    {
+      "id": "mercedes-benz-c-63-amg-dtm",
+      "name": "Mercedes-Benz C 63 AMG DTM",
+      "alias": "C63",
+      "cls": "C",
+      "stars": 5,
+      "score": 3773,
+      "key": false,
+      "perf": {
+        "top": 322.1,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 80.81,
+        "handling": 72.85,
+        "nitroPower": 68.98,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "maserati-mc20-gt2",
+      "name": "Maserati MC20 GT2",
+      "alias": "MC20GT2",
+      "cls": "C",
+      "stars": 5,
+      "score": 3832,
+      "key": true,
+      "perf": {
+        "top": 336.3,
+        "nitro": 350,
+        "air": 454,
+        "blue": null,
+        "accel": 83.68,
+        "handling": 63.95,
+        "nitroPower": 46.53,
+        "spray": null
+      },
+      "cost": 11268000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "aston-martin-dbs-770-ultimate",
+      "name": "Aston Martin DBS 770 Ultimate",
+      "alias": "DBS 770",
+      "cls": "C",
+      "stars": 5,
+      "score": 3922,
+      "key": true,
+      "perf": {
+        "top": 353.9,
+        "nitro": 368,
+        "air": 485,
+        "blue": null,
+        "accel": 77.55,
+        "handling": 52.96,
+        "nitroPower": 43.03,
+        "spray": null
+      },
+      "cost": 9308000,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        30,
+        35,
+        40,
+        45
+      ],
+      "bpTotal": 150
+    },
+    {
+      "id": "de-tomaso-p900",
+      "name": "De Tomaso P900",
+      "alias": "P900",
+      "cls": "C",
+      "stars": 5,
+      "score": 3937,
+      "key": false,
+      "perf": {
+        "top": 331.8,
+        "nitro": 345,
+        "air": 447,
+        "blue": null,
+        "accel": 82.95,
+        "handling": 62,
+        "nitroPower": 59.08,
+        "spray": null
+      },
+      "cost": 11268000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        35,
+        36,
+        38,
+        42
+      ],
+      "bpTotal": 186
+    },
+    {
+      "id": "lamborghini-huracan-sterrato",
+      "name": "Lamborghini Huracan Sterrato",
+      "alias": "飓风 Sterrato",
+      "cls": "C",
+      "stars": 6,
+      "score": 3995,
+      "key": true,
+      "perf": {
+        "top": 334.5,
+        "nitro": 354,
+        "air": 460,
+        "blue": null,
+        "accel": 81.86,
+        "handling": 64.86,
+        "nitroPower": 62.63,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        42,
+        44,
+        46,
+        48
+      ],
+      "bpTotal": 220
+    },
+    {
+      "id": "ferrari-296-gtb",
+      "name": "Ferrari 296 GTB",
+      "alias": "296GTB",
+      "cls": "C",
+      "stars": 5,
+      "score": 4009,
+      "key": true,
+      "perf": {
+        "top": 341.6,
+        "nitro": 355,
+        "air": 463,
+        "blue": null,
+        "accel": 81.23,
+        "handling": 65,
+        "nitroPower": 52.13,
+        "spray": null
+      },
+      "cost": 12196000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "ferrari-daytona-sp3",
+      "name": "Ferrari Daytona SP3",
+      "alias": "戴通纳SP3",
+      "cls": "C",
+      "stars": 5,
+      "score": 4073,
+      "key": true,
+      "perf": {
+        "top": 348.8,
+        "nitro": 363,
+        "air": 476,
+        "blue": null,
+        "accel": 80.46,
+        "handling": 54.89,
+        "nitroPower": 60.3,
+        "spray": null
+      },
+      "cost": 12196000,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 179
+    },
+    {
+      "id": "nissan-z-gt4",
+      "name": "Nissan Z GT4",
+      "alias": "Z GT4",
+      "cls": "C",
+      "stars": 5,
+      "score": 4098,
+      "key": false,
+      "perf": {
+        "top": 345,
+        "nitro": 359,
+        "air": 469,
+        "blue": null,
+        "accel": 81.15,
+        "handling": 54.32,
+        "nitroPower": 62.04,
+        "spray": null
+      },
+      "cost": 11790000,
+      "parts": {
+        "blue": 9,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        35,
+        36,
+        38,
+        42
+      ],
+      "bpTotal": 186
+    },
+    {
+      "id": "exotic-rides-w70",
+      "name": "Exotic Rides W70",
+      "alias": "W70",
+      "cls": "B",
+      "stars": 3,
+      "score": 2633,
+      "key": false,
+      "perf": {
+        "top": 329.7,
+        "nitro": 342,
+        "air": 441,
+        "blue": null,
+        "accel": 80.21,
+        "handling": 45.2,
+        "nitroPower": 56.71,
+        "spray": 5.97
+      },
+      "cost": 2418000,
+      "parts": {
+        "blue": 6,
+        "purple": 1,
+        "yellow": 1
+      },
+      "bp": [
+        35,
+        35,
+        50
+      ],
+      "bpTotal": 120
+    },
+    {
+      "id": "ford-gt",
+      "name": "Ford GT",
+      "alias": "福特GT",
+      "cls": "B",
+      "stars": 4,
+      "score": 2816,
+      "key": false,
+      "perf": {
+        "top": 362.8,
+        "nitro": 377,
+        "air": 500,
+        "blue": null,
+        "accel": 77.54,
+        "handling": 34.11,
+        "nitroPower": 48.64,
+        "spray": 4.88
+      },
+      "cost": 3750000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "dodge-viper-acr",
+      "name": "Dodge Viper ACR",
+      "alias": "ACR",
+      "cls": "B",
+      "stars": 4,
+      "score": 2827,
+      "key": false,
+      "perf": {
+        "top": 303.4,
+        "nitro": 316,
+        "air": 404,
+        "blue": null,
+        "accel": 77.32,
+        "handling": 86.2,
+        "nitroPower": 68.94,
+        "spray": 8.97
+      },
+      "cost": 3836800,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "lamborghini-asterion",
+      "name": "Lamborghini Asterion",
+      "alias": "蓝牛",
+      "cls": "B",
+      "stars": 4,
+      "score": 2983,
+      "key": false,
+      "perf": {
+        "top": 336.6,
+        "nitro": 350,
+        "air": 455,
+        "blue": null,
+        "accel": 81.05,
+        "handling": 45.56,
+        "nitroPower": 68.21,
+        "spray": 7.62
+      },
+      "cost": 3836800,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "aston-martin-vulcan",
+      "name": "Aston Martin Vulcan",
+      "alias": "火神",
+      "cls": "B",
+      "stars": 4,
+      "score": 3000,
+      "key": false,
+      "perf": {
+        "top": 343.1,
+        "nitro": 357,
+        "air": 466,
+        "blue": null,
+        "accel": 78.7,
+        "handling": 47.8,
+        "nitroPower": 64.79,
+        "spray": 6.87
+      },
+      "cost": 4620000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "ford-mustang-rtr-spec-5-10th-anniv",
+      "name": "Ford Mustang RTR Spec 5 10th Anniv.",
+      "alias": "野马RTR",
+      "cls": "B",
+      "stars": 4,
+      "score": 3025,
+      "key": false,
+      "perf": {
+        "top": 335.2,
+        "nitro": 349,
+        "air": 452,
+        "blue": null,
+        "accel": 75.65,
+        "handling": 46.89,
+        "nitroPower": 73.82,
+        "spray": null
+      },
+      "cost": 5166000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        25,
+        30,
+        35,
+        40
+      ],
+      "bpTotal": 130
+    },
+    {
+      "id": "pininfarina-h2-speed",
+      "name": "Pininfarina H2 Speed",
+      "alias": "H2",
+      "cls": "B",
+      "stars": 4,
+      "score": 3026,
+      "key": false,
+      "perf": {
+        "top": 318,
+        "nitro": 331,
+        "air": 422,
+        "blue": null,
+        "accel": 78.22,
+        "handling": 86.5,
+        "nitroPower": 60.57,
+        "spray": 6.72
+      },
+      "cost": 4620000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "porsche-911-gt1-evolution",
+      "name": "Porsche 911 GT1 Evolution",
+      "alias": "911GT1",
+      "cls": "B",
+      "stars": 4,
+      "score": 3049,
+      "key": false,
+      "perf": {
+        "top": 343.2,
+        "nitro": 357,
+        "air": 467,
+        "blue": null,
+        "accel": 75.15,
+        "handling": 53.67,
+        "nitroPower": 68.89,
+        "spray": null
+      },
+      "cost": 4720600,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        25,
+        30,
+        35,
+        40
+      ],
+      "bpTotal": 130
+    },
+    {
+      "id": "ferrari-roma",
+      "name": "Ferrari Roma",
+      "alias": "罗马",
+      "cls": "B",
+      "stars": 4,
+      "score": 3061,
+      "key": false,
+      "perf": {
+        "top": 331.9,
+        "nitro": 345,
+        "air": 447,
+        "blue": null,
+        "accel": 77.46,
+        "handling": 60.47,
+        "nitroPower": 66.78,
+        "spray": null
+      },
+      "cost": 4620000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        45,
+        52,
+        63
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "artega-scalo-superelletra",
+      "name": "Artega Scalo Superelletra",
+      "alias": "ASS",
+      "cls": "B",
+      "stars": 4,
+      "score": 3093,
+      "key": false,
+      "perf": {
+        "top": 316.3,
+        "nitro": 329,
+        "air": 420,
+        "blue": null,
+        "accel": 85.72,
+        "handling": 57.94,
+        "nitroPower": 71.91,
+        "spray": 9.06
+      },
+      "cost": 4010000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "nissan-gt-r-nismo",
+      "name": "Nissan GT-R Nismo",
+      "alias": "GTR",
+      "cls": "B",
+      "stars": 4,
+      "score": 3144,
+      "key": false,
+      "perf": {
+        "top": 329.9,
+        "nitro": 343,
+        "air": 443,
+        "blue": null,
+        "accel": 84.83,
+        "handling": 60.69,
+        "nitroPower": 60.6,
+        "spray": 6.48
+      },
+      "cost": 4620000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "cadillac-cien-concept",
+      "name": "Cadillac Cien Concept",
+      "alias": "塞恩",
+      "cls": "B",
+      "stars": 4,
+      "score": 3155,
+      "key": false,
+      "perf": {
+        "top": 368,
+        "nitro": 383,
+        "air": 509,
+        "blue": null,
+        "accel": 76.55,
+        "handling": 36.14,
+        "nitroPower": 61.1,
+        "spray": 5.93
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "aston-martin-valour",
+      "name": "Aston Martin Valour",
+      "alias": "Valour",
+      "cls": "B",
+      "stars": 4,
+      "score": 3178,
+      "key": true,
+      "perf": {
+        "top": 331,
+        "nitro": 345,
+        "air": 445,
+        "blue": null,
+        "accel": 78.23,
+        "handling": 56.43,
+        "nitroPower": 60.73,
+        "spray": null
+      },
+      "cost": 6290000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 144
+    },
+    {
+      "id": "ford-gt-mkii",
+      "name": "Ford GT MKII",
+      "alias": "MK2",
+      "cls": "B",
+      "stars": 4,
+      "score": 3198,
+      "key": true,
+      "perf": {
+        "top": 321,
+        "nitro": 335,
+        "air": 429,
+        "blue": null,
+        "accel": 86.25,
+        "handling": 78.97,
+        "nitroPower": 67.89,
+        "spray": 6.2
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        55,
+        50,
+        35
+      ],
+      "bpTotal": 175
+    },
+    {
+      "id": "acura-2017-nsx",
+      "name": "Acura 2017 NSX",
+      "alias": "讴歌",
+      "cls": "B",
+      "stars": 4,
+      "score": 3208,
+      "key": false,
+      "perf": {
+        "top": 323.8,
+        "nitro": 337,
+        "air": 433,
+        "blue": null,
+        "accel": 84.32,
+        "handling": 63.02,
+        "nitroPower": 54.67,
+        "spray": 5.85
+      },
+      "cost": 5640000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "maserati-alfieri",
+      "name": "Maserati Alfieri",
+      "alias": "玛莎",
+      "cls": "B",
+      "stars": 4,
+      "score": 3209,
+      "key": false,
+      "perf": {
+        "top": 335.9,
+        "nitro": 350,
+        "air": 454,
+        "blue": null,
+        "accel": 74.42,
+        "handling": 41.44,
+        "nitroPower": 72.91,
+        "spray": 8.68
+      },
+      "cost": 4270000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "ferrari-j50",
+      "name": "Ferrari J50",
+      "alias": "J50",
+      "cls": "B",
+      "stars": 4,
+      "score": 3229,
+      "key": false,
+      "perf": {
+        "top": 350.5,
+        "nitro": 365,
+        "air": 479,
+        "blue": null,
+        "accel": 80.41,
+        "handling": 48.37,
+        "nitroPower": 64.65,
+        "spray": 6.68
+      },
+      "cost": 5640000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        35,
+        42,
+        58
+      ],
+      "bpTotal": 175
+    },
+    {
+      "id": "lamborghini-huracan-sto",
+      "name": "Lamborghini Huracan STO",
+      "alias": "STO",
+      "cls": "B",
+      "stars": 5,
+      "score": 3236,
+      "key": false,
+      "perf": {
+        "top": 320.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 86.02,
+        "handling": 73.3,
+        "nitroPower": 57.28,
+        "spray": null
+      },
+      "cost": 8200000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        42,
+        52
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "lamborghini-huracan-super-trofeo-evo",
+      "name": "Lamborghini Huracan Super Trofeo Evo",
+      "alias": "小牛",
+      "cls": "B",
+      "stars": 5,
+      "score": 3256,
+      "key": true,
+      "perf": {
+        "top": 311.6,
+        "nitro": 325,
+        "air": 414,
+        "blue": null,
+        "accel": 82.63,
+        "handling": 63.62,
+        "nitroPower": 54.57,
+        "spray": null
+      },
+      "cost": 6028000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        30,
+        40,
+        50,
+        60
+      ],
+      "bpTotal": 180
+    },
+    {
+      "id": "mclaren-artura",
+      "name": "McLaren Artura",
+      "alias": "Artura",
+      "cls": "B",
+      "stars": 5,
+      "score": 3268,
+      "key": false,
+      "perf": {
+        "top": 337.8,
+        "nitro": 351,
+        "air": 457,
+        "blue": null,
+        "accel": 81.14,
+        "handling": 68.52,
+        "nitroPower": 47.54,
+        "spray": null
+      },
+      "cost": 12352000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        42,
+        52
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "vencer-sarthe",
+      "name": "Vencer Sarthe",
+      "alias": "剃刀",
+      "cls": "B",
+      "stars": 5,
+      "score": 3290,
+      "key": false,
+      "perf": {
+        "top": 350.1,
+        "nitro": 364,
+        "air": 478,
+        "blue": null,
+        "accel": 74.12,
+        "handling": 62.87,
+        "nitroPower": 46.83,
+        "spray": 5.07
+      },
+      "cost": 6028000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        12,
+        15,
+        21,
+        32
+      ],
+      "bpTotal": 120
+    },
+    {
+      "id": "italdesign-zerouno",
+      "name": "ItalDesign Zerouno",
+      "alias": "假牛",
+      "cls": "B",
+      "stars": 4,
+      "score": 3295,
+      "key": false,
+      "perf": {
+        "top": 340.9,
+        "nitro": 355,
+        "air": 462,
+        "blue": null,
+        "accel": 79.25,
+        "handling": 58.34,
+        "nitroPower": 54.1,
+        "spray": 5.54
+      },
+      "cost": 4270000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "dodge-viper-gts",
+      "name": "Dodge Viper GTS",
+      "alias": "紫蛇",
+      "cls": "B",
+      "stars": 4,
+      "score": 3295,
+      "key": false,
+      "perf": {
+        "top": 353.4,
+        "nitro": 368,
+        "air": 484,
+        "blue": null,
+        "accel": 80.33,
+        "handling": 45.29,
+        "nitroPower": 67.55,
+        "spray": 7.07
+      },
+      "cost": 5640000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        18,
+        24,
+        36
+      ],
+      "bpTotal": 118
+    },
+    {
+      "id": "bentley-continental-gt-speed",
+      "name": "Bentley Continental GT Speed",
+      "alias": "欧陆",
+      "cls": "B",
+      "stars": 4,
+      "score": 3330,
+      "key": false,
+      "perf": {
+        "top": 348.1,
+        "nitro": 362,
+        "air": 475,
+        "blue": null,
+        "accel": 76.45,
+        "handling": 74.06,
+        "nitroPower": 59.19,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        35,
+        42,
+        58
+      ],
+      "bpTotal": 175
+    },
+    {
+      "id": "ferrari-488-gtb",
+      "name": "Ferrari 488 GTB",
+      "alias": "488",
+      "cls": "B",
+      "stars": 4,
+      "score": 3334,
+      "key": false,
+      "perf": {
+        "top": 347.6,
+        "nitro": 362,
+        "air": 474,
+        "blue": null,
+        "accel": 80.24,
+        "handling": 48.38,
+        "nitroPower": 65.84,
+        "spray": 6.5
+      },
+      "cost": 5640000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        35,
+        42,
+        58
+      ],
+      "bpTotal": 175
+    },
+    {
+      "id": "bentley-mulliner-bacalar",
+      "name": "Bentley Mulliner Bacalar",
+      "alias": "Bacalar",
+      "cls": "B",
+      "stars": 5,
+      "score": 3340,
+      "key": false,
+      "perf": {
+        "top": 329.6,
+        "nitro": 343,
+        "air": 442,
+        "blue": null,
+        "accel": 77.37,
+        "handling": 67.2,
+        "nitroPower": 55.81,
+        "spray": null
+      },
+      "cost": 6028000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        12,
+        15,
+        21,
+        32
+      ],
+      "bpTotal": 120
+    },
+    {
+      "id": "ferrari-f40",
+      "name": "Ferrari F40",
+      "alias": "F40",
+      "cls": "B",
+      "stars": 5,
+      "score": 3343,
+      "key": false,
+      "perf": {
+        "top": 334.1,
+        "nitro": 348,
+        "air": 450,
+        "blue": null,
+        "accel": 72.87,
+        "handling": 69.3,
+        "nitroPower": 63.45,
+        "spray": null
+      },
+      "cost": 6028000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        12,
+        15,
+        21,
+        32
+      ],
+      "bpTotal": 120
+    },
+    {
+      "id": "ats-automobili-corsa-rrturbo",
+      "name": "ATS Automobili Corsa RRTurbo",
+      "alias": "RRTurbo",
+      "cls": "B",
+      "stars": 4,
+      "score": 3389,
+      "key": true,
+      "perf": {
+        "top": 322.3,
+        "nitro": 336,
+        "air": 430,
+        "blue": null,
+        "accel": 87.54,
+        "handling": 68.39,
+        "nitroPower": 45.94,
+        "spray": null
+      },
+      "cost": 5707000,
+      "parts": {
+        "blue": 6,
+        "purple": 4,
+        "yellow": 2
+      },
+      "bp": [
+        38,
+        48,
+        58
+      ],
+      "bpTotal": 144
+    },
+    {
+      "id": "mercedes-benz-slr-mclaren",
+      "name": "Mercedes-Benz SLR McLaren",
+      "alias": "SLR",
+      "cls": "B",
+      "stars": 5,
+      "score": 3389,
+      "key": false,
+      "perf": {
+        "top": 352.9,
+        "nitro": 367,
+        "air": 483,
+        "blue": null,
+        "accel": 78.18,
+        "handling": 66.59,
+        "nitroPower": 79.56,
+        "spray": 9.82
+      },
+      "cost": 6028000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        12,
+        15,
+        21,
+        32
+      ],
+      "bpTotal": 120
+    },
+    {
+      "id": "kepler-motion",
+      "name": "Kepler Motion",
+      "alias": "开普勒",
+      "cls": "B",
+      "stars": 5,
+      "score": 3393,
+      "key": false,
+      "perf": {
+        "top": 338.7,
+        "nitro": 352,
+        "air": 458,
+        "blue": null,
+        "accel": 86.54,
+        "handling": 48.81,
+        "nitroPower": 61.41,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        40,
+        43
+      ],
+      "bpTotal": 189
+    },
+    {
+      "id": "mazda-furai",
+      "name": "Mazda Furai",
+      "alias": "风籁",
+      "cls": "B",
+      "stars": 5,
+      "score": 3408,
+      "key": false,
+      "perf": {
+        "top": 305.5,
+        "nitro": 318,
+        "air": 406,
+        "blue": null,
+        "accel": 80.95,
+        "handling": 57.23,
+        "nitroPower": 49.67,
+        "spray": 5.5
+      },
+      "cost": 7348400,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        12,
+        15,
+        21,
+        32
+      ],
+      "bpTotal": 120
+    },
+    {
+      "id": "porsche-718-cayman-gt4-clubsport",
+      "name": "Porsche 718 Cayman GT4 ClubSport",
+      "alias": "718GT4",
+      "cls": "B",
+      "stars": 5,
+      "score": 3415,
+      "key": true,
+      "perf": {
+        "top": 314.7,
+        "nitro": 328,
+        "air": 418,
+        "blue": null,
+        "accel": 73.44,
+        "handling": 87.23,
+        "nitroPower": 70.53,
+        "spray": null
+      },
+      "cost": 7348400,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        25,
+        32,
+        36,
+        40
+      ],
+      "bpTotal": 133
+    },
+    {
+      "id": "aston-martin-dbs-superleggera",
+      "name": "Aston Martin DBS SuperLeggera",
+      "alias": "DBS",
+      "cls": "B",
+      "stars": 5,
+      "score": 3423,
+      "key": false,
+      "perf": {
+        "top": 355.4,
+        "nitro": 370,
+        "air": 487,
+        "blue": null,
+        "accel": 79.16,
+        "handling": 70.74,
+        "nitroPower": 73.88,
+        "spray": 8
+      },
+      "cost": 7348400,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        12,
+        15,
+        21,
+        32
+      ],
+      "bpTotal": 120
+    },
+    {
+      "id": "mclaren-gt",
+      "name": "McLaren GT",
+      "alias": "迈凯伦GT",
+      "cls": "B",
+      "stars": 5,
+      "score": 3432,
+      "key": true,
+      "perf": {
+        "top": 339.2,
+        "nitro": 353,
+        "air": 459,
+        "blue": null,
+        "accel": 80.97,
+        "handling": 69.06,
+        "nitroPower": 57.25,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        40,
+        52,
+        70
+      ],
+      "bpTotal": 197
+    },
+    {
+      "id": "ferrari-599xx-evo",
+      "name": "Ferrari 599XX EVO",
+      "alias": "XXE",
+      "cls": "B",
+      "stars": 5,
+      "score": 3433,
+      "key": true,
+      "perf": {
+        "top": 310.1,
+        "nitro": 323,
+        "air": 412,
+        "blue": null,
+        "accel": 80.97,
+        "handling": 83.61,
+        "nitroPower": 70.81,
+        "spray": null
+      },
+      "cost": 7348400,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        30,
+        40,
+        50,
+        60
+      ],
+      "bpTotal": 180
+    },
+    {
+      "id": "drako-gte",
+      "name": "Drako GTE",
+      "alias": "德拉科GTE",
+      "cls": "B",
+      "stars": 5,
+      "score": 3434,
+      "key": false,
+      "perf": {
+        "top": 346.3,
+        "nitro": 360,
+        "air": 471,
+        "blue": null,
+        "accel": 81.97,
+        "handling": 47.38,
+        "nitroPower": 61.36,
+        "spray": null
+      },
+      "cost": 7348400,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        39,
+        43
+      ],
+      "bpTotal": 188
+    },
+    {
+      "id": "brabham-bt62",
+      "name": "Brabham BT62",
+      "alias": "BT62",
+      "cls": "B",
+      "stars": 5,
+      "score": 3489,
+      "key": true,
+      "perf": {
+        "top": 322.4,
+        "nitro": 336,
+        "air": 430,
+        "blue": null,
+        "accel": 83.88,
+        "handling": 76.06,
+        "nitroPower": 75.65,
+        "spray": null
+      },
+      "cost": 7348400,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        40,
+        52,
+        70
+      ],
+      "bpTotal": 197
+    },
+    {
+      "id": "porsche-911-turbo-50-years",
+      "name": "Porsche 911 Turbo 50 Years",
+      "alias": "911 Turbo",
+      "cls": "B",
+      "stars": 4,
+      "score": 3495,
+      "key": false,
+      "perf": {
+        "top": 343.5,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 82.94,
+        "handling": 53.72,
+        "nitroPower": 59.39,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        35,
+        42,
+        58
+      ],
+      "bpTotal": 175
+    },
+    {
+      "id": "mclaren-elva",
+      "name": "McLaren Elva",
+      "alias": "Elva",
+      "cls": "B",
+      "stars": 5,
+      "score": 3530,
+      "key": false,
+      "perf": {
+        "top": 339.2,
+        "nitro": 353,
+        "air": 459,
+        "blue": null,
+        "accel": 81.3,
+        "handling": 75.51,
+        "nitroPower": 65.91,
+        "spray": null
+      },
+      "cost": 7348400,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        40,
+        43
+      ],
+      "bpTotal": 189
+    },
+    {
+      "id": "renault-r-s-01",
+      "name": "Renault R.S. 01",
+      "alias": "雷诺RS",
+      "cls": "B",
+      "stars": 5,
+      "score": 3571,
+      "key": true,
+      "perf": {
+        "top": 321,
+        "nitro": 334,
+        "air": 428,
+        "blue": null,
+        "accel": 83.67,
+        "handling": 61.35,
+        "nitroPower": 71.97,
+        "spray": null
+      },
+      "cost": 7348400,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        30,
+        40,
+        50,
+        60
+      ],
+      "bpTotal": 180
+    },
+    {
+      "id": "aston-martin-db12",
+      "name": "Aston Martin DB12",
+      "alias": "DB12",
+      "cls": "B",
+      "stars": 5,
+      "score": 3580,
+      "key": false,
+      "perf": {
+        "top": 343.2,
+        "nitro": 357,
+        "air": 466,
+        "blue": null,
+        "accel": 74.11,
+        "handling": 69.68,
+        "nitroPower": 77.89,
+        "spray": null
+      },
+      "cost": 10792000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        40,
+        43
+      ],
+      "bpTotal": 189
+    },
+    {
+      "id": "acura-nsx-gt3-evo",
+      "name": "Acura NSX GT3 EVO",
+      "alias": "NSX GT3",
+      "cls": "B",
+      "stars": 5,
+      "score": 3585,
+      "key": true,
+      "perf": {
+        "top": 313.9,
+        "nitro": 327,
+        "air": 442,
+        "blue": 345,
+        "accel": 74.31,
+        "handling": 86.11,
+        "nitroPower": 73.78,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        30,
+        40,
+        50,
+        60
+      ],
+      "bpTotal": 180
+    },
+    {
+      "id": "nissan-r390-gt1",
+      "name": "Nissan R390 GT1",
+      "alias": "R390",
+      "cls": "B",
+      "stars": 6,
+      "score": 3627,
+      "key": true,
+      "perf": {
+        "top": 373.5,
+        "nitro": 388,
+        "air": 519,
+        "blue": null,
+        "accel": 76.72,
+        "handling": 52.63,
+        "nitroPower": 55.45,
+        "spray": 5.15
+      },
+      "cost": 13221200,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        38,
+        42,
+        48,
+        52
+      ],
+      "bpTotal": 215
+    },
+    {
+      "id": "lego-technic-chevrolet-corvette",
+      "name": "LEGO Technic Chevrolet Corvette",
+      "alias": "乐高C8R",
+      "cls": "B",
+      "stars": 5,
+      "score": 3647,
+      "key": false,
+      "perf": {
+        "top": 327.7,
+        "nitro": 343,
+        "air": 443,
+        "blue": null,
+        "accel": 82.76,
+        "handling": 80.66,
+        "nitroPower": 70.4,
+        "spray": null
+      },
+      "cost": 11152000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        45,
+        17,
+        23,
+        32,
+        45
+      ],
+      "bpTotal": 162
+    },
+    {
+      "id": "mclaren-765lt",
+      "name": "McLaren 765LT",
+      "alias": "765LT",
+      "cls": "B",
+      "stars": 5,
+      "score": 3651,
+      "key": false,
+      "perf": {
+        "top": 349.5,
+        "nitro": 363,
+        "air": 477,
+        "blue": null,
+        "accel": 80.5,
+        "handling": 70.61,
+        "nitroPower": 62.26,
+        "spray": null
+      },
+      "cost": 8950600,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        40,
+        43
+      ],
+      "bpTotal": 189
+    },
+    {
+      "id": "bmw-m4-gt3",
+      "name": "BMW M4 GT3",
+      "alias": "M4 GT3",
+      "cls": "B",
+      "stars": 5,
+      "score": 3665,
+      "key": false,
+      "perf": {
+        "top": 346.9,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 79.57,
+        "handling": 69.5,
+        "nitroPower": 65.65,
+        "spray": null
+      },
+      "cost": 12352000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        42,
+        42,
+        45,
+        46
+      ],
+      "bpTotal": 215
+    },
+    {
+      "id": "lamborghini-miura-concept",
+      "name": "Lamborghini Miura Concept",
+      "alias": "Miura",
+      "cls": "B",
+      "stars": 5,
+      "score": 3688,
+      "key": true,
+      "perf": {
+        "top": 346.7,
+        "nitro": 361,
+        "air": 474,
+        "blue": null,
+        "accel": 73.39,
+        "handling": 56.22,
+        "nitroPower": 60.53,
+        "spray": null
+      },
+      "cost": 9850600,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        40,
+        52,
+        70
+      ],
+      "bpTotal": 197
+    },
+    {
+      "id": "bugatti-eb110",
+      "name": "Bugatti EB110",
+      "alias": "EB110",
+      "cls": "B",
+      "stars": 5,
+      "score": 3766,
+      "key": true,
+      "perf": {
+        "top": 348.4,
+        "nitro": 362,
+        "air": 475,
+        "blue": null,
+        "accel": 74.11,
+        "handling": 66.05,
+        "nitroPower": 58.11,
+        "spray": null
+      },
+      "cost": 8950600,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        40,
+        52,
+        70
+      ],
+      "bpTotal": 197
+    },
+    {
+      "id": "aston-martin-one77",
+      "name": "Aston Martin One77",
+      "alias": "One77",
+      "cls": "B",
+      "stars": 5,
+      "score": 3771,
+      "key": false,
+      "perf": {
+        "top": 363.4,
+        "nitro": 378,
+        "air": 501,
+        "blue": null,
+        "accel": 79.32,
+        "handling": 68.72,
+        "nitroPower": 56.56,
+        "spray": null
+      },
+      "cost": 8950600,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        42,
+        52
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "maserati-mc20",
+      "name": "Maserati MC20",
+      "alias": "MC20",
+      "cls": "B",
+      "stars": 6,
+      "score": 3772,
+      "key": true,
+      "perf": {
+        "top": 335.7,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.63,
+        "handling": 90.78,
+        "nitroPower": 75.84,
+        "spray": null
+      },
+      "cost": 15204000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        38,
+        42,
+        48,
+        52
+      ],
+      "bpTotal": 215
+    },
+    {
+      "id": "chevrolet-corvette-stingray",
+      "name": "Chevrolet Corvette Stingray",
+      "alias": "C8",
+      "cls": "B",
+      "stars": 5,
+      "score": 3788,
+      "key": false,
+      "perf": {
+        "top": 327,
+        "nitro": 340,
+        "air": 438,
+        "blue": null,
+        "accel": 81.52,
+        "handling": 60.15,
+        "nitroPower": 64.47,
+        "spray": 7.1
+      },
+      "cost": 8950600,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        40,
+        43
+      ],
+      "bpTotal": 189
+    },
+    {
+      "id": "lamborghini-diablo-gt",
+      "name": "Lamborghini Diablo GT",
+      "alias": "Diablo",
+      "cls": "B",
+      "stars": 5,
+      "score": 3869,
+      "key": false,
+      "perf": {
+        "top": 349.2,
+        "nitro": 363,
+        "air": 477,
+        "blue": null,
+        "accel": 74.97,
+        "handling": 63.52,
+        "nitroPower": 58.83,
+        "spray": null
+      },
+      "cost": 12946400,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        42,
+        52
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "lego-technic-bmw-m4-gt3-evo",
+      "name": "LEGO Technic BMW M4 GT3 EVO",
+      "alias": "乐高M4",
+      "cls": "B",
+      "stars": 5,
+      "score": 3896,
+      "key": false,
+      "perf": {
+        "top": 333.5,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 80.79,
+        "handling": 82.01,
+        "nitroPower": 74.7,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        42,
+        42,
+        45,
+        46
+      ],
+      "bpTotal": 215
+    },
+    {
+      "id": "ferrari-f12-berlinetta",
+      "name": "Ferrari F12 Berlinetta",
+      "alias": "Berlinetta",
+      "cls": "B",
+      "stars": 5,
+      "score": 3950,
+      "key": false,
+      "perf": {
+        "top": 357.2,
+        "nitro": 371,
+        "air": 490,
+        "blue": null,
+        "accel": 81.86,
+        "handling": 61.13,
+        "nitroPower": 68.14,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        36,
+        38,
+        42,
+        45
+      ],
+      "bpTotal": 201
+    },
+    {
+      "id": "lamborghini-reventon-roadster",
+      "name": "Lamborghini Reventon Roadster",
+      "alias": "雷文顿",
+      "cls": "B",
+      "stars": 6,
+      "score": 3983,
+      "key": true,
+      "perf": {
+        "top": 357,
+        "nitro": 371,
+        "air": 490,
+        "blue": null,
+        "accel": 79.38,
+        "handling": 69.05,
+        "nitroPower": 74.91,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        28,
+        36,
+        48,
+        58,
+        72
+      ],
+      "bpTotal": 242
+    },
+    {
+      "id": "mclaren-750s-coupe",
+      "name": "McLaren 750S Coupe",
+      "alias": "750S",
+      "cls": "B",
+      "stars": 5,
+      "score": 3996,
+      "key": false,
+      "perf": {
+        "top": 348.8,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 83.02,
+        "handling": 65.3,
+        "nitroPower": 67.36,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "formula-e-gen-2-asphalt-edition",
+      "name": "Formula E Gen 2 Asphalt Edition",
+      "alias": "FE Gen 2",
+      "cls": "B",
+      "stars": 6,
+      "score": 4019,
+      "key": false,
+      "perf": {
+        "top": 323.5,
+        "nitro": 337,
+        "air": 432,
+        "blue": null,
+        "accel": 83.75,
+        "handling": 87.29,
+        "nitroPower": 78.34,
+        "spray": null
+      },
+      "cost": 16068000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        38,
+        46,
+        52
+      ],
+      "bpTotal": 242
+    },
+    {
+      "id": "bmw-m-hybrid-v8",
+      "name": "BMW M Hybrid V8",
+      "alias": "M Hybrid",
+      "cls": "B",
+      "stars": 6,
+      "score": 4057,
+      "key": true,
+      "perf": {
+        "top": 355.8,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.39,
+        "handling": 67.1,
+        "nitroPower": 69.84,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        60,
+        65
+      ],
+      "bpTotal": 265
+    },
+    {
+      "id": "lamborghini-sc63",
+      "name": "Lamborghini SC63",
+      "alias": "SC63",
+      "cls": "B",
+      "stars": 5,
+      "score": 4062,
+      "key": true,
+      "perf": {
+        "top": 353.8,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 85.38,
+        "handling": 70.15,
+        "nitroPower": 56.43,
+        "spray": null
+      },
+      "cost": 9900000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        40,
+        52,
+        70
+      ],
+      "bpTotal": 197
+    },
+    {
+      "id": "aston-martin-v12-vantage-2022",
+      "name": "Aston Martin V12 Vantage 2022",
+      "alias": "Vantage",
+      "cls": "B",
+      "stars": 6,
+      "score": 4072,
+      "key": false,
+      "perf": {
+        "top": 343.7,
+        "nitro": 358,
+        "air": 467,
+        "blue": null,
+        "accel": 79.4,
+        "handling": 88.64,
+        "nitroPower": 79.82,
+        "spray": null
+      },
+      "cost": 21072000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        38,
+        46,
+        52
+      ],
+      "bpTotal": 242
+    },
+    {
+      "id": "mclaren-600lt-spider",
+      "name": "McLaren 600LT Spider",
+      "alias": "600LT",
+      "cls": "B",
+      "stars": 5,
+      "score": 4075,
+      "key": false,
+      "perf": {
+        "top": 340.5,
+        "nitro": 354,
+        "air": 461,
+        "blue": null,
+        "accel": 86.11,
+        "handling": 83.17,
+        "nitroPower": 74.54,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        36,
+        38,
+        42,
+        42
+      ],
+      "bpTotal": 198
+    },
+    {
+      "id": "mclaren-solus-gt",
+      "name": "McLaren Solus GT",
+      "alias": "Solus GT",
+      "cls": "B",
+      "stars": 6,
+      "score": 4075,
+      "key": true,
+      "perf": {
+        "top": 335.4,
+        "nitro": 349,
+        "air": 453,
+        "blue": null,
+        "accel": 89.3,
+        "handling": 83.11,
+        "nitroPower": 76.82,
+        "spray": null
+      },
+      "cost": 15060000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        38,
+        42,
+        48,
+        52
+      ],
+      "bpTotal": 215
+    },
+    {
+      "id": "toyota-gr-super-sport-concept",
+      "name": "Toyota GR Super Sport Concept",
+      "alias": "GR concept",
+      "cls": "B",
+      "stars": 5,
+      "score": 4076,
+      "key": true,
+      "perf": {
+        "top": 364.8,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 85.64,
+        "handling": 56.7,
+        "nitroPower": 45.09,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        26,
+        42,
+        48,
+        60
+      ],
+      "bpTotal": 176
+    },
+    {
+      "id": "lamborghini-invencible",
+      "name": "Lamborghini Invencible",
+      "alias": "无敌牛",
+      "cls": "B",
+      "stars": 5,
+      "score": 4091,
+      "key": false,
+      "perf": {
+        "top": 340.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 88.49,
+        "handling": 75.74,
+        "nitroPower": 67.64,
+        "spray": null
+      },
+      "cost": 14272000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        42,
+        52
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "lamborghini-huracan-evo-spyder",
+      "name": "Lamborghini Huracan EVO Spyder",
+      "alias": "EVO",
+      "cls": "B",
+      "stars": 6,
+      "score": 4108,
+      "key": false,
+      "perf": {
+        "top": 344,
+        "nitro": 358,
+        "air": 468,
+        "blue": null,
+        "accel": 84.31,
+        "handling": 75.97,
+        "nitroPower": 82.43,
+        "spray": 11.52
+      },
+      "cost": 15765800,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        38,
+        46,
+        52
+      ],
+      "bpTotal": 242
+    },
+    {
+      "id": "fv-frangivento-gt65",
+      "name": "FV Frangivento GT65",
+      "alias": "GT65",
+      "cls": "B",
+      "stars": 5,
+      "score": 4127,
+      "key": true,
+      "perf": {
+        "top": 371.1,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.8,
+        "handling": 51.98,
+        "nitroPower": 54.39,
+        "spray": null
+      },
+      "cost": 9900000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        40,
+        52,
+        70
+      ],
+      "bpTotal": 197
+    },
+    {
+      "id": "lamborghini-sesto-elemento",
+      "name": "Lamborghini Sesto Elemento",
+      "alias": "第六元素",
+      "cls": "B",
+      "stars": 6,
+      "score": 4183,
+      "key": false,
+      "perf": {
+        "top": 347.2,
+        "nitro": 361,
+        "air": 473,
+        "blue": null,
+        "accel": 88.16,
+        "handling": 70.97,
+        "nitroPower": 74.78,
+        "spray": null
+      },
+      "cost": 17665800,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        38,
+        46,
+        52
+      ],
+      "bpTotal": 242
+    },
+    {
+      "id": "ford-gt-mk-iv",
+      "name": "Ford GT MK IV",
+      "alias": "MK4",
+      "cls": "B",
+      "stars": 6,
+      "score": 4262,
+      "key": true,
+      "perf": {
+        "top": 361.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 87.26,
+        "handling": 54.52,
+        "nitroPower": 59.57,
+        "spray": null
+      },
+      "cost": 20424000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        45,
+        50,
+        56,
+        62,
+        66
+      ],
+      "bpTotal": 279
+    },
+    {
+      "id": "lego-technic-lamborghini-revuelto",
+      "name": "LEGO Technic Lamborghini Revuelto",
+      "alias": "乐高R牛",
+      "cls": "B",
+      "stars": 6,
+      "score": 4264,
+      "key": false,
+      "perf": {
+        "top": 368.2,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 83.11,
+        "handling": 70.61,
+        "nitroPower": 56.07,
+        "spray": null
+      },
+      "cost": 22368000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        38,
+        46,
+        52
+      ],
+      "bpTotal": 242
+    },
+    {
+      "id": "apollo-evo",
+      "name": "Apollo EVO",
+      "alias": "菠萝EVO",
+      "cls": "B",
+      "stars": 6,
+      "score": 4265,
+      "key": false,
+      "perf": {
+        "top": 355,
+        "nitro": 369,
+        "air": 487,
+        "blue": null,
+        "accel": 85.46,
+        "handling": 70.34,
+        "nitroPower": 65.79,
+        "spray": null
+      },
+      "cost": 21072000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        38,
+        46,
+        52
+      ],
+      "bpTotal": 242
+    },
+    {
+      "id": "lotus-e-r9",
+      "name": "Lotus E-R9",
+      "alias": "ER9",
+      "cls": "B",
+      "stars": 6,
+      "score": 4308,
+      "key": true,
+      "perf": {
+        "top": 367.5,
+        "nitro": 382,
+        "air": 508,
+        "blue": null,
+        "accel": 87.44,
+        "handling": 72.33,
+        "nitroPower": 49.35,
+        "spray": null
+      },
+      "cost": 21720000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        28,
+        36,
+        48,
+        58,
+        72
+      ],
+      "bpTotal": 242
+    },
+    {
+      "id": "lamborghini-revuelto",
+      "name": "Lamborghini Revuelto",
+      "alias": "R牛",
+      "cls": "B",
+      "stars": 6,
+      "score": 4375,
+      "key": false,
+      "perf": {
+        "top": 361.5,
+        "nitro": 376,
+        "air": 498,
+        "blue": null,
+        "accel": 86.36,
+        "handling": 76.33,
+        "nitroPower": 54.22,
+        "spray": null
+      },
+      "cost": 21720000,
+      "parts": {
+        "blue": 8,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        30,
+        36,
+        38,
+        46,
+        52
+      ],
+      "bpTotal": 242
+    },
+    {
+      "id": "ferrari-laferrari",
+      "name": "Ferrari LaFerrari",
+      "alias": "拉法",
+      "cls": "A",
+      "stars": 5,
+      "score": 3445,
+      "key": false,
+      "perf": {
+        "top": 364.6,
+        "nitro": 379,
+        "air": 503,
+        "blue": null,
+        "accel": 80.23,
+        "handling": 43.06,
+        "nitroPower": 71.4,
+        "spray": 7.45
+      },
+      "cost": 7708400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        15,
+        21,
+        24,
+        36
+      ],
+      "bpTotal": 131
+    },
+    {
+      "id": "lego-technic-ferrari-fxx-k",
+      "name": "LEGO Technic Ferrari FXX K",
+      "alias": "乐高FXX K",
+      "cls": "A",
+      "stars": 6,
+      "score": 3522,
+      "key": false,
+      "perf": {
+        "top": 364.6,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.82,
+        "handling": 45.96,
+        "nitroPower": 64.44,
+        "spray": null
+      },
+      "cost": 26320000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        30,
+        35,
+        40,
+        50,
+        55
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "glickenhaus-003s",
+      "name": "Glickenhaus 003S",
+      "alias": "003",
+      "cls": "A",
+      "stars": 4,
+      "score": 3534,
+      "key": false,
+      "perf": {
+        "top": 369,
+        "nitro": 384,
+        "air": 511,
+        "blue": null,
+        "accel": 79.44,
+        "handling": 38.58,
+        "nitroPower": 63.11,
+        "spray": 6.17
+      },
+      "cost": 6772000,
+      "parts": {
+        "blue": 5,
+        "purple": 5,
+        "yellow": 2
+      },
+      "bp": [
+        35,
+        21,
+        28,
+        42
+      ],
+      "bpTotal": 126
+    },
+    {
+      "id": "apollo-n",
+      "name": "Apollo N",
+      "alias": "菠萝",
+      "cls": "A",
+      "stars": 5,
+      "score": 3548,
+      "key": false,
+      "perf": {
+        "top": 369.6,
+        "nitro": 384,
+        "air": 512,
+        "blue": null,
+        "accel": 80.32,
+        "handling": 58.13,
+        "nitroPower": 60.57,
+        "spray": 5.82
+      },
+      "cost": 7708400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        15,
+        21,
+        24,
+        36
+      ],
+      "bpTotal": 131
+    },
+    {
+      "id": "mclaren-p1",
+      "name": "McLaren P1™",
+      "alias": "P1",
+      "cls": "A",
+      "stars": 5,
+      "score": 3602,
+      "key": false,
+      "perf": {
+        "top": 364.6,
+        "nitro": 379,
+        "air": 503,
+        "blue": null,
+        "accel": 83.64,
+        "handling": 47.54,
+        "nitroPower": 62.89,
+        "spray": 6.02
+      },
+      "cost": 9350600,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        15,
+        21,
+        24,
+        36
+      ],
+      "bpTotal": 131
+    },
+    {
+      "id": "pagani-zonda-hp-barchetta",
+      "name": "Pagani Zonda HP Barchetta",
+      "alias": "Barchetta",
+      "cls": "A",
+      "stars": 5,
+      "score": 3678,
+      "key": true,
+      "perf": {
+        "top": 350.1,
+        "nitro": 364,
+        "air": 478,
+        "blue": null,
+        "accel": 79.44,
+        "handling": 73.51,
+        "nitroPower": 73.66,
+        "spray": null
+      },
+      "cost": 9350600,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        30,
+        38,
+        55,
+        77
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "lamborghini-centenario",
+      "name": "Lamborghini Centenario",
+      "alias": "百年牛",
+      "cls": "A",
+      "stars": 5,
+      "score": 3696,
+      "key": false,
+      "perf": {
+        "top": 363.7,
+        "nitro": 378,
+        "air": 502,
+        "blue": null,
+        "accel": 80.48,
+        "handling": 47.46,
+        "nitroPower": 70.31,
+        "spray": 7.25
+      },
+      "cost": 9350600,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        15,
+        21,
+        24,
+        36
+      ],
+      "bpTotal": 131
+    },
+    {
+      "id": "ferrari-f12tdf",
+      "name": "Ferrari F12tdf",
+      "alias": "TDF",
+      "cls": "A",
+      "stars": 5,
+      "score": 3705,
+      "key": false,
+      "perf": {
+        "top": 360.3,
+        "nitro": 375,
+        "air": 496,
+        "blue": null,
+        "accel": 78.38,
+        "handling": 40.12,
+        "nitroPower": 80.18,
+        "spray": 9.67
+      },
+      "cost": 9350600,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        18,
+        21,
+        25,
+        36
+      ],
+      "bpTotal": 140
+    },
+    {
+      "id": "lamborghini-gallardo-lp-560-4",
+      "name": "Lamborghini Gallardo LP 560-4",
+      "alias": "盖拉多",
+      "cls": "A",
+      "stars": 6,
+      "score": 3706,
+      "key": false,
+      "perf": {
+        "top": 331.2,
+        "nitro": 345,
+        "air": 445,
+        "blue": null,
+        "accel": 76.48,
+        "handling": 75.43,
+        "nitroPower": 59.41,
+        "spray": null
+      },
+      "cost": 9950200,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        50,
+        15,
+        18,
+        24,
+        38,
+        45
+      ],
+      "bpTotal": 190
+    },
+    {
+      "id": "lamborghini-aventador-sv-coupe",
+      "name": "Lamborghini Aventador SV Coupe",
+      "alias": "SV",
+      "cls": "A",
+      "stars": 5,
+      "score": 3763,
+      "key": false,
+      "perf": {
+        "top": 367.9,
+        "nitro": 382,
+        "air": 509,
+        "blue": null,
+        "accel": 80.83,
+        "handling": 50.14,
+        "nitroPower": 70.6,
+        "spray": 7.23
+      },
+      "cost": 9350600,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        18,
+        21,
+        25,
+        36
+      ],
+      "bpTotal": 140
+    },
+    {
+      "id": "ferrari-fxx-k",
+      "name": "Ferrari FXX K",
+      "alias": "FXXK",
+      "cls": "A",
+      "stars": 5,
+      "score": 3821,
+      "key": false,
+      "perf": {
+        "top": 363.1,
+        "nitro": 376,
+        "air": 497,
+        "blue": null,
+        "accel": 83.9,
+        "handling": 43.75,
+        "nitroPower": 72.39,
+        "spray": 7.67
+      },
+      "cost": 11626400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        18,
+        21,
+        25,
+        36
+      ],
+      "bpTotal": 140
+    },
+    {
+      "id": "lego-technic-mclaren-senna-gtr",
+      "name": "LEGO Technic McLaren Senna GTR",
+      "alias": "乐高塞纳GTR",
+      "cls": "A",
+      "stars": 5,
+      "score": 3846,
+      "key": false,
+      "perf": {
+        "top": 349.8,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 82.43,
+        "handling": 79.32,
+        "nitroPower": 65.28,
+        "spray": null
+      },
+      "cost": 11626400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        33,
+        38,
+        43,
+        48
+      ],
+      "bpTotal": 202
+    },
+    {
+      "id": "lamborghini-autentica",
+      "name": "Lamborghini Autentica",
+      "alias": "Autentica",
+      "cls": "A",
+      "stars": 5,
+      "score": 3884,
+      "key": true,
+      "perf": {
+        "top": 366.8,
+        "nitro": 381,
+        "air": 507,
+        "blue": null,
+        "accel": 78.82,
+        "handling": 47.2,
+        "nitroPower": 68.72,
+        "spray": null
+      },
+      "cost": 10846600,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        30,
+        38,
+        55,
+        77
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "jaguar-c-x75",
+      "name": "Jaguar C-X75",
+      "alias": "大捷豹",
+      "cls": "A",
+      "stars": 5,
+      "score": 3900,
+      "key": false,
+      "perf": {
+        "top": 368.9,
+        "nitro": 383,
+        "air": 510,
+        "blue": null,
+        "accel": 75.58,
+        "handling": 73.15,
+        "nitroPower": 74.14,
+        "spray": null
+      },
+      "cost": 11626400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        15,
+        21,
+        24,
+        36
+      ],
+      "bpTotal": 131
+    },
+    {
+      "id": "chevrolet-corvette-grand-sport",
+      "name": "Chevrolet Corvette Grand Sport",
+      "alias": "五菱",
+      "cls": "A",
+      "stars": 5,
+      "score": 3906,
+      "key": false,
+      "perf": {
+        "top": 334.6,
+        "nitro": 348,
+        "air": 451,
+        "blue": null,
+        "accel": 76.55,
+        "handling": 94.52,
+        "nitroPower": 81.88,
+        "spray": 12.03
+      },
+      "cost": 11626400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        18,
+        21,
+        25,
+        36
+      ],
+      "bpTotal": 140
+    },
+    {
+      "id": "arrinera-hussarya-33",
+      "name": "Arrinera Hussarya 33",
+      "alias": "33",
+      "cls": "A",
+      "stars": 5,
+      "score": 3910,
+      "key": false,
+      "perf": {
+        "top": 352.1,
+        "nitro": 366,
+        "air": 482,
+        "blue": null,
+        "accel": 78.53,
+        "handling": 59.47,
+        "nitroPower": 47.71,
+        "spray": 4.9
+      },
+      "cost": 11626400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        15,
+        21,
+        24,
+        36
+      ],
+      "bpTotal": 131
+    },
+    {
+      "id": "lego-technic-aston-martin-valkyrie",
+      "name": "LEGO Technic Aston Martin Valkyrie",
+      "alias": "乐高女武神",
+      "cls": "A",
+      "stars": 5,
+      "score": 3920,
+      "key": false,
+      "perf": {
+        "top": 372.3,
+        "nitro": 387,
+        "air": 516,
+        "blue": null,
+        "accel": 81.04,
+        "handling": 65.74,
+        "nitroPower": 59.77,
+        "spray": null
+      },
+      "cost": 11662600,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        33,
+        38,
+        43,
+        48
+      ],
+      "bpTotal": 202
+    },
+    {
+      "id": "apex-ap-0",
+      "name": "Apex AP-0",
+      "alias": "AP-0",
+      "cls": "A",
+      "stars": 5,
+      "score": 3922,
+      "key": false,
+      "perf": {
+        "top": 334.8,
+        "nitro": 349,
+        "air": 465,
+        "blue": 358,
+        "accel": 80.83,
+        "handling": 89.1,
+        "nitroPower": 74.95,
+        "spray": null
+      },
+      "cost": 11626400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        30,
+        35,
+        42,
+        48
+      ],
+      "bpTotal": 190
+    },
+    {
+      "id": "lamborghini-murcielago-lp-640-roadster",
+      "name": "Lamborghini Murcielago LP 640 Roadster",
+      "alias": "蝙蝠",
+      "cls": "A",
+      "stars": 5,
+      "score": 3924,
+      "key": false,
+      "perf": {
+        "top": 354,
+        "nitro": 368,
+        "air": 485,
+        "blue": null,
+        "accel": 77.45,
+        "handling": 66.92,
+        "nitroPower": 61.49,
+        "spray": null
+      },
+      "cost": 11626400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        33,
+        38,
+        43,
+        48
+      ],
+      "bpTotal": 202
+    },
+    {
+      "id": "vlf-force-1-v10",
+      "name": "VLF Force 1 V10",
+      "alias": "VLF",
+      "cls": "A",
+      "stars": 5,
+      "score": 3925,
+      "key": false,
+      "perf": {
+        "top": 369.4,
+        "nitro": 384,
+        "air": 511,
+        "blue": null,
+        "accel": 80.33,
+        "handling": 54.68,
+        "nitroPower": 74.63,
+        "spray": 7.95
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        18,
+        21,
+        25,
+        36
+      ],
+      "bpTotal": 140
+    },
+    {
+      "id": "ferrari-812-superfast",
+      "name": "Ferrari 812 SuperFast",
+      "alias": "812",
+      "cls": "A",
+      "stars": 5,
+      "score": 3941,
+      "key": false,
+      "perf": {
+        "top": 354,
+        "nitro": 368,
+        "air": 485,
+        "blue": null,
+        "accel": 81.13,
+        "handling": 63.17,
+        "nitroPower": 74.33,
+        "spray": 8.2
+      },
+      "cost": 11626400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        30,
+        35,
+        42,
+        48
+      ],
+      "bpTotal": 190
+    },
+    {
+      "id": "apollo-ie",
+      "name": "Apollo IE",
+      "alias": "IE",
+      "cls": "A",
+      "stars": 5,
+      "score": 3946,
+      "key": false,
+      "perf": {
+        "top": 348,
+        "nitro": 362,
+        "air": 475,
+        "blue": null,
+        "accel": 84.58,
+        "handling": 72.82,
+        "nitroPower": 68.9,
+        "spray": null
+      },
+      "cost": 11626400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        33,
+        38,
+        43,
+        48
+      ],
+      "bpTotal": 202
+    },
+    {
+      "id": "sin-r1-550",
+      "name": "Sin R1 550",
+      "alias": "SIN",
+      "cls": "A",
+      "stars": 5,
+      "score": 3950,
+      "key": false,
+      "perf": {
+        "top": 368.3,
+        "nitro": 383,
+        "air": 509,
+        "blue": null,
+        "accel": 77.04,
+        "handling": 45.58,
+        "nitroPower": 74.13,
+        "spray": 7.85
+      },
+      "cost": 11626400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        18,
+        21,
+        25,
+        36
+      ],
+      "bpTotal": 140
+    },
+    {
+      "id": "aston-martin-vantage-gt12",
+      "name": "Aston Martin Vantage GT12",
+      "alias": "GT12",
+      "cls": "A",
+      "stars": 5,
+      "score": 3958,
+      "key": false,
+      "perf": {
+        "top": 337.6,
+        "nitro": 352,
+        "air": 457,
+        "blue": null,
+        "accel": 78.26,
+        "handling": 86.85,
+        "nitroPower": 80.46,
+        "spray": 11.13
+      },
+      "cost": 11626400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        35,
+        15,
+        21,
+        24,
+        36
+      ],
+      "bpTotal": 131
+    },
+    {
+      "id": "lamborghini-aventador-j",
+      "name": "Lamborghini Aventador J",
+      "alias": "AVJ",
+      "cls": "A",
+      "stars": 6,
+      "score": 4002,
+      "key": false,
+      "perf": {
+        "top": 362.9,
+        "nitro": 378,
+        "air": 502,
+        "blue": null,
+        "accel": 79.83,
+        "handling": 73.1,
+        "nitroPower": 77.86,
+        "spray": 8.83
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        50,
+        15,
+        18,
+        24,
+        38,
+        45
+      ],
+      "bpTotal": 190
+    },
+    {
+      "id": "mcmurtry-speirling",
+      "name": "Mcmurtry Speirling",
+      "alias": "Speirling",
+      "cls": "A",
+      "stars": 5,
+      "score": 4003,
+      "key": false,
+      "perf": {
+        "top": 339.7,
+        "nitro": 361,
+        "air": 480,
+        "blue": null,
+        "accel": 90.52,
+        "handling": 82.09,
+        "nitroPower": 62.82,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        33,
+        38,
+        43,
+        48
+      ],
+      "bpTotal": 202
+    },
+    {
+      "id": "porsche-carrera-gt",
+      "name": "Porsche Carrera GT",
+      "alias": "卡拉拉",
+      "cls": "A",
+      "stars": 5,
+      "score": 4010,
+      "key": false,
+      "perf": {
+        "top": 344.7,
+        "nitro": 358,
+        "air": 468,
+        "blue": null,
+        "accel": 78.59,
+        "handling": 84.59,
+        "nitroPower": 82.64,
+        "spray": 11.3
+      },
+      "cost": 14512000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        30,
+        35,
+        40,
+        45,
+        50
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "ferrari-enzo-ferrari",
+      "name": "Ferrari Enzo Ferrari",
+      "alias": "恩佐",
+      "cls": "A",
+      "stars": 6,
+      "score": 4014,
+      "key": false,
+      "perf": {
+        "top": 365.8,
+        "nitro": 380,
+        "air": 504,
+        "blue": null,
+        "accel": 75.19,
+        "handling": 64.75,
+        "nitroPower": 72.1,
+        "spray": null
+      },
+      "cost": 15352400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        30,
+        35,
+        40,
+        50,
+        55
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "porsche-911-gt3-rs",
+      "name": "Porsche 911 GT3 RS",
+      "alias": "911GT3",
+      "cls": "A",
+      "stars": 6,
+      "score": 4019,
+      "key": false,
+      "perf": {
+        "top": 338.9,
+        "nitro": 353,
+        "air": 459,
+        "blue": null,
+        "accel": 85.84,
+        "handling": 92.97,
+        "nitroPower": 86.39,
+        "spray": 14.23
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        50,
+        15,
+        18,
+        24,
+        38,
+        45
+      ],
+      "bpTotal": 190
+    },
+    {
+      "id": "techrules-at96-track-version",
+      "name": "TechRules AT96 Track Version",
+      "alias": "随风",
+      "cls": "A",
+      "stars": 6,
+      "score": 4020,
+      "key": true,
+      "perf": {
+        "top": 364.6,
+        "nitro": 379,
+        "air": 503,
+        "blue": null,
+        "accel": 85.53,
+        "handling": 75.74,
+        "nitroPower": 69.65,
+        "spray": 7.13
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "mclaren-senna-gtr",
+      "name": "McLaren Senna GTR",
+      "alias": "塞纳GTR",
+      "cls": "A",
+      "stars": 5,
+      "score": 4025,
+      "key": false,
+      "perf": {
+        "top": 357.9,
+        "nitro": 372,
+        "air": 492,
+        "blue": null,
+        "accel": 82,
+        "handling": 60.85,
+        "nitroPower": 77.62,
+        "spray": null
+      },
+      "cost": 14512000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        33,
+        38,
+        43,
+        48
+      ],
+      "bpTotal": 202
+    },
+    {
+      "id": "peugeot-onyx",
+      "name": "Peugeot Onyx",
+      "alias": "标致",
+      "cls": "A",
+      "stars": 6,
+      "score": 4026,
+      "key": false,
+      "perf": {
+        "top": 365.6,
+        "nitro": 380,
+        "air": 504,
+        "blue": null,
+        "accel": 81.94,
+        "handling": 84.83,
+        "nitroPower": 59.59,
+        "spray": null
+      },
+      "cost": 15352400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        33,
+        31,
+        33,
+        35,
+        38,
+        42
+      ],
+      "bpTotal": 212
+    },
+    {
+      "id": "chevrolet-corvette-zr1",
+      "name": "Chevrolet Corvette ZR1",
+      "alias": "大五菱",
+      "cls": "A",
+      "stars": 6,
+      "score": 4031,
+      "key": false,
+      "perf": {
+        "top": 355.4,
+        "nitro": 370,
+        "air": 487,
+        "blue": null,
+        "accel": 82.03,
+        "handling": 60.09,
+        "nitroPower": 76.33,
+        "spray": 8.8
+      },
+      "cost": 15352400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        50,
+        15,
+        18,
+        24,
+        38,
+        45
+      ],
+      "bpTotal": 190
+    },
+    {
+      "id": "lamborghini-essenza-scv12",
+      "name": "Lamborghini Essenza SCV12",
+      "alias": "SCV12",
+      "cls": "A",
+      "stars": 5,
+      "score": 4036,
+      "key": true,
+      "perf": {
+        "top": 340.1,
+        "nitro": 354,
+        "air": 461,
+        "blue": null,
+        "accel": 85.03,
+        "handling": 75.44,
+        "nitroPower": 74.52,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        30,
+        38,
+        55,
+        77
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "puritalia-berlinetta",
+      "name": "Puritalia Berlinetta",
+      "alias": "Berlinetta",
+      "cls": "A",
+      "stars": 5,
+      "score": 4061,
+      "key": false,
+      "perf": {
+        "top": 348.8,
+        "nitro": 361,
+        "air": 473,
+        "blue": null,
+        "accel": 83.35,
+        "handling": 82.35,
+        "nitroPower": 69.25,
+        "spray": null
+      },
+      "cost": 14512000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        38,
+        42,
+        48,
+        60
+      ],
+      "bpTotal": 228
+    },
+    {
+      "id": "lamborghini-sc18",
+      "name": "Lamborghini SC18",
+      "alias": "SC18",
+      "cls": "A",
+      "stars": 6,
+      "score": 4079,
+      "key": true,
+      "perf": {
+        "top": 355.6,
+        "nitro": 370,
+        "air": 487,
+        "blue": null,
+        "accel": 81.99,
+        "handling": 64.05,
+        "nitroPower": 82.46,
+        "spray": null
+      },
+      "cost": 15352400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        40,
+        50,
+        65,
+        80
+      ],
+      "bpTotal": 265
+    },
+    {
+      "id": "lamborghini-aventador-svj-roadster",
+      "name": "Lamborghini Aventador SVJ Roadster",
+      "alias": "SVJ",
+      "cls": "A",
+      "stars": 6,
+      "score": 4080,
+      "key": false,
+      "perf": {
+        "top": 364.8,
+        "nitro": 379,
+        "air": 503,
+        "blue": null,
+        "accel": 81.09,
+        "handling": 73.75,
+        "nitroPower": 73.93,
+        "spray": null
+      },
+      "cost": 15352400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        70,
+        23,
+        27,
+        36,
+        52,
+        59
+      ],
+      "bpTotal": 267
+    },
+    {
+      "id": "formula-e-gen-3-evo-championship-edition",
+      "name": "Formula E Gen 3 EVO Championship Edition",
+      "alias": "FE Gen3",
+      "cls": "A",
+      "stars": 5,
+      "score": 4082,
+      "key": true,
+      "perf": {
+        "top": 345.1,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 90.21,
+        "handling": 77.89,
+        "nitroPower": 62.24,
+        "spray": null
+      },
+      "cost": 11662600,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        30,
+        38,
+        55,
+        77
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "ford-gt-cny-edition",
+      "name": "Ford GT CNY Edition",
+      "alias": "GT春节版",
+      "cls": "A",
+      "stars": 5,
+      "score": 4093,
+      "key": false,
+      "perf": {
+        "top": 366.8,
+        "nitro": 381,
+        "air": 507,
+        "blue": null,
+        "accel": 79.14,
+        "handling": 68.15,
+        "nitroPower": 73.89,
+        "spray": null
+      },
+      "cost": 12670600,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        33,
+        38,
+        43,
+        48
+      ],
+      "bpTotal": 202
+    },
+    {
+      "id": "ferrari-488-challenge-evo",
+      "name": "Ferrari 488 Challenge EVO",
+      "alias": "488EVO",
+      "cls": "A",
+      "stars": 6,
+      "score": 4095,
+      "key": true,
+      "perf": {
+        "top": 347.5,
+        "nitro": 362,
+        "air": 474,
+        "blue": null,
+        "accel": 82.63,
+        "handling": 76.76,
+        "nitroPower": 76.65,
+        "spray": 8.87
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        35,
+        45,
+        55,
+        85
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "raesr-tachyon-speed",
+      "name": "Raesr Tachyon Speed",
+      "alias": "超光速",
+      "cls": "A",
+      "stars": 6,
+      "score": 4095,
+      "key": true,
+      "perf": {
+        "top": 400.5,
+        "nitro": 416,
+        "air": 555,
+        "blue": null,
+        "accel": 77.88,
+        "handling": 53.38,
+        "nitroPower": 59.79,
+        "spray": null
+      },
+      "cost": 15352400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        38,
+        48,
+        57,
+        66,
+        72
+      ],
+      "bpTotal": 281
+    },
+    {
+      "id": "citroen-gt-by-citroen",
+      "name": "Citroen GT by Citroen",
+      "alias": "雪铁龙GT",
+      "cls": "A",
+      "stars": 6,
+      "score": 4099,
+      "key": false,
+      "perf": {
+        "top": 383.5,
+        "nitro": 399,
+        "air": 536,
+        "blue": null,
+        "accel": 76.54,
+        "handling": 64.63,
+        "nitroPower": 67.23,
+        "spray": null
+      },
+      "cost": 15352400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        30,
+        35,
+        40,
+        50,
+        55
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "pagani-zonda-cinque",
+      "name": "Pagani Zonda Cinque",
+      "alias": "Cinque",
+      "cls": "A",
+      "stars": 6,
+      "score": 4105,
+      "key": true,
+      "perf": {
+        "top": 369.7,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 79.84,
+        "handling": 74.76,
+        "nitroPower": 73.22,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        30,
+        35,
+        50,
+        65,
+        80
+      ],
+      "bpTotal": 260
+    },
+    {
+      "id": "aston-martin-dbs-gt-zagato",
+      "name": "Aston Martin DBS GT Zagato",
+      "alias": "Zagato",
+      "cls": "A",
+      "stars": 6,
+      "score": 4109,
+      "key": false,
+      "perf": {
+        "top": 361.9,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 80.65,
+        "handling": 75.77,
+        "nitroPower": 78.17,
+        "spray": null
+      },
+      "cost": 26960000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        70,
+        23,
+        27,
+        36,
+        52,
+        59
+      ],
+      "bpTotal": 267
+    },
+    {
+      "id": "chevrolet-corvette-grand-sport-halloween",
+      "name": "Chevrolet Corvette Grand Sport Halloween Edition",
+      "alias": "五菱万圣版",
+      "cls": "A",
+      "stars": 6,
+      "score": 4112,
+      "key": true,
+      "perf": {
+        "top": 357.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.66,
+        "handling": 80.58,
+        "nitroPower": 70.94,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        40,
+        45,
+        60,
+        65,
+        70
+      ],
+      "bpTotal": 280
+    },
+    {
+      "id": "automobili-pininfarina-battista-edizione",
+      "name": "Automobili Pininfarina Battista Edizione Nino Farina",
+      "alias": "秋王特别版",
+      "cls": "A",
+      "stars": 6,
+      "score": 4125,
+      "key": false,
+      "perf": {
+        "top": 365.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 89.37,
+        "handling": 64.44,
+        "nitroPower": 45.9,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        45,
+        48,
+        50,
+        52
+      ],
+      "bpTotal": 280
+    },
+    {
+      "id": "nissan-gtr-50-italdesign",
+      "name": "Nissan GTR-50 Italdesign",
+      "alias": "GTR-50",
+      "cls": "A",
+      "stars": 5,
+      "score": 4127,
+      "key": false,
+      "perf": {
+        "top": 349.2,
+        "nitro": 363,
+        "air": 476,
+        "blue": null,
+        "accel": 86.24,
+        "handling": 73.5,
+        "nitroPower": 64.28,
+        "spray": null
+      },
+      "cost": 14512000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        33,
+        38,
+        43,
+        48
+      ],
+      "bpTotal": 202
+    },
+    {
+      "id": "pagani-zonda-r",
+      "name": "Pagani Zonda R",
+      "alias": "风之子",
+      "cls": "A",
+      "stars": 6,
+      "score": 4164,
+      "key": true,
+      "perf": {
+        "top": 368.3,
+        "nitro": 383,
+        "air": 509,
+        "blue": null,
+        "accel": 84.54,
+        "handling": 57.29,
+        "nitroPower": 67.54,
+        "spray": null
+      },
+      "cost": 15352400,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        35,
+        45,
+        55,
+        85
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "peugeot-9x8",
+      "name": "Peugeot 9x8",
+      "alias": "9x8",
+      "cls": "A",
+      "stars": 6,
+      "score": 4172,
+      "key": false,
+      "perf": {
+        "top": 344.3,
+        "nitro": 358,
+        "air": 468,
+        "blue": null,
+        "accel": 90.03,
+        "handling": 94.15,
+        "nitroPower": 69.94,
+        "spray": null
+      },
+      "cost": 30960000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        45,
+        48,
+        50,
+        52
+      ],
+      "bpTotal": 280
+    },
+    {
+      "id": "mclaren-sabre",
+      "name": "McLaren Sabre",
+      "alias": "Sabre",
+      "cls": "A",
+      "stars": 6,
+      "score": 4173,
+      "key": false,
+      "perf": {
+        "top": 363.1,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 87.04,
+        "handling": 68.06,
+        "nitroPower": 58.45,
+        "spray": null
+      },
+      "cost": 28720000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        45,
+        48,
+        50,
+        52
+      ],
+      "bpTotal": 280
+    },
+    {
+      "id": "glickenhaus-007s",
+      "name": "Glickenhaus 007S",
+      "alias": "007S",
+      "cls": "A",
+      "stars": 6,
+      "score": 4192,
+      "key": true,
+      "perf": {
+        "top": 358.6,
+        "nitro": 373,
+        "air": 493,
+        "blue": null,
+        "accel": 89.33,
+        "handling": 82.63,
+        "nitroPower": 55.24,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        35,
+        45,
+        55,
+        85
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "nissan-gt-r-neon-edition",
+      "name": "Nissan GT-R Neon Edition",
+      "alias": "霓虹GTR",
+      "cls": "A",
+      "stars": 6,
+      "score": 4201,
+      "key": false,
+      "perf": {
+        "top": 357,
+        "nitro": 371,
+        "air": 490,
+        "blue": null,
+        "accel": 88.23,
+        "handling": 75.46,
+        "nitroPower": 70.44,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        45,
+        48,
+        50,
+        52
+      ],
+      "bpTotal": 280
+    },
+    {
+      "id": "porsche-935-2019",
+      "name": "Porsche 935(2019)",
+      "alias": "935",
+      "cls": "A",
+      "stars": 6,
+      "score": 4229,
+      "key": true,
+      "perf": {
+        "top": 352,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 84.94,
+        "handling": 87.96,
+        "nitroPower": 72.61,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        50,
+        56,
+        62,
+        66
+      ],
+      "bpTotal": 279
+    },
+    {
+      "id": "aston-martin-victor",
+      "name": "Aston Martin Victor",
+      "alias": "Victor",
+      "cls": "A",
+      "stars": 6,
+      "score": 4251,
+      "key": false,
+      "perf": {
+        "top": 371.8,
+        "nitro": 387,
+        "air": 517,
+        "blue": null,
+        "accel": 78.34,
+        "handling": 76.86,
+        "nitroPower": 69.6,
+        "spray": null
+      },
+      "cost": 19448200,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        30,
+        35,
+        40,
+        50,
+        55
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "pagani-huayra-r",
+      "name": "Pagani Huayra R",
+      "alias": "Huayra R",
+      "cls": "A",
+      "stars": 6,
+      "score": 4259,
+      "key": false,
+      "perf": {
+        "top": 376.4,
+        "nitro": 391,
+        "air": 523,
+        "blue": null,
+        "accel": 83.04,
+        "handling": 58.21,
+        "nitroPower": 64.11,
+        "spray": null
+      },
+      "cost": 19448200,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        30,
+        35,
+        40,
+        50,
+        55
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "mclaren-650s-gt3",
+      "name": "McLaren 650S GT3",
+      "alias": "650S",
+      "cls": "A",
+      "stars": 6,
+      "score": 4266,
+      "key": false,
+      "perf": {
+        "top": 357,
+        "nitro": 371,
+        "air": 490,
+        "blue": null,
+        "accel": 84.34,
+        "handling": 85.82,
+        "nitroPower": 78.22,
+        "spray": null
+      },
+      "cost": 33860200,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        45,
+        48,
+        50,
+        52
+      ],
+      "bpTotal": 280
+    },
+    {
+      "id": "ferrari-sf90-xx-stradale",
+      "name": "Ferrari SF90 XX Stradale",
+      "alias": "SF90XX",
+      "cls": "A",
+      "stars": 6,
+      "score": 4286,
+      "key": false,
+      "perf": {
+        "top": 361.2,
+        "nitro": 376,
+        "air": 497,
+        "blue": null,
+        "accel": 85.73,
+        "handling": 79.17,
+        "nitroPower": 62.85,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        30,
+        35,
+        40,
+        50,
+        55
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "security-interceptor",
+      "name": "Security Interceptor",
+      "alias": "拦路虎",
+      "cls": "A",
+      "stars": 6,
+      "score": 4305,
+      "key": false,
+      "perf": {
+        "top": 361.1,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 83.2,
+        "handling": 78.8,
+        "nitroPower": 45.56,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "pagani-utopia-coupe",
+      "name": "Pagani Utopia Coupe",
+      "alias": "乌托邦",
+      "cls": "A",
+      "stars": 6,
+      "score": 4308,
+      "key": true,
+      "perf": {
+        "top": 367.9,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.03,
+        "handling": 80.63,
+        "nitroPower": 77.19,
+        "spray": null
+      },
+      "cost": 33520000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        50,
+        56,
+        62,
+        66
+      ],
+      "bpTotal": 279
+    },
+    {
+      "id": "ford-shelby-super-snake",
+      "name": "Ford Shelby Super Snake",
+      "alias": "超级蛇",
+      "cls": "A",
+      "stars": 6,
+      "score": 4350,
+      "key": true,
+      "perf": {
+        "top": 363.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 85.44,
+        "handling": 75.98,
+        "nitroPower": 59.74,
+        "spray": null
+      },
+      "cost": 33520000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        50,
+        56,
+        62,
+        66
+      ],
+      "bpTotal": 279
+    },
+    {
+      "id": "lamborghini-temerario",
+      "name": "Lamborghini Temerario",
+      "alias": "Temerario",
+      "cls": "A",
+      "stars": 6,
+      "score": 4372,
+      "key": false,
+      "perf": {
+        "top": 365.5,
+        "nitro": 380,
+        "air": 505,
+        "blue": null,
+        "accel": 88.35,
+        "handling": 70.53,
+        "nitroPower": 62.21,
+        "spray": null
+      },
+      "cost": 33520000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        40,
+        45,
+        55,
+        60,
+        70
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "fv-frangivento-asfane",
+      "name": "FV Frangivento Asfane",
+      "alias": "Asfane",
+      "cls": "A",
+      "stars": 6,
+      "score": 4377,
+      "key": true,
+      "perf": {
+        "top": 373.9,
+        "nitro": 389,
+        "air": 519,
+        "blue": null,
+        "accel": 82.03,
+        "handling": 69.13,
+        "nitroPower": 67.63,
+        "spray": null
+      },
+      "cost": 31360000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        50,
+        56,
+        62,
+        66
+      ],
+      "bpTotal": 279
+    },
+    {
+      "id": "zenvo-aurora-agil",
+      "name": "Zenvo Aurora Agil",
+      "alias": "Agil",
+      "cls": "A",
+      "stars": 6,
+      "score": 4393,
+      "key": true,
+      "perf": {
+        "top": 379.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 83.12,
+        "handling": 70.3,
+        "nitroPower": 64.25,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "jaguar-xjr-9",
+      "name": "Jaguar XJR-9",
+      "alias": "XJR-9",
+      "cls": "A",
+      "stars": 6,
+      "score": 4438,
+      "key": false,
+      "perf": {
+        "top": 400.7,
+        "nitro": 416,
+        "air": 556,
+        "blue": null,
+        "accel": 72.45,
+        "handling": 59.33,
+        "nitroPower": 84.95,
+        "spray": 8.5
+      },
+      "cost": 29520000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        45,
+        48,
+        50,
+        52
+      ],
+      "bpTotal": 280
+    },
+    {
+      "id": "noble-m600-speedster",
+      "name": "Noble M600 Speedster",
+      "alias": "M600",
+      "cls": "A",
+      "stars": 6,
+      "score": 4464,
+      "key": false,
+      "perf": {
+        "top": 375.7,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.03,
+        "handling": 85.47,
+        "nitroPower": 61.71,
+        "spray": null
+      },
+      "cost": 27600000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        30,
+        35,
+        40,
+        50,
+        55
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "aston-martin-valhalla-concept-car",
+      "name": "Aston Martin Valhalla Concept Car",
+      "alias": "英灵殿",
+      "cls": "A",
+      "stars": 6,
+      "score": 4515,
+      "key": false,
+      "perf": {
+        "top": 376.9,
+        "nitro": 392,
+        "air": 524,
+        "blue": null,
+        "accel": 82.25,
+        "handling": 81.76,
+        "nitroPower": 59.55,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        50,
+        15,
+        18,
+        24,
+        38,
+        45
+      ],
+      "bpTotal": 190
+    },
+    {
+      "id": "lexus-electrified-sport-concept",
+      "name": "Lexus Electrified Sport Concept",
+      "alias": "lexus concept",
+      "cls": "A",
+      "stars": 6,
+      "score": 4565,
+      "key": false,
+      "perf": {
+        "top": 379.2,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 88.43,
+        "handling": 50.26,
+        "nitroPower": 55.59,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        40,
+        45,
+        45,
+        48,
+        50,
+        52
+      ],
+      "bpTotal": 280
+    },
+    {
+      "id": "mercedes-benz-mercedes-amg-one",
+      "name": "Mercedes-Benz Mercedes-AMG One",
+      "alias": "AMG One",
+      "cls": "A",
+      "stars": 6,
+      "score": 4571,
+      "key": true,
+      "perf": {
+        "top": 375.2,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.53,
+        "handling": 78.84,
+        "nitroPower": 60.91,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        45,
+        50,
+        56,
+        62,
+        66
+      ],
+      "bpTotal": 279
+    },
+    {
+      "id": "ferrari-499p-modificata",
+      "name": "Ferrari 499P Modificata",
+      "alias": "499P",
+      "cls": "A",
+      "stars": 6,
+      "score": 4572,
+      "key": true,
+      "perf": {
+        "top": 358.6,
+        "nitro": 373,
+        "air": 493,
+        "blue": null,
+        "accel": 84.54,
+        "handling": 85.32,
+        "nitroPower": 77.85,
+        "spray": null
+      },
+      "cost": 37360000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        60,
+        65,
+        70
+      ],
+      "bpTotal": 280
+    },
+    {
+      "id": "de-tomaso-p72",
+      "name": "De Tomaso P72",
+      "alias": "P72",
+      "cls": "A",
+      "stars": 6,
+      "score": 4586,
+      "key": true,
+      "perf": {
+        "top": 375.6,
+        "nitro": 390,
+        "air": 522,
+        "blue": null,
+        "accel": 82.74,
+        "handling": 75.24,
+        "nitroPower": 71.18,
+        "spray": null
+      },
+      "cost": 33520000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        50,
+        56,
+        62,
+        66
+      ],
+      "bpTotal": 279
+    },
+    {
+      "id": "mercedes-benz-vision-one-eleven",
+      "name": "Mercedes-Benz Vision One-Eleven",
+      "alias": "Vision 111",
+      "cls": "A",
+      "stars": 6,
+      "score": 4600,
+      "key": true,
+      "perf": {
+        "top": 381,
+        "nitro": 396,
+        "air": 531,
+        "blue": null,
+        "accel": 83.93,
+        "handling": 76.35,
+        "nitroPower": 57.95,
+        "spray": null
+      },
+      "cost": 42480000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        38,
+        48,
+        57,
+        66,
+        72
+      ],
+      "bpTotal": 281
+    },
+    {
+      "id": "automobili-pininfarina-b95",
+      "name": "Automobili Pininfarina B95",
+      "alias": "B95",
+      "cls": "A",
+      "stars": 6,
+      "score": 4606,
+      "key": false,
+      "perf": {
+        "top": 395.9,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 86.93,
+        "handling": 60.35,
+        "nitroPower": 45.07,
+        "spray": null
+      },
+      "cost": 37360000,
+      "parts": {
+        "blue": 6,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        35,
+        40,
+        45,
+        55,
+        65
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "icona-vulcano-titanium",
+      "name": "Icona Vulcano Titanium",
+      "alias": "火山",
+      "cls": "S",
+      "stars": 5,
+      "score": 3957,
+      "key": false,
+      "perf": {
+        "top": 381.7,
+        "nitro": 397,
+        "air": 533,
+        "blue": null,
+        "accel": 81.38,
+        "handling": 43.38,
+        "nitroPower": 65.89,
+        "spray": 6.3
+      },
+      "cost": 11746400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        18,
+        21,
+        25,
+        39
+      ],
+      "bpTotal": 143
+    },
+    {
+      "id": "w-motors-lykan-hypersport",
+      "name": "W Motors Lykan HyperSport",
+      "alias": "狼崽",
+      "cls": "S",
+      "stars": 5,
+      "score": 4083,
+      "key": false,
+      "perf": {
+        "top": 407.6,
+        "nitro": 425,
+        "air": 560,
+        "blue": null,
+        "accel": 80.48,
+        "handling": 40.97,
+        "nitroPower": 58.26,
+        "spray": 5.25
+      },
+      "cost": 14652000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        18,
+        21,
+        25,
+        39
+      ],
+      "bpTotal": 143
+    },
+    {
+      "id": "porsche-918-spyder",
+      "name": "Porsche 918 Spyder",
+      "alias": "918",
+      "cls": "S",
+      "stars": 5,
+      "score": 4114,
+      "key": false,
+      "perf": {
+        "top": 362.4,
+        "nitro": 377,
+        "air": 499,
+        "blue": null,
+        "accel": 83.02,
+        "handling": 51.8,
+        "nitroPower": 79.97,
+        "spray": 9.48
+      },
+      "cost": 14652000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 3
+      },
+      "bp": [
+        40,
+        18,
+        21,
+        25,
+        39
+      ],
+      "bpTotal": 143
+    },
+    {
+      "id": "vanda-electrics-dendrobium",
+      "name": "Vanda Electrics Dendrobium",
+      "alias": "万达",
+      "cls": "S",
+      "stars": 6,
+      "score": 4124,
+      "key": false,
+      "perf": {
+        "top": 339.9,
+        "nitro": 354,
+        "air": 474,
+        "blue": 363,
+        "accel": 86.24,
+        "handling": 95.92,
+        "nitroPower": 84.9,
+        "spray": 13.23
+      },
+      "cost": 15492400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        30,
+        30,
+        35,
+        35,
+        40
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "mclaren-570s-spider",
+      "name": "McLaren 570S Spider",
+      "alias": "570",
+      "cls": "S",
+      "stars": 6,
+      "score": 4135,
+      "key": false,
+      "perf": {
+        "top": 377.2,
+        "nitro": 393,
+        "air": 526,
+        "blue": null,
+        "accel": 79.23,
+        "handling": 66.06,
+        "nitroPower": 64.75,
+        "spray": 6.2
+      },
+      "cost": 15492400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        30,
+        30,
+        35,
+        35,
+        40
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "lamborghini-veneno",
+      "name": "Lamborghini Veneno",
+      "alias": "毒药",
+      "cls": "S",
+      "stars": 6,
+      "score": 4142,
+      "key": false,
+      "perf": {
+        "top": 370,
+        "nitro": 387,
+        "air": 516,
+        "blue": null,
+        "accel": 81.16,
+        "handling": 62.42,
+        "nitroPower": 78.82,
+        "spray": null
+      },
+      "cost": 15492400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        30,
+        30,
+        35,
+        35,
+        40
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "ats-automobili-gt",
+      "name": "ATS Automobili GT",
+      "alias": "ATS GT",
+      "cls": "S",
+      "stars": 6,
+      "score": 4161,
+      "key": false,
+      "perf": {
+        "top": 391.1,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.47,
+        "handling": 52.12,
+        "nitroPower": 46.85,
+        "spray": null
+      },
+      "cost": 21184000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "jaguar-xj220-twr",
+      "name": "Jaguar XJ220 TWR",
+      "alias": "XJ220",
+      "cls": "S",
+      "stars": 6,
+      "score": 4175,
+      "key": true,
+      "perf": {
+        "top": 383,
+        "nitro": 398,
+        "air": 535,
+        "blue": null,
+        "accel": 75.19,
+        "handling": 60.59,
+        "nitroPower": 82.2,
+        "spray": null
+      },
+      "cost": 15492400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        35,
+        45,
+        55,
+        85
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "lamborghini-egoista",
+      "name": "Lamborghini Egoista",
+      "alias": "自私",
+      "cls": "S",
+      "stars": 6,
+      "score": 4213,
+      "key": false,
+      "perf": {
+        "top": 366.1,
+        "nitro": 381,
+        "air": 506,
+        "blue": null,
+        "accel": 84.48,
+        "handling": 61.54,
+        "nitroPower": 72.02,
+        "spray": 7.52
+      },
+      "cost": 19628200,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        15,
+        18,
+        25,
+        38,
+        48
+      ],
+      "bpTotal": 204
+    },
+    {
+      "id": "chrysler-me412",
+      "name": "Chrysler ME412",
+      "alias": "ME412",
+      "cls": "S",
+      "stars": 6,
+      "score": 4241,
+      "key": false,
+      "perf": {
+        "top": 399.1,
+        "nitro": 415,
+        "air": 555,
+        "blue": null,
+        "accel": 74.9,
+        "handling": 66.52,
+        "nitroPower": 63.39,
+        "spray": null
+      },
+      "cost": 23318200,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "porsche-911-gt2-rs-clubsport",
+      "name": "Porsche 911 GT2 RS ClubSport",
+      "alias": "911GT2",
+      "cls": "S",
+      "stars": 6,
+      "score": 4289,
+      "key": true,
+      "perf": {
+        "top": 357.2,
+        "nitro": 373,
+        "air": 493,
+        "blue": null,
+        "accel": 83.75,
+        "handling": 85.71,
+        "nitroPower": 73.93,
+        "spray": null
+      },
+      "cost": 19628200,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        28,
+        32,
+        44,
+        59,
+        86
+      ],
+      "bpTotal": 249
+    },
+    {
+      "id": "pagani-huayra-bc",
+      "name": "Pagani Huayra BC",
+      "alias": "BC",
+      "cls": "S",
+      "stars": 6,
+      "score": 4292,
+      "key": false,
+      "perf": {
+        "top": 365.4,
+        "nitro": 380,
+        "air": 504,
+        "blue": null,
+        "accel": 80.04,
+        "handling": 63.11,
+        "nitroPower": 86.75,
+        "spray": 11.83
+      },
+      "cost": 19628200,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        15,
+        18,
+        25,
+        38,
+        48
+      ],
+      "bpTotal": 204
+    },
+    {
+      "id": "ferrari-laferrari-aperta",
+      "name": "Ferrari LaFerrari Aperta",
+      "alias": "黑拉法",
+      "cls": "S",
+      "stars": 6,
+      "score": 4293,
+      "key": false,
+      "perf": {
+        "top": 366.2,
+        "nitro": 381,
+        "air": 506,
+        "blue": null,
+        "accel": 81.03,
+        "handling": 82.48,
+        "nitroPower": 70.1,
+        "spray": 7.2
+      },
+      "cost": 19628200,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        30,
+        30,
+        35,
+        35,
+        40
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "zenvo-tsr-s",
+      "name": "Zenvo TSR-S",
+      "alias": "TSR-S",
+      "cls": "S",
+      "stars": 6,
+      "score": 4301,
+      "key": true,
+      "perf": {
+        "top": 353.8,
+        "nitro": 368,
+        "air": 498,
+        "blue": 378,
+        "accel": 85.32,
+        "handling": 74.39,
+        "nitroPower": 69,
+        "spray": null
+      },
+      "cost": 19628200,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        35,
+        45,
+        55,
+        85
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "mclaren-f1-lm",
+      "name": "Mclaren F1 LM",
+      "alias": "F1",
+      "cls": "S",
+      "stars": 6,
+      "score": 4301,
+      "key": true,
+      "perf": {
+        "top": 377,
+        "nitro": 392,
+        "air": 525,
+        "blue": null,
+        "accel": 74.66,
+        "handling": 66.61,
+        "nitroPower": 73.12,
+        "spray": null
+      },
+      "cost": 19628200,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        35,
+        45,
+        55,
+        85
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "ferrari-f8-tributo",
+      "name": "Ferrari F8 Tributo",
+      "alias": "F8",
+      "cls": "S",
+      "stars": 6,
+      "score": 4313,
+      "key": false,
+      "perf": {
+        "top": 360.8,
+        "nitro": 375,
+        "air": 497,
+        "blue": null,
+        "accel": 83.23,
+        "handling": 94.48,
+        "nitroPower": 70.07,
+        "spray": 7.1
+      },
+      "cost": 19628200,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        30,
+        35,
+        40,
+        50,
+        55
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "genty-akylone",
+      "name": "Genty Akylone",
+      "alias": "阿卡龙",
+      "cls": "S",
+      "stars": 6,
+      "score": 4323,
+      "key": false,
+      "perf": {
+        "top": 371.7,
+        "nitro": 386,
+        "air": 515,
+        "blue": null,
+        "accel": 82.93,
+        "handling": 67.81,
+        "nitroPower": 70.35,
+        "spray": 7.15
+      },
+      "cost": 19628200,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        15,
+        18,
+        25,
+        38,
+        48
+      ],
+      "bpTotal": 204
+    },
+    {
+      "id": "lamborghini-sc20",
+      "name": "Lamborghini SC20",
+      "alias": "SC20",
+      "cls": "S",
+      "stars": 6,
+      "score": 4326,
+      "key": true,
+      "perf": {
+        "top": 371.3,
+        "nitro": 386,
+        "air": 515,
+        "blue": null,
+        "accel": 82.04,
+        "handling": 72.71,
+        "nitroPower": 69.2,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        35,
+        45,
+        55,
+        85
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "volkswagen-w12-coupe",
+      "name": "Volkswagen W12 Coupe",
+      "alias": "W12",
+      "cls": "S",
+      "stars": 6,
+      "score": 4334,
+      "key": true,
+      "perf": {
+        "top": 370.2,
+        "nitro": 384,
+        "air": 512,
+        "blue": null,
+        "accel": 79.02,
+        "handling": 84.32,
+        "nitroPower": 54.56,
+        "spray": null
+      },
+      "cost": 19628200,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        35,
+        45,
+        55,
+        85
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "trion-nemesis",
+      "name": "Trion Nemesis",
+      "alias": "复仇",
+      "cls": "S",
+      "stars": 6,
+      "score": 4344,
+      "key": false,
+      "perf": {
+        "top": 450.7,
+        "nitro": 475,
+        "air": 582,
+        "blue": null,
+        "accel": 79.98,
+        "handling": 48.49,
+        "nitroPower": 44.79,
+        "spray": 4.27
+      },
+      "cost": 19628200,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        15,
+        18,
+        25,
+        38,
+        48
+      ],
+      "bpTotal": 204
+    },
+    {
+      "id": "spania-gta-2015-gta-spano",
+      "name": "Spania GTA 2015 GTA Spano",
+      "alias": "Spano",
+      "cls": "S",
+      "stars": 6,
+      "score": 4385,
+      "key": false,
+      "perf": {
+        "top": 383.7,
+        "nitro": 399,
+        "air": 536,
+        "blue": null,
+        "accel": 81.2,
+        "handling": 59.72,
+        "nitroPower": 69.97,
+        "spray": 6.6
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "fv-frangivento-sorpasso-gt3",
+      "name": "FV Frangivento Sorpasso GT3",
+      "alias": "FV",
+      "cls": "S",
+      "stars": 6,
+      "score": 4398,
+      "key": true,
+      "perf": {
+        "top": 391.3,
+        "nitro": 407,
+        "air": 549,
+        "blue": null,
+        "accel": 85.7,
+        "handling": 56.68,
+        "nitroPower": 47.35,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        56,
+        65,
+        66,
+        68
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "lamborghini-terzo-millennio",
+      "name": "Lamborghini Terzo Millennio",
+      "alias": "电牛",
+      "cls": "S",
+      "stars": 6,
+      "score": 4400,
+      "key": false,
+      "perf": {
+        "top": 394.3,
+        "nitro": 410,
+        "air": 551,
+        "blue": null,
+        "accel": 82.77,
+        "handling": 52.84,
+        "nitroPower": 69.29,
+        "spray": 6.55
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        15,
+        18,
+        25,
+        38,
+        48
+      ],
+      "bpTotal": 204
+    },
+    {
+      "id": "mclaren-senna",
+      "name": "McLaren Senna",
+      "alias": "塞纳",
+      "cls": "S",
+      "stars": 6,
+      "score": 4407,
+      "key": false,
+      "perf": {
+        "top": 358.3,
+        "nitro": 373,
+        "air": 492,
+        "blue": null,
+        "accel": 82.91,
+        "handling": 101.81,
+        "nitroPower": 78.25,
+        "spray": 9.15
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        30,
+        30,
+        35,
+        35,
+        40
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "bugatti-veyron-16-4-grand-sport-vitesse",
+      "name": "Bugatti Veyron 16.4 Grand Sport Vitesse",
+      "alias": "威龙",
+      "cls": "S",
+      "stars": 6,
+      "score": 4411,
+      "key": false,
+      "perf": {
+        "top": 419.1,
+        "nitro": 442,
+        "air": 568,
+        "blue": null,
+        "accel": 81.08,
+        "handling": 49.17,
+        "nitroPower": 50.7,
+        "spray": null
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        85,
+        25,
+        29,
+        38,
+        54,
+        69
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "lotus-evija",
+      "name": "Lotus Evija",
+      "alias": "电莲",
+      "cls": "S",
+      "stars": 6,
+      "score": 4432,
+      "key": false,
+      "perf": {
+        "top": 368.1,
+        "nitro": 383,
+        "air": 509,
+        "blue": null,
+        "accel": 81.14,
+        "handling": 65.02,
+        "nitroPower": 63.31,
+        "spray": 6.22
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        30,
+        30,
+        35,
+        35,
+        40
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "vision-1789",
+      "name": "Vision 1789",
+      "alias": "1789",
+      "cls": "S",
+      "stars": 6,
+      "score": 4442,
+      "key": false,
+      "perf": {
+        "top": 389.9,
+        "nitro": 405,
+        "air": 547,
+        "blue": null,
+        "accel": 81.28,
+        "handling": 59.91,
+        "nitroPower": 72.19,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "pininfarina-teorema",
+      "name": "Pininfarina Teorema",
+      "alias": "Teorema",
+      "cls": "S",
+      "stars": 6,
+      "score": 4473,
+      "key": false,
+      "perf": {
+        "top": 422.9,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 77.14,
+        "handling": 55.74,
+        "nitroPower": 51.7,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        35,
+        40,
+        45,
+        50,
+        60,
+        70
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "w-motors-fenyr-supersport",
+      "name": "W Motors Fenyr SuperSport",
+      "alias": "狼王",
+      "cls": "S",
+      "stars": 6,
+      "score": 4479,
+      "key": false,
+      "perf": {
+        "top": 416.9,
+        "nitro": 438,
+        "air": 566,
+        "blue": null,
+        "accel": 82.19,
+        "handling": 43.24,
+        "nitroPower": 68.6,
+        "spray": 6.1
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        15,
+        18,
+        25,
+        38,
+        48
+      ],
+      "bpTotal": 204
+    },
+    {
+      "id": "aston-martin-valkyrie",
+      "name": "Aston Martin Valkyrie",
+      "alias": "女武神",
+      "cls": "S",
+      "stars": 6,
+      "score": 4487,
+      "key": false,
+      "perf": {
+        "top": 378.1,
+        "nitro": 393,
+        "air": 527,
+        "blue": null,
+        "accel": 80.26,
+        "handling": 77.87,
+        "nitroPower": 76.72,
+        "spray": null
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "rimac-concept-one",
+      "name": "Rimac Concept_One",
+      "alias": "C_One",
+      "cls": "S",
+      "stars": 6,
+      "score": 4490,
+      "key": false,
+      "perf": {
+        "top": 368.7,
+        "nitro": 383,
+        "air": 510,
+        "blue": null,
+        "accel": 86.45,
+        "handling": 84.35,
+        "nitroPower": 54.75,
+        "spray": null
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "zenvo-ts1-gt-anniversary",
+      "name": "Zenvo TS1 GT Anniversary",
+      "alias": "自燃车",
+      "cls": "S",
+      "stars": 6,
+      "score": 4521,
+      "key": false,
+      "perf": {
+        "top": 418.2,
+        "nitro": 443,
+        "air": 568,
+        "blue": null,
+        "accel": 81.29,
+        "handling": 46.66,
+        "nitroPower": 63.43,
+        "spray": 5.57
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        13,
+        21,
+        32,
+        46,
+        58
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "rimac-concept-s",
+      "name": "Rimac Concept S",
+      "alias": "CS",
+      "cls": "S",
+      "stars": 6,
+      "score": 4528,
+      "key": false,
+      "perf": {
+        "top": 376.3,
+        "nitro": 391,
+        "air": 523,
+        "blue": null,
+        "accel": 84.53,
+        "handling": 79.09,
+        "nitroPower": 69.86,
+        "spray": null
+      },
+      "cost": 36760000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "ferrari-sf90-stradale",
+      "name": "Ferrari SF90 Stradale",
+      "alias": "SF90",
+      "cls": "S",
+      "stars": 6,
+      "score": 4550,
+      "key": false,
+      "perf": {
+        "top": 360.1,
+        "nitro": 374,
+        "air": 509,
+        "blue": 384,
+        "accel": 86.83,
+        "handling": 93.5,
+        "nitroPower": 69.88,
+        "spray": 7.73
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "automobili-pininfarina-battista",
+      "name": "Automobili Pininfarina Battista",
+      "alias": "秋王",
+      "cls": "S",
+      "stars": 6,
+      "score": 4551,
+      "key": false,
+      "perf": {
+        "top": 368.3,
+        "nitro": 382,
+        "air": 509,
+        "blue": null,
+        "accel": 88.48,
+        "handling": 80.42,
+        "nitroPower": 78.22,
+        "spray": 8.63
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        25,
+        35,
+        46,
+        58,
+        76
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "techrules-at96-dragon-boat-edition",
+      "name": "TechRules AT96 Dragon Boat Edition",
+      "alias": "腾风龙舟",
+      "cls": "S",
+      "stars": 6,
+      "score": 4556,
+      "key": true,
+      "perf": {
+        "top": 366.4,
+        "nitro": 381,
+        "air": 506,
+        "blue": null,
+        "accel": 87.23,
+        "handling": 75.05,
+        "nitroPower": 72.62,
+        "spray": null
+      },
+      "cost": 36760000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        38,
+        48,
+        58,
+        68,
+        88
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "pagani-imola",
+      "name": "Pagani Imola",
+      "alias": "伊莫拉",
+      "cls": "S",
+      "stars": 6,
+      "score": 4564,
+      "key": false,
+      "perf": {
+        "top": 378.5,
+        "nitro": 393,
+        "air": 526,
+        "blue": null,
+        "accel": 80.26,
+        "handling": 72.44,
+        "nitroPower": 71.29,
+        "spray": null
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        85,
+        25,
+        29,
+        38,
+        54,
+        69
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "naran-hyper-coupe",
+      "name": "Naran Hyper Coupe",
+      "alias": "纳兰",
+      "cls": "S",
+      "stars": 6,
+      "score": 4564,
+      "key": false,
+      "perf": {
+        "top": 383.4,
+        "nitro": 398,
+        "air": 536,
+        "blue": null,
+        "accel": 85.79,
+        "handling": 67.31,
+        "nitroPower": 65.58,
+        "spray": null
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "lamborghini-countach-lpi-800-4",
+      "name": "Lamborghini Countach LPI 800-4",
+      "alias": "新康塔什",
+      "cls": "S",
+      "stars": 6,
+      "score": 4571,
+      "key": true,
+      "perf": {
+        "top": 373.7,
+        "nitro": 388,
+        "air": 519,
+        "blue": null,
+        "accel": 82.53,
+        "handling": 86.93,
+        "nitroPower": 73.04,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        38,
+        48,
+        58,
+        68,
+        88
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "nio-ep9",
+      "name": "Nio EP9",
+      "alias": "EP9",
+      "cls": "S",
+      "stars": 6,
+      "score": 4571,
+      "key": false,
+      "perf": {
+        "top": 372.8,
+        "nitro": 388,
+        "air": 530,
+        "blue": null,
+        "accel": 82.96,
+        "handling": 77.72,
+        "nitroPower": 76.17,
+        "spray": null
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        30,
+        35,
+        40,
+        50,
+        55
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "arash-imperium",
+      "name": "Arash Imperium",
+      "alias": "Imperium",
+      "cls": "S",
+      "stars": 6,
+      "score": 4577,
+      "key": true,
+      "perf": {
+        "top": 397.5,
+        "nitro": 413,
+        "air": 565,
+        "blue": null,
+        "accel": 84.85,
+        "handling": 60.77,
+        "nitroPower": 56.61,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        56,
+        65,
+        66,
+        68
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "hyundai-n-vision-74",
+      "name": "Hyundai N Vision 74",
+      "alias": "N74",
+      "cls": "S",
+      "stars": 6,
+      "score": 4579,
+      "key": true,
+      "perf": {
+        "top": 404.5,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 75.17,
+        "handling": 55.76,
+        "nitroPower": 58.53,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        45,
+        56,
+        65,
+        66,
+        68
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "mclaren-speedtail",
+      "name": "McLaren Speedtail",
+      "alias": "速尾",
+      "cls": "S",
+      "stars": 6,
+      "score": 4590,
+      "key": false,
+      "perf": {
+        "top": 416.7,
+        "nitro": 438,
+        "air": 566,
+        "blue": null,
+        "accel": 81.11,
+        "handling": 56.63,
+        "nitroPower": 74.19,
+        "spray": null
+      },
+      "cost": 25336000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        30,
+        35,
+        40,
+        50,
+        55
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "faraday-future-ffzero1",
+      "name": "Faraday Future FFZero1",
+      "alias": "FF01",
+      "cls": "S",
+      "stars": 6,
+      "score": 4602,
+      "key": false,
+      "perf": {
+        "top": 423,
+        "nitro": 445,
+        "air": 569,
+        "blue": null,
+        "accel": 86.06,
+        "handling": 42.83,
+        "nitroPower": 51.7,
+        "spray": null
+      },
+      "cost": 34072000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        35,
+        40,
+        50,
+        55,
+        60
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "bugatti-divo",
+      "name": "Bugatti Divo",
+      "alias": "Divo",
+      "cls": "S",
+      "stars": 6,
+      "score": 4607,
+      "key": false,
+      "perf": {
+        "top": 389.5,
+        "nitro": 405,
+        "air": 546,
+        "blue": null,
+        "accel": 85.66,
+        "handling": 61.5,
+        "nitroPower": 74.02,
+        "spray": null
+      },
+      "cost": 33119800,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "koenigsegg-regera",
+      "name": "Koenigsegg Regera",
+      "alias": "统治",
+      "cls": "S",
+      "stars": 6,
+      "score": 4616,
+      "key": false,
+      "perf": {
+        "top": 457.1,
+        "nitro": 481,
+        "air": 585,
+        "blue": null,
+        "accel": 80.88,
+        "handling": 48.75,
+        "nitroPower": 52.48,
+        "spray": 4.62
+      },
+      "cost": 33119800,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        15,
+        18,
+        25,
+        38,
+        48
+      ],
+      "bpTotal": 204
+    },
+    {
+      "id": "porsche-gt3-rs-2023",
+      "name": "Porsche GT3 RS 2023",
+      "alias": "GT3 2023",
+      "cls": "S",
+      "stars": 6,
+      "score": 4621,
+      "key": true,
+      "perf": {
+        "top": 360.6,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 87.44,
+        "handling": 91.48,
+        "nitroPower": 71.56,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        38,
+        48,
+        58,
+        68,
+        88
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "saleen-s7-twin-turbo",
+      "name": "Saleen S7 twin Turbo",
+      "alias": "萨林S7",
+      "cls": "S",
+      "stars": 6,
+      "score": 4629,
+      "key": false,
+      "perf": {
+        "top": 429.9,
+        "nitro": 452,
+        "air": 572,
+        "blue": null,
+        "accel": 69.5,
+        "handling": 68.97,
+        "nitroPower": 77.31,
+        "spray": null
+      },
+      "cost": 31448000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "w-motors-lykan-hypersport-neon-edition",
+      "name": "W Motors Lykan HyperSport Neon Edition",
+      "alias": "霓虹狼崽",
+      "cls": "S",
+      "stars": 6,
+      "score": 4636,
+      "key": false,
+      "perf": {
+        "top": 407.5,
+        "nitro": 425,
+        "air": 560,
+        "blue": null,
+        "accel": 80.48,
+        "handling": 53.75,
+        "nitroPower": 65.9,
+        "spray": null
+      },
+      "cost": 39744000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "ultima-rs",
+      "name": "Ultima RS",
+      "alias": "Ultima RS",
+      "cls": "S",
+      "stars": 6,
+      "score": 4650,
+      "key": true,
+      "perf": {
+        "top": 418.2,
+        "nitro": 440,
+        "air": 567,
+        "blue": null,
+        "accel": 81.41,
+        "handling": 63.54,
+        "nitroPower": 63.28,
+        "spray": null
+      },
+      "cost": 37120000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        38,
+        48,
+        58,
+        68,
+        88
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "w-motors-fenyr-super-sport-cny-edition",
+      "name": "W Motors Fenyr Super Sport CNY Edition",
+      "alias": "狼王春节版",
+      "cls": "S",
+      "stars": 6,
+      "score": 4653,
+      "key": true,
+      "perf": {
+        "top": 410.2,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 83,
+        "handling": 61.33,
+        "nitroPower": 60.21,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        56,
+        65,
+        66,
+        68
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "ford-mustang-rtr-spec-5-fd",
+      "name": "Ford Mustang RTR Spec 5-FD",
+      "alias": "rtr 5-fd",
+      "cls": "S",
+      "stars": 6,
+      "score": 4693,
+      "key": false,
+      "perf": {
+        "top": 415,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 78.77,
+        "handling": 54.9,
+        "nitroPower": 74.41,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        35,
+        40,
+        45,
+        50,
+        60,
+        70
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "ajlani-drakuma",
+      "name": "Ajlani Drakuma",
+      "alias": "Drakuma",
+      "cls": "S",
+      "stars": 6,
+      "score": 4702,
+      "key": false,
+      "perf": {
+        "top": 441,
+        "nitro": 464,
+        "air": 578,
+        "blue": null,
+        "accel": 81.56,
+        "handling": 47.91,
+        "nitroPower": 60.58,
+        "spray": 5.15
+      },
+      "cost": 35120000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        35,
+        40,
+        50,
+        55,
+        60
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "ford-team-fordzilla-p1",
+      "name": "Ford Team Fordzilla P1",
+      "alias": "福特P1",
+      "cls": "S",
+      "stars": 6,
+      "score": 4709,
+      "key": false,
+      "perf": {
+        "top": 385.5,
+        "nitro": 401,
+        "air": 539,
+        "blue": null,
+        "accel": 87.77,
+        "handling": 83.66,
+        "nitroPower": 51.4,
+        "spray": null
+      },
+      "cost": 37744000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        35,
+        40,
+        50,
+        55,
+        60
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "ssc-ultimate-aero-tt",
+      "name": "SSC Ultimate Aero TT",
+      "alias": "Aero TT",
+      "cls": "S",
+      "stars": 6,
+      "score": 4720,
+      "key": false,
+      "perf": {
+        "top": 419.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 79.67,
+        "handling": 50.01,
+        "nitroPower": 51.45,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        35,
+        40,
+        45,
+        50,
+        60,
+        70
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "inferno-automobili-inferno",
+      "name": "Inferno Automobili Inferno",
+      "alias": "地狱",
+      "cls": "S",
+      "stars": 6,
+      "score": 4725,
+      "key": false,
+      "perf": {
+        "top": 412.9,
+        "nitro": 433,
+        "air": 564,
+        "blue": null,
+        "accel": 83.02,
+        "handling": 54.86,
+        "nitroPower": 76.59,
+        "spray": null
+      },
+      "cost": 38117400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        85,
+        25,
+        29,
+        38,
+        54,
+        69
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "torino-design-super-sport",
+      "name": "Torino Design Super Sport",
+      "alias": "都灵",
+      "cls": "S",
+      "stars": 6,
+      "score": 4741,
+      "key": true,
+      "perf": {
+        "top": 405.3,
+        "nitro": 422,
+        "air": 559,
+        "blue": null,
+        "accel": 82.28,
+        "handling": 62.3,
+        "nitroPower": 75.81,
+        "spray": null
+      },
+      "cost": 35120000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        56,
+        65,
+        66,
+        68
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "bugatti-chiron",
+      "name": "Bugatti Chiron",
+      "alias": "肥龙",
+      "cls": "S",
+      "stars": 6,
+      "score": 4755,
+      "key": false,
+      "perf": {
+        "top": 443.4,
+        "nitro": 467,
+        "air": 579,
+        "blue": null,
+        "accel": 84.4,
+        "handling": 45.62,
+        "nitroPower": 63.63,
+        "spray": 5.43
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        30,
+        30,
+        30,
+        35,
+        35,
+        40
+      ],
+      "bpTotal": 200
+    },
+    {
+      "id": "bxr-bailey-blade-gt1",
+      "name": "BXR Bailey Blade GT1",
+      "alias": "BXR",
+      "cls": "S",
+      "stars": 6,
+      "score": 4759,
+      "key": false,
+      "perf": {
+        "top": 449,
+        "nitro": 473,
+        "air": 582,
+        "blue": null,
+        "accel": 80.51,
+        "handling": 46.84,
+        "nitroPower": 70.64,
+        "spray": 5.97
+      },
+      "cost": 38117400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        30,
+        35,
+        40,
+        50,
+        55
+      ],
+      "bpTotal": 250
+    },
+    {
+      "id": "lego-technic-bugatti-chiron-pur-sport",
+      "name": "LEGO Technic Bugatti Chiron Pur Sport",
+      "alias": "乐高PS龙",
+      "cls": "S",
+      "stars": 6,
+      "score": 4764,
+      "key": false,
+      "perf": {
+        "top": 394.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 84.98,
+        "handling": 61.19,
+        "nitroPower": 73.64,
+        "spray": null
+      },
+      "cost": 36432000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        35,
+        40,
+        45,
+        50,
+        60,
+        70
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "tushek-ts-900-racer-pro",
+      "name": "Tushek TS 900 Racer Pro",
+      "alias": "TS900",
+      "cls": "S",
+      "stars": 6,
+      "score": 4782,
+      "key": false,
+      "perf": {
+        "top": 395,
+        "nitro": 410,
+        "air": 552,
+        "blue": null,
+        "accel": 86.02,
+        "handling": 73.76,
+        "nitroPower": 61.52,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        85,
+        25,
+        29,
+        38,
+        54,
+        69
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "mazzanti-evantra-millecavalli",
+      "name": "Mazzanti Evantra Millecavalli",
+      "alias": "皇后",
+      "cls": "S",
+      "stars": 6,
+      "score": 4790,
+      "key": false,
+      "perf": {
+        "top": 412.3,
+        "nitro": 432,
+        "air": 563,
+        "blue": null,
+        "accel": 82.6,
+        "handling": 63.85,
+        "nitroPower": 64.81,
+        "spray": null
+      },
+      "cost": 38117400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        85,
+        25,
+        29,
+        38,
+        54,
+        69
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "toroidion-1mw",
+      "name": "Toroidion 1MW",
+      "alias": "1MW",
+      "cls": "S",
+      "stars": 6,
+      "score": 4808,
+      "key": false,
+      "perf": {
+        "top": 460.4,
+        "nitro": 485,
+        "air": 587,
+        "blue": null,
+        "accel": 81.28,
+        "handling": 60.34,
+        "nitroPower": 54.16,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        85,
+        25,
+        29,
+        38,
+        54,
+        69
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "bugatti-chiron-pur-sport",
+      "name": "Bugatti Chiron Pur Sport",
+      "alias": "PS龙",
+      "cls": "S",
+      "stars": 6,
+      "score": 4821,
+      "key": true,
+      "perf": {
+        "top": 397.8,
+        "nitro": 413,
+        "air": 554,
+        "blue": null,
+        "accel": 87.01,
+        "handling": 73.62,
+        "nitroPower": 65.32,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        56,
+        65,
+        66,
+        68
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "koenigsegg-jesko",
+      "name": "Koenigsegg Jesko",
+      "alias": "Jesko",
+      "cls": "S",
+      "stars": 6,
+      "score": 4824,
+      "key": true,
+      "perf": {
+        "top": 496.6,
+        "nitro": 522,
+        "air": 600,
+        "blue": null,
+        "accel": 80.07,
+        "handling": 48.19,
+        "nitroPower": 58.23,
+        "spray": 4.8
+      },
+      "cost": 41397400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        60,
+        70,
+        85
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "bugatti-centodieci",
+      "name": "Bugatti Centodieci",
+      "alias": "白龙",
+      "cls": "S",
+      "stars": 6,
+      "score": 4843,
+      "key": true,
+      "perf": {
+        "top": 402.7,
+        "nitro": 418,
+        "air": 557,
+        "blue": null,
+        "accel": 86.51,
+        "handling": 62.58,
+        "nitroPower": 77.09,
+        "spray": null
+      },
+      "cost": 41397400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        60,
+        70,
+        85
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "lamborghini-sian-fkp-37",
+      "name": "Lamborghini Sian FKP 37",
+      "alias": "Sian",
+      "cls": "S",
+      "stars": 6,
+      "score": 4860,
+      "key": true,
+      "perf": {
+        "top": 374,
+        "nitro": 389,
+        "air": 534,
+        "blue": 399,
+        "accel": 82.06,
+        "handling": 92.32,
+        "nitroPower": 81.15,
+        "spray": 9.36
+      },
+      "cost": 41397400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        60,
+        70,
+        85
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "aspark-owl",
+      "name": "Aspark Owl",
+      "alias": "猫头鹰",
+      "cls": "S",
+      "stars": 6,
+      "score": 4861,
+      "key": false,
+      "perf": {
+        "top": 414.8,
+        "nitro": 435,
+        "air": 565,
+        "blue": null,
+        "accel": 89.34,
+        "handling": 51.72,
+        "nitroPower": 51.29,
+        "spray": null
+      },
+      "cost": 41397400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        85,
+        25,
+        29,
+        38,
+        54,
+        69
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "icona-vulcano-spyder",
+      "name": "Icona Vulcano Spyder",
+      "alias": "火山Spyder",
+      "cls": "S",
+      "stars": 6,
+      "score": 4868,
+      "key": false,
+      "perf": {
+        "top": 430.7,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 83.6,
+        "handling": 55.64,
+        "nitroPower": 51.99,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "raesr-aglaia",
+      "name": "Raesr Aglaia",
+      "alias": "Aglaia",
+      "cls": "S",
+      "stars": 6,
+      "score": 4880,
+      "key": true,
+      "perf": {
+        "top": 439.3,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 85.88,
+        "handling": 47.8,
+        "nitroPower": 46.08,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        45,
+        56,
+        65,
+        66,
+        68
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "rimac-nevera",
+      "name": "Rimac Nevera",
+      "alias": "C2",
+      "cls": "S",
+      "stars": 6,
+      "score": 4897,
+      "key": true,
+      "perf": {
+        "top": 421.6,
+        "nitro": 444,
+        "air": 569,
+        "blue": null,
+        "accel": 87.71,
+        "handling": 51.33,
+        "nitroPower": 56.51,
+        "spray": 5
+      },
+      "cost": 41397400,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        60,
+        70,
+        85
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "ssc-tuatara",
+      "name": "SSC Tuatara",
+      "alias": "大蜥蜴",
+      "cls": "S",
+      "stars": 6,
+      "score": 4930,
+      "key": false,
+      "perf": {
+        "top": 487,
+        "nitro": 512,
+        "air": 599,
+        "blue": null,
+        "accel": 82.51,
+        "handling": 48.74,
+        "nitroPower": 62.05,
+        "spray": 5.17
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "koenigsegg-agera-rs",
+      "name": "Koenigsegg Agera RS",
+      "alias": "Agera RS",
+      "cls": "S",
+      "stars": 6,
+      "score": 4940,
+      "key": false,
+      "perf": {
+        "top": 484.8,
+        "nitro": 510,
+        "air": 598,
+        "blue": null,
+        "accel": 79.67,
+        "handling": 60.03,
+        "nitroPower": 58.86,
+        "spray": 4.75
+      },
+      "cost": 54288000,
+      "parts": {
+        "blue": 8,
+        "purple": 6,
+        "yellow": 5
+      },
+      "bp": [
+        85,
+        40,
+        48,
+        50,
+        52,
+        55
+      ],
+      "bpTotal": 330
+    },
+    {
+      "id": "htt-locus-plethore-lc750",
+      "name": "HTT Locus Plethore LC750",
+      "alias": "HTT",
+      "cls": "S",
+      "stars": 6,
+      "score": 4955,
+      "key": false,
+      "perf": {
+        "top": 414.5,
+        "nitro": 435,
+        "air": 565,
+        "blue": null,
+        "accel": 78.04,
+        "handling": 75.86,
+        "nitroPower": 84.58,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        60,
+        35,
+        40,
+        50,
+        55,
+        60
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "hennessey-venom-gt",
+      "name": "Hennessey Venom GT",
+      "alias": "毒液GT",
+      "cls": "S",
+      "stars": 6,
+      "score": 4963,
+      "key": true,
+      "perf": {
+        "top": 468.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 78.54,
+        "handling": 47.88,
+        "nitroPower": 46.91,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        38,
+        48,
+        58,
+        68,
+        88
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "w-motors-lykan-security",
+      "name": "W Motors Lykan Security",
+      "alias": "拦路狼",
+      "cls": "S",
+      "stars": 6,
+      "score": 4977,
+      "key": false,
+      "perf": {
+        "top": 445.8,
+        "nitro": null,
+        "air": 581,
+        "blue": null,
+        "accel": 86.33,
+        "handling": 61.08,
+        "nitroPower": 29.38,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "koenigsegg-ccxr",
+      "name": "Koenigsegg CCXR",
+      "alias": "CCXR",
+      "cls": "S",
+      "stars": 6,
+      "score": 4998,
+      "key": true,
+      "perf": {
+        "top": 412.2,
+        "nitro": 432,
+        "air": 563,
+        "blue": null,
+        "accel": 79.4,
+        "handling": 79.09,
+        "nitroPower": 71.51,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        56,
+        65,
+        66,
+        68
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "tushek-aeon-e",
+      "name": "Tushek Aeon E",
+      "alias": "Aeon E",
+      "cls": "S",
+      "stars": 6,
+      "score": 5025,
+      "key": false,
+      "perf": {
+        "top": 491.5,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 86.23,
+        "handling": 46.43,
+        "nitroPower": 35.37,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "bugatti-la-voiture-noire",
+      "name": "Bugatti LA Voiture Noire",
+      "alias": "黑龙",
+      "cls": "S",
+      "stars": 6,
+      "score": 5055,
+      "key": true,
+      "perf": {
+        "top": 443.2,
+        "nitro": 467,
+        "air": 579,
+        "blue": null,
+        "accel": 84.88,
+        "handling": 54.68,
+        "nitroPower": 63.8,
+        "spray": null
+      },
+      "cost": 53628000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        38,
+        53,
+        58,
+        68,
+        88
+      ],
+      "bpTotal": 305
+    },
+    {
+      "id": "koenigsegg-one-1",
+      "name": "Koenigsegg One:1",
+      "alias": "旺旺",
+      "cls": "S",
+      "stars": 6,
+      "score": 5076,
+      "key": true,
+      "perf": {
+        "top": 454.8,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 83.18,
+        "handling": 59.7,
+        "nitroPower": 43.83,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [
+        45,
+        56,
+        65,
+        66,
+        68
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "deus-vayanne",
+      "name": "Deus Vayanne",
+      "alias": "Vayanne",
+      "cls": "S",
+      "stars": 6,
+      "score": 5082,
+      "key": false,
+      "perf": {
+        "top": 438.7,
+        "nitro": 462,
+        "air": 577,
+        "blue": null,
+        "accel": 86.55,
+        "handling": 47.61,
+        "nitroPower": 47.08,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        35,
+        40,
+        50,
+        55,
+        60
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "koenigsegg-gemera",
+      "name": "Koenigsegg Gemera",
+      "alias": "Gemera",
+      "cls": "S",
+      "stars": 6,
+      "score": 5092,
+      "key": true,
+      "perf": {
+        "top": 413.1,
+        "nitro": 433,
+        "air": 564,
+        "blue": null,
+        "accel": 88.58,
+        "handling": 66.06,
+        "nitroPower": 48.36,
+        "spray": null
+      },
+      "cost": 53628000,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        38,
+        48,
+        58,
+        68,
+        88
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "bugatti-mistral",
+      "name": "Bugatti Mistral",
+      "alias": "Mistral",
+      "cls": "S",
+      "stars": 6,
+      "score": 5096,
+      "key": true,
+      "perf": {
+        "top": 431.7,
+        "nitro": null,
+        "air": 574,
+        "blue": null,
+        "accel": 84.4,
+        "handling": 60.79,
+        "nitroPower": 65.81,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        38,
+        48,
+        58,
+        68,
+        88
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "zenvo-aurora-tur",
+      "name": "Zenvo Aurora Tur",
+      "alias": "极光",
+      "cls": "S",
+      "stars": 6,
+      "score": 5100,
+      "key": false,
+      "perf": {
+        "top": 467.5,
+        "nitro": 492,
+        "air": 590,
+        "blue": null,
+        "accel": 81.73,
+        "handling": 56.53,
+        "nitroPower": 42.65,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        35,
+        40,
+        50,
+        55,
+        60
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "hennessey-venom-f5",
+      "name": "Hennessey Venom F5",
+      "alias": "毒液F5",
+      "cls": "S",
+      "stars": 6,
+      "score": 5128,
+      "key": false,
+      "perf": {
+        "top": 512.4,
+        "nitro": 538,
+        "air": 600,
+        "blue": null,
+        "accel": 80.68,
+        "handling": 49.02,
+        "nitroPower": 49.52,
+        "spray": 4.2
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        85,
+        25,
+        29,
+        38,
+        54,
+        69
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "koenigsegg-cc850",
+      "name": "Koenigsegg CC850",
+      "alias": "CC850",
+      "cls": "S",
+      "stars": 6,
+      "score": 5146,
+      "key": true,
+      "perf": {
+        "top": 478.3,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 82.37,
+        "handling": 54.39,
+        "nitroPower": 49.63,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        45,
+        56,
+        65,
+        66,
+        68
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "czinger-21c",
+      "name": "Czinger 21C",
+      "alias": "21C",
+      "cls": "S",
+      "stars": 6,
+      "score": 5149,
+      "key": false,
+      "perf": {
+        "top": 417.1,
+        "nitro": 439,
+        "air": 566,
+        "blue": null,
+        "accel": 89.07,
+        "handling": 54.43,
+        "nitroPower": 51.03,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        35,
+        40,
+        50,
+        55,
+        60
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "mosler-super-gt",
+      "name": "Mosler Super GT",
+      "alias": "莫斯勒SuperGT",
+      "cls": "S",
+      "stars": 6,
+      "score": 5169,
+      "key": false,
+      "perf": {
+        "top": 506.7,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 83.27,
+        "handling": 49.79,
+        "nitroPower": 44.54,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        60,
+        48,
+        50,
+        52,
+        54,
+        56
+      ],
+      "bpTotal": 320
+    },
+    {
+      "id": "raesr-tartarus",
+      "name": "Raesr Tartarus",
+      "alias": "Tartarus",
+      "cls": "S",
+      "stars": 6,
+      "score": 5355,
+      "key": false,
+      "perf": {
+        "top": 538.7,
+        "nitro": 550,
+        "air": 600,
+        "blue": null,
+        "accel": 90.64,
+        "handling": 61.77,
+        "nitroPower": 42.69,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 7,
+        "purple": 5,
+        "yellow": 4
+      },
+      "bp": [
+        40,
+        45,
+        55,
+        48,
+        56,
+        56
+      ],
+      "bpTotal": 300
+    },
+    {
+      "id": "devel-sixteen",
+      "name": "Devel Sixteen",
+      "alias": "恶魔",
+      "cls": "R",
+      "stars": 6,
+      "score": 5254,
+      "key": true,
+      "perf": {
+        "top": 556.5,
+        "nitro": 559,
+        "air": 600,
+        "blue": null,
+        "accel": 81.37,
+        "handling": 56.37,
+        "nitroPower": 38.45,
+        "spray": 3.7
+      },
+      "cost": 118000000,
+      "parts": {
+        "blue": 4,
+        "purple": 8,
+        "yellow": 6
+      },
+      "bp": [
+        60,
+        65,
+        68,
+        72,
+        75
+      ],
+      "bpTotal": 340
+    },
+    {
+      "id": "ssc-tuatara-striker",
+      "name": "SSC Tuatara Striker",
+      "alias": "SSC Striker",
+      "cls": "R",
+      "stars": 6,
+      "score": 5337,
+      "key": true,
+      "perf": {
+        "top": 477.7,
+        "nitro": 502,
+        "air": 595,
+        "blue": null,
+        "accel": 80.65,
+        "handling": 63.37,
+        "nitroPower": 55.62,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 4,
+        "purple": 8,
+        "yellow": 6
+      },
+      "bp": [
+        60,
+        65,
+        68,
+        72,
+        75
+      ],
+      "bpTotal": 340
+    },
+    {
+      "id": "mercedes-benz-silver-lightning",
+      "name": "Mercedes-Benz Silver Lightning",
+      "alias": "银电",
+      "cls": "R",
+      "stars": 6,
+      "score": 5344,
+      "key": true,
+      "perf": {
+        "top": 443.4,
+        "nitro": 483,
+        "air": 600,
+        "blue": 531,
+        "accel": 80.15,
+        "handling": 84.1,
+        "nitroPower": 55.95,
+        "spray": 4.7
+      },
+      "cost": null,
+      "parts": {
+        "blue": 4,
+        "purple": 8,
+        "yellow": 6
+      },
+      "bp": [
+        60,
+        65,
+        68,
+        72,
+        75
+      ],
+      "bpTotal": 340
+    },
+    {
+      "id": "bugatti-bolide",
+      "name": "Bugatti Bolide",
+      "alias": "玻璃龙",
+      "cls": "R",
+      "stars": 6,
+      "score": 5385,
+      "key": true,
+      "perf": {
+        "top": 497.1,
+        "nitro": 522,
+        "air": 600,
+        "blue": null,
+        "accel": 84.28,
+        "handling": 55.58,
+        "nitroPower": 34.66,
+        "spray": 3.67
+      },
+      "cost": 100000000,
+      "parts": {
+        "blue": 4,
+        "purple": 8,
+        "yellow": 6
+      },
+      "bp": [
+        60,
+        65,
+        68,
+        72,
+        75
+      ],
+      "bpTotal": 340
+    },
+    {
+      "id": "bugatti-chiron-super-sport-300",
+      "name": "Bugatti Chiron Super Sport 300+",
+      "alias": "300+",
+      "cls": "R",
+      "stars": 6,
+      "score": 5602,
+      "key": true,
+      "perf": {
+        "top": 510.1,
+        "nitro": 536,
+        "air": 600,
+        "blue": null,
+        "accel": 83.26,
+        "handling": 64.82,
+        "nitroPower": 44.58,
+        "spray": 4
+      },
+      "cost": 100000000,
+      "parts": {
+        "blue": 4,
+        "purple": 8,
+        "yellow": 6
+      },
+      "bp": [
+        60,
+        65,
+        68,
+        72,
+        75
+      ],
+      "bpTotal": 340
+    },
+    {
+      "id": "rimac-nevera-r",
+      "name": "Rimac Nevera R",
+      "alias": "Nevera R",
+      "cls": "R",
+      "stars": 6,
+      "score": 5611,
+      "key": true,
+      "perf": {
+        "top": 453.1,
+        "nitro": 480,
+        "air": 585,
+        "blue": null,
+        "accel": 89.07,
+        "handling": 76.53,
+        "nitroPower": 48.88,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 4,
+        "purple": 8,
+        "yellow": 6
+      },
+      "bp": [
+        60,
+        65,
+        68,
+        72,
+        75
+      ],
+      "bpTotal": 340
+    },
+    {
+      "id": "hennessey-venom-f5-revolution",
+      "name": "Hennessey Venom F5 Revolution",
+      "alias": "毒液F5 R",
+      "cls": "R",
+      "stars": 6,
+      "score": 5656,
+      "key": true,
+      "perf": {
+        "top": 535.4,
+        "nitro": 554,
+        "air": 600,
+        "blue": null,
+        "accel": 82.77,
+        "handling": 55.58,
+        "nitroPower": 50.2,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": 4,
+        "purple": 8,
+        "yellow": 6
+      },
+      "bp": [
+        60,
+        65,
+        68,
+        72,
+        75
+      ],
+      "bpTotal": 340
+    },
+    {
+      "id": "koenigsegg-jesko-absolut",
+      "name": "Koenigsegg Jesko Absolut",
+      "alias": "杰皇",
+      "cls": "R",
+      "stars": 6,
+      "score": 5664,
+      "key": false,
+      "perf": {
+        "top": 548.1,
+        "nitro": 559,
+        "air": 600,
+        "blue": null,
+        "accel": 82.27,
+        "handling": 50.53,
+        "nitroPower": 52.89,
+        "spray": 4.3
+      },
+      "cost": 100000000,
+      "parts": {
+        "blue": 4,
+        "purple": 8,
+        "yellow": 6
+      },
+      "bp": [
+        60,
+        60,
+        62,
+        62,
+        65,
+        70
+      ],
+      "bpTotal": 379
+    },
+    {
+      "id": "ares-panther",
+      "name": "Ares PANTHER",
+      "alias": "",
+      "cls": "B",
+      "stars": 6,
+      "score": 4387,
+      "key": true,
+      "perf": {
+        "top": 368.6,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 83.84,
+        "handling": 70.82,
+        "nitroPower": 49.07,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "mercedes-benz-biome-2010",
+      "name": "MERCEDES-BENZ BIOME 2010",
+      "alias": "面包",
+      "cls": "A",
+      "stars": 6,
+      "score": 4078,
+      "key": true,
+      "perf": {
+        "top": 337,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 80.62,
+        "handling": 80.16,
+        "nitroPower": 83.39,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "bugatti-tourbillon",
+      "name": "BUGATTI TOURBILLON",
+      "alias": "陀飞轮",
+      "cls": "R",
+      "stars": 6,
+      "score": 5676,
+      "key": true,
+      "perf": {
+        "top": 492.8,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 85.24,
+        "handling": 70.17,
+        "nitroPower": 48.98,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "nio-ep9-anniversary-speical-edition",
+      "name": "NIO EP9 ANNIVERSARY SPEICAL EDITION",
+      "alias": "",
+      "cls": "A",
+      "stars": 6,
+      "score": 4501,
+      "key": false,
+      "perf": {
+        "top": 348.7,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 86.14,
+        "handling": 59.71,
+        "nitroPower": 60.93,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "ferrante-design-elytron",
+      "name": "FERRANTE DESIGN ELYTRON",
+      "alias": "",
+      "cls": "S",
+      "stars": 6,
+      "score": 5050,
+      "key": true,
+      "perf": {
+        "top": 462.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 85.24,
+        "handling": 56.39,
+        "nitroPower": 47.19,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "pagani-codalunga",
+      "name": "PAGANI CODALUNGA",
+      "alias": "",
+      "cls": "S",
+      "stars": 6,
+      "score": 4647,
+      "key": true,
+      "perf": {
+        "top": 398.3,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.7,
+        "handling": 65.49,
+        "nitroPower": 72.01,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "ferrari-12-cilindri",
+      "name": "FERRARI 12 CILINDRI",
+      "alias": "",
+      "cls": "B",
+      "stars": 6,
+      "score": 4294,
+      "key": false,
+      "perf": {
+        "top": 351.3,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 85.29,
+        "handling": 70.13,
+        "nitroPower": 75.09,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "audi-r8-lmp1-2000",
+      "name": "AUDI R8 LMP1 2000",
+      "alias": "",
+      "cls": "S",
+      "stars": 6,
+      "score": 4889,
+      "key": true,
+      "perf": {
+        "top": 422.7,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 83.9,
+        "handling": 60.28,
+        "nitroPower": 66.17,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "audi-r18-e-tron-quattro-2012",
+      "name": "AUDI R18 E-TRON QUATTRO 2012",
+      "alias": "",
+      "cls": "S",
+      "stars": 6,
+      "score": 4420,
+      "key": true,
+      "perf": {
+        "top": 400.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 78.77,
+        "handling": 55.32,
+        "nitroPower": 54.21,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "audi-r8-coup-v10-performance-quattro",
+      "name": "AUDI R8 COUPÉ V10 PERFORMANCE QUATTRO",
+      "alias": "",
+      "cls": "C",
+      "stars": 5,
+      "score": 3627,
+      "key": false,
+      "perf": {
+        "top": 341.2,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 76.99,
+        "handling": 64.17,
+        "nitroPower": 48.62,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "dodge-challenger-halloween-edition",
+      "name": "DODGE CHALLENGER HALLOWEEN EDITION",
+      "alias": "",
+      "cls": "S",
+      "stars": 6,
+      "score": 4594,
+      "key": true,
+      "perf": {
+        "top": 372.4,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 86.52,
+        "handling": 56.05,
+        "nitroPower": 68.79,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "tvr-cerbera-speed-12",
+      "name": "TVR CERBERA SPEED 12",
+      "alias": "",
+      "cls": "S",
+      "stars": 6,
+      "score": 5017,
+      "key": true,
+      "perf": {
+        "top": 403.3,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 82.42,
+        "handling": 79.44,
+        "nitroPower": 85.67,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "bentley-speed-8",
+      "name": "BENTLEY SPEED 8",
+      "alias": "",
+      "cls": "A",
+      "stars": 6,
+      "score": 4242,
+      "key": false,
+      "perf": {
+        "top": 367.1,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 86.53,
+        "handling": 68.34,
+        "nitroPower": 58.91,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "porsche-718-cayman-pac-man-edition",
+      "name": "PORSCHE 718 CAYMAN PAC-MAN EDITION",
+      "alias": "",
+      "cls": "B",
+      "stars": 6,
+      "score": 4335,
+      "key": false,
+      "perf": {
+        "top": 360,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 81.95,
+        "handling": 64.77,
+        "nitroPower": 68.37,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "ginetta-akula",
+      "name": "Ginetta AKULA",
+      "alias": "",
+      "cls": "A",
+      "stars": 6,
+      "score": 4391,
+      "key": false,
+      "perf": {
+        "top": 369.5,
+        "nitro": null,
+        "air": null,
+        "blue": null,
+        "accel": 83.54,
+        "handling": 72.54,
+        "nitroPower": 66.41,
+        "spray": null
+      },
+      "cost": null,
+      "parts": {
+        "blue": null,
+        "purple": null,
+        "yellow": null
+      },
+      "bp": [],
+      "bpTotal": null
+    },
+    {
+      "id": "new-1794734215210",
+      "name": "Mercedes-Benz C11",
+      "alias": "C11",
+      "cls": "S",
+      "stars": 6,
+      "score": 4506,
+      "key": false,
+      "perf": {
+        "top": 414.7,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 79.49,
+        "handling": 56.98,
+        "nitroPower": 58.2,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794739170530",
+      "name": "LEXUS LFA NURBURGRING PACKAGE",
+      "alias": "",
+      "cls": "C",
+      "stars": 5,
+      "score": 3612,
+      "key": false,
+      "perf": {
+        "top": 337.3,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 74.12,
+        "handling": 61.05,
+        "nitroPower": 62.13,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794739488391",
+      "name": "NILU27 NLU",
+      "alias": "妮露",
+      "cls": "S",
+      "stars": 6,
+      "score": 5003,
+      "key": true,
+      "perf": {
+        "top": 429.9,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 81.69,
+        "handling": 54.04,
+        "nitroPower": 67,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794739593733",
+      "name": "ZENVO TSR-S DRAGONBOAT EDITINO",
+      "alias": "",
+      "cls": "S",
+      "stars": 6,
+      "score": 4665,
+      "key": true,
+      "perf": {
+        "top": 368.9,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 84.53,
+        "handling": 81.08,
+        "nitroPower": 71.56,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794739762916",
+      "name": "PORSCHE 918SPYDER ASPHALT EDITION",
+      "alias": "",
+      "cls": "S",
+      "stars": 6,
+      "score": 4252,
+      "key": true,
+      "perf": {
+        "top": 401.6,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 76.24,
+        "handling": 59.93,
+        "nitroPower": 51.87,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794739895346",
+      "name": "PORSCHE 917 LIVING LEGENO",
+      "alias": "",
+      "cls": "S",
+      "stars": 6,
+      "score": 4791,
+      "key": true,
+      "perf": {
+        "top": 382.6,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 86.69,
+        "handling": 77.65,
+        "nitroPower": 76.68,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794739984878",
+      "name": "PORSCHE 919 STREET",
+      "alias": "",
+      "cls": "A",
+      "stars": 6,
+      "score": 4628,
+      "key": true,
+      "perf": {
+        "top": 372,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 87.83,
+        "handling": 85.29,
+        "nitroPower": 62.21,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794740091717",
+      "name": "PORDCHE 911 GT3 R RENNSPORT",
+      "alias": "",
+      "cls": "C",
+      "stars": 5,
+      "score": 0,
+      "key": false,
+      "perf": {
+        "top": 322.5,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 81.15,
+        "handling": 74.4,
+        "nitroPower": 65.78,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794740205701",
+      "name": "ASPARK OWL SP600",
+      "alias": "猫头鹰SP600",
+      "cls": "R",
+      "stars": 6,
+      "score": 5640,
+      "key": true,
+      "perf": {
+        "top": 480.4,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 86.14,
+        "handling": 50.56,
+        "nitroPower": 60.59,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794740362514",
+      "name": "NISSAN SKYLINE GT-R R34",
+      "alias": "",
+      "cls": "A",
+      "stars": 6,
+      "score": 4622,
+      "key": true,
+      "perf": {
+        "top": 383.2,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 81.23,
+        "handling": 70.05,
+        "nitroPower": 54.49,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794740457943",
+      "name": "TOYOTA SUPRA RZ MARK IV",
+      "alias": "",
+      "cls": "B",
+      "stars": 5,
+      "score": 4061,
+      "key": false,
+      "perf": {
+        "top": 364,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 80.32,
+        "handling": 63.99,
+        "nitroPower": 49.71,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794740569926",
+      "name": "MAZDA RX-7 SPIRIT R",
+      "alias": "",
+      "cls": "C",
+      "stars": 4,
+      "score": 2689,
+      "key": false,
+      "perf": {
+        "top": 313.5,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 73.52,
+        "handling": 68.54,
+        "nitroPower": 50.7,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794740661185",
+      "name": "LUCID AIR SAPPHIRE",
+      "alias": "",
+      "cls": "B",
+      "stars": 5,
+      "score": 3935,
+      "key": false,
+      "perf": {
+        "top": 345.3,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 88.1,
+        "handling": 56.21,
+        "nitroPower": 56.37,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794740760139",
+      "name": "KOENIGSEGG CHIMERA",
+      "alias": "奇美拉",
+      "cls": "R",
+      "stars": 6,
+      "score": 5410,
+      "key": false,
+      "perf": {
+        "top": 511.2,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 83.8,
+        "handling": 66.29,
+        "nitroPower": 46.08,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794740843821",
+      "name": "TOYOTA GT-ONE ROAD VERSION",
+      "alias": "",
+      "cls": "A",
+      "stars": 6,
+      "score": 4444,
+      "key": false,
+      "perf": {
+        "top": 380.9,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 78.45,
+        "handling": 71.34,
+        "nitroPower": 71.89,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    },
+    {
+      "id": "new-1794740938612",
+      "name": "ART MACHINES AELLA-60",
+      "alias": "",
+      "cls": "C",
+      "stars": 5,
+      "score": 3749,
+      "key": false,
+      "perf": {
+        "top": 322.5,
+        "nitro": 0,
+        "air": 0,
+        "blue": null,
+        "accel": 78.77,
+        "handling": 75.5,
+        "nitroPower": 68.41,
+        "spray": 0
+      },
+      "cost": 0,
+      "parts": {
+        "blue": 0,
+        "purple": 0,
+        "yellow": 0
+      },
+      "bp": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bpTotal": 0
+    }
+  ]
+};
