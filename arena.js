@@ -248,21 +248,29 @@
     }).join("");
   }
 
+  /* 按车辆星级上限重建两个下拉：当前 0~N★，目标 1~N★ */
+  function fillStarOptions(maxStar) {
+    var curSel = $("curStar"), tgtSel = $("star");
+    var curVal = parseInt(curSel.value, 10);
+    var tgtVal = parseInt(tgtSel.value, 10);
+
+    var a = "", b = "";
+    for (var s = 0; s <= maxStar; s++) a += '<option value="' + s + '">' + s + "★</option>";
+    for (var t = 1; t <= maxStar; t++) b += '<option value="' + t + '">' + t + "★</option>";
+    curSel.innerHTML = a;
+    tgtSel.innerHTML = b;
+
+    if (isNaN(curVal) || curVal < 0 || curVal > maxStar) curVal = 0;
+    curSel.value = String(curVal);
+
+    if (isNaN(tgtVal) || tgtVal < 1 || tgtVal > maxStar) tgtVal = maxStar;
+    if (tgtVal <= curVal) tgtVal = Math.min(maxStar, curVal + 1);
+    tgtSel.value = String(tgtVal);
+  }
+
   function syncStars(car) {
     var maxStar = (car && car.stars) ? car.stars : 6;
-
-    Array.prototype.forEach.call($("curStar").options, function (opt) {
-      opt.disabled = Number(opt.value) > maxStar;
-    });
-    Array.prototype.forEach.call($("star").options, function (opt) {
-      opt.disabled = Number(opt.value) > maxStar;
-    });
-
-    if (Number($("curStar").value) > maxStar) $("curStar").value = String(maxStar);
-    if (Number($("star").value) > maxStar) $("star").value = String(maxStar);
-    if (Number($("star").value) < Number($("curStar").value)) {
-      $("star").value = $("curStar").value;
-    }
+    fillStarOptions(maxStar);
   }
 
   function applyCar(name) {
