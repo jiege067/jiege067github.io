@@ -140,6 +140,7 @@
         unlock: Number(s.unlock) || 0,
         trial: !!s.isTrial,
         trialStar: Number(s.trialStar) || 1,
+        peak: !!s.isPeak,
         car: carId,
         gains: gains,
         tierRewards: tierRewards
@@ -281,7 +282,8 @@
 
     var next = null;
     for (var i = 0; i < res.rows.length; i++) {
-      if (res.rows[i].status !== "done") { next = res.rows[i]; break; }
+      var st = res.rows[i].status;
+      if (st !== "done" && st !== "empty") { next = res.rows[i]; break; }
     }
 
     var sub;
@@ -557,15 +559,19 @@
     if ($("stageCount")) $("stageCount").textContent = "共 " + res.rows.length + " 个阶段";
 
     $("progress").innerHTML = res.rows.map(function (r) {
+      var empty = r.status === "empty";
       var pct = r.total ? (r.got / r.total) * 100 : 0;
       var dotCls = r.status === "done" ? "done" : (r.status === "partial" ? "part" : "");
       var star = (r.car && r.star > 0 && r.star < 90) ? " " + r.star + "★" : "";
       return '<div class="ev-stage ' + r.status + (r.status === "locked" ? " locked" : "") + '">' +
         '<span class="ev-dot ' + dotCls + '">' + r.no + "</span>" +
         '<span class="ev-smain"><b>阶段 ' + r.no + "</b><small>" + esc(r.label || "") + star + "</small></span>" +
-        '<span class="ev-flag">' + (r.trial ? '<span class="ev-trial">试驾 ' + r.trialStar + "★</span>" : "") + "</span>" +
+        '<span class="ev-flag">' +
+          (r.peak ? '<span class="ev-peak">巅峰</span>' : "") +
+          (r.trial ? '<span class="ev-trial">试驾 ' + r.trialStar + "★</span>" : "") +
+        "</span>" +
         '<div class="ev-sbar"><i style="width:' + pct.toFixed(1) + '%"></i></div>' +
-        '<span class="ev-snum">' + r.got + "/" + r.total + "</span>" +
+        '<span class="ev-snum">' + (empty ? "—" : r.got + "/" + r.total) + "</span>" +
       "</div>";
     }).join("");
 
@@ -595,7 +601,7 @@
 
     res.rows.forEach(function (r) {
       if (r.no > lastStage) lastStage = r.no;
-      if (r.status === "done" || !r.car) return;
+      if (r.status === "done" || r.status === "empty" || !r.car) return;
 
       var need = r.minStar || 1;   // 能打这个阶段的最低星级（不是打满）
 

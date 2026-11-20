@@ -441,3 +441,11 @@ body {
   padding: 10px; font: 11px/1.5 Consolas, Monaco, monospace; color: #475467;
   white-space: pre; overflow: auto;
 }
+
+/* 巅峰赛开关 */
+.trial-chk.peak.on { color: #7c3aed; }
+.trial-chk.peak.on .box { background: #7c3aed; border-color: #7c3aed; }
+
+/* 试驾/巅峰两个开关不换行 */
+.trial-chk { white-space: nowrap; }
+.stage-trial { flex-wrap: nowrap; }

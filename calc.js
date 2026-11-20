@@ -92,6 +92,7 @@
         return {
           no: s.no, unlock: s.unlock, car: s.car, carLabel: s.carLabel,
           trial: !!s.trial, trialStar: Number(s.trialStar) || 1,
+          peak: !!s.peak,
           gains: g, total: stageTotal(g), minStar: minStarOf(g),
           flat: knownIdx(g).length === 1,
           status: "locked", got: 0, star: 0, cum: 0, maxCum: 0,
@@ -107,7 +108,17 @@
       changed = false;
       for (var i = 0; i < rows.length; i++) {
         var r = rows[i];
-        if (r.status !== "locked") continue;      // done / partial / blocked 不再重判
+        if (r.status !== "locked") continue;      // done / partial / blocked / empty 不再重判
+
+        // 条件总数为 0 = 这个阶段不给条件（比如巅峰赛），不算「没打完」
+        if (r.total === 0) {
+          r.status = "empty";
+          r.star = 0;
+          r.got = 0;
+          changed = true;
+          continue;
+        }
+
         if (cond < r.unlock) continue;            // 门槛没到
 
         // 没指定车辆 = 数据不全，按可打处理
@@ -156,6 +167,7 @@
       available: available,
       doneCount: rows.filter(function (r) { return r.status === "done"; }).length,
       partialCount: rows.filter(function (r) { return r.status === "partial"; }).length,
+      emptyCount: rows.filter(function (r) { return r.status === "empty"; }).length,
       unlockedCount: rows.filter(function (r) { return r.status !== "locked"; }).length
     };
   }

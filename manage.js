@@ -37,6 +37,7 @@
     return {
       stage: no, unlock: 0, car: "",
       isTrial: false, trialStar: 1,
+      isPeak: false,
       stars: [mkStar(1), mkStar(2)]
     };
   }
@@ -67,6 +68,7 @@
     s.unlock = Number(s.unlock) || 0;
     s.isTrial = !!s.isTrial;
     s.trialStar = Number(s.trialStar) || 1;
+    s.isPeak = !!s.isPeak;
     (s.stars || []).forEach(normalizeRewards);
     return s;
   }
@@ -116,6 +118,7 @@
           unlock: s.unlock || 0,
           isTrial: !!s.isTrial,
           trialStar: Number(s.trialStar) || 1,
+          isPeak: !!s.isPeak,
           car: s.car || null,
           stars: s.stars.slice().sort(function (a, b) { return a.star - b.star; }).map(function (r) {
             return { star: r.star, cond: r.cond, rewards: rewardsOut(r) };
@@ -229,9 +232,11 @@
           '<span class="box">' + (s.isTrial ? "✓" : "") + "</span>免费试驾" +
         "</button>" +
         (s.isTrial
-          ? '<select class="trial-star" data-i="' + i + '">' + trialOptions(s.trialStar) + "</select>" +
-            '<span class="trial-hint">系统试驾星级</span>'
+          ? '<select class="trial-star" data-i="' + i + '" title="系统试驾星级">' + trialOptions(s.trialStar) + "</select>"
           : "") +
+        '<button class="trial-chk peak' + (s.isPeak ? " on" : "") + '" data-act="peak" type="button">' +
+          '<span class="box">' + (s.isPeak ? "✓" : "") + "</span>巅峰赛" +
+        "</button>" +
       "</div>" +
       '<div class="stage-unlock">' +
         '<span class="u-label">前置解锁条件</span>' +
@@ -415,7 +420,7 @@
     $("expText").value = text;
     $("expTip").textContent = "event.js · " + Math.round(text.length / 1024) + " KB · " +
       n.stages.length + " 个阶段 / " + n.milestones.length + " 个里程碑 · " +
-      "覆盖仓库根目录的 event.js，Vercel 约 30 秒自动上线。本地想先看效果：index.html?preview=1";
+      "覆盖仓库根目录的 event.js，重新部署后生效。本地想先看效果：event.html?preview=1";
     $("expSheet").hidden = false;
   }
 
@@ -470,6 +475,9 @@
         var stg = state.stages[i];
         stg.isTrial = !stg.isTrial;
         if (!stg.trialStar) stg.trialStar = 1;
+        render();
+      } else if (act === "peak") {
+        state.stages[i].isPeak = !state.stages[i].isPeak;
         render();
       } else if (act === "reward") {
         openReward(state.stages[i].stars[j], state.stages[i].car);
@@ -690,6 +698,7 @@
         unlock: 25,
         isTrial: true,
         trialStar: 3,
+        isPeak: true,
         car: "Mercedes-Benz Vision One-Eleven",
         stars: [
           { star: 1, cond: 2, rewards: [
